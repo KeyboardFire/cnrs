@@ -1,0 +1,61 @@
+              APPEARANCE     $  WGT MAT PRB   SPECIAL
+=== CHARACTER ACCESSORIES ===
+blindfold        ----     (  20   2 CLO  50
+lenses           ----     (  80   3 GLA   5   -raven, -venom, +search, +book
+towel            ----     (  50   2 CLO  50   -slippery, -pie/venom, -engrave
+=== PET ACCESSORIES ===
+leash            ----     (  20  12 LTH  65   max 2
+saddle           ----     ( 150 200 LTH   5
+=== CONTAINERS ===
+bg of holdng bag          ( 100  15 CLO  20   0.25/0.5/2
+chest            ----     (  16 600 WOO  35
+ice box          ----     (  42 900 PLS   5
+large box        ----     (   8 350 WOO  40
+oilskin sack bag          ( 100  15 CLO   5
+sack         bag          (   2  15 CLO  35
+=== TONAL INSTRUMENTS ===
+bugle            ----     (  15  10 CPR   4   wake soldier/watchman, wake/scare
+fire horn    horn         (  50  18 BON   2   cf wand of fire
+frost horn   horn         (  50  18 BON   2   cf wand of cold
+magic flute  flute        (  36   5 WOO   2   sleep
+magic harp   harp         (  50  30 WOO   2   tame
+tooled horn  horn         (  15  18 BON   5   wake/scare
+wooden flute flute        (  12   5 WOO   4
+wooden harp  harp         (  50  30 WOO   4
+=== ATONAL INSTRUMENTS ===
+bell             ----     (  50  30 CPR   2   wake, call pet, nymph C
+bell of opng silver bell  (  5k  10 SLV   0   detect 8, -engulf, open B, inv1
+dr of erthqk drum         (  25  25 LTH   2   pits, anger, wake all
+leather drum drum         (  25  25 LTH   4   wake/scare, deaf 30-49
+mgc whistle  whistle      (  10   3 MET  30
+tin whistle  whistle      (  10   3 MET 100
+=== LIGHT SOURCES ===
+brass lantrn     ----     (  20  30 CPR  30   radius 3
+candelabrum      ----     (  5k  10 ABC   0   radius 4, inv2
+magic lamp   lamp         (  50  20 CPR  15   radius 3, 80%/20%/5%
+oil lamp     lamp         (  10  20 CPR  45   radius 3
+tallow cndle candle       (  10   2 WAX  20   radius 2 (1-6), 3 (7-48), etc.
+wax candle   candle       (  20   2 WAX   5   radius 2 (1-6), 3 (7-48), etc.
+=== TRAPS ===
+beartrap         ----     (  60 200 IRN   0
+land mine        ----     ( 180 300 IRN   0
+=== UNLOCKING TOOLS ===
+credit card      ----     (  10   1 IRN  15   per turn: 2dex% door, dex%  box
+lock pick        ----     (  20   4 IRN  60   per turn: 3dex% door, 4dex% box
+skeleton key key          (  10   3 PLS  80   per turn: 70+d% door, 75+d% box
+=== WEAPON-TOOLS ===
+grpplng hook iron hook    (  50  30 IRN  20   flail: ESUSE/SUUUS/UU@UU
+pick-axe         ----     (  50 100 IRN   5
+unicorn horn     ----     ( 100  20 BON   0   fixes bli/dea/con/hal/stu/sic/vom
+=== MISCELLANEOUS ===
+bag of trcks bag          ( 100  15 CLO  20   loot d10, apply mon (2-8 1/23)
+can of greas     ----     (  20  20 IRN  15   -corr-grab, 50% wear off
+crystal ball glass orb    (  60 150 GLA  15   int>d20 search; fail cond/d30
+expensv cmra     ----     ( 200  12 PLS  15   blind/flee (75% within 2), wake
+figurine         ----     (  80  50 MIN  25   80% tame/peaceful/hostile
+hrn of plnty horn         (  50  18 BON   2   1/13 pot (boo sic fj acd oil wat)
+magic marker     ----     (  50   2 PLS  15   book ink 10*lvl, ink/2 thru ink-1
+mirror       lookng glass (  10  13 GLA  45   80% flee 2d4 (-humanoid-blind)
+stethoscope      ----     (  75   4 IRN  25
+tin opener       ----     (  30   4 IRN  35
+tinning kit      ----     (  30 100 IRN  15   -taint-poi-acd

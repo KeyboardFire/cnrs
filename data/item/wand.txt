@@ -1,0 +1,28 @@
+              APPEARANCE     $  WGT MAT PRB   DIR BREAK      SPECIAL
+light        glass        / 100   7 ~~~  95       1-4c/blind radius 5
+nothing      oak          / 100   7 ~~~  25
+digging      copper       / 150   7 ~~~  55   ray 1-4c/proc!
+enlightenmnt aluminum     / 150   7 ~~~  15
+locking      short        / 150   7 ~~~  25   bm
+magic missle spiked       / 150   7 ~~~  50   ray 4c         2d6 (-mr-refl)
+make invis   balsa        / 150   7 ~~~  45   bm  1-4c/proc? -engulf-punish
+opening      ebony        / 150   7 ~~~  25   bm
+probing      silver       / 150   7 ~~~  30   bm
+secret door  uranium      / 150   7 ~~~  50       proc       radius 8
+slow monster runed        / 150   7 ~~~  50   bm  1-4c/proc
+speed monst  jeweled      / 150   7 ~~~  50   bm  1-4c/proc
+striking     crystal      / 150   7 ~~~  75   bm  1-c+1d6/pr 2d12 if d20<10+AC
+undead trnng marble       / 150   7 ~~~  50   bm  1-4c/proc  d8 undead, revive
+cold         platinum     / 175   7 ~~~  40   ray 8c/proc    6d6 (+7 fire res)
+fire         iron         / 175   7 ~~~  40   ray 8c/proc    6d6 (+7 cold res)
+lightning    long         / 175   7 ~~~  40   ray 16c        6d6, blind
+sleep        maple        / 175   7 ~~~  50   ray 1-4c/proc  (lvl/2+1)d25
+cancellation tin          / 200   7 ~~~  45   bm  1-4c/proc
+create mon   iridium      / 200   7 ~~~  45       1-4c/proc! 2-8 1/23
+polymorph    steel        / 200   7 ~~~  45   bm  1-4c/proc
+teleport     curved       / 200   7 ~~~  45   bm  1-4c/proc
+death        pine         / 500   7 ~~~   5   ray 16c
+wishing      brass        / 500   7 ~~~   5
+             zinc         /         ~~~
+             hexagonal    /         ~~~
+             forked       /         ~~~

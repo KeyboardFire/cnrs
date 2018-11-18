@@ -1,0 +1,92 @@
+              APPEARANCE     $  WGT MAT PRB   SMALL LARGE  TH SPECIAL
+=== DAGGERS ===
+orcish daggr crude dagger )   4  10 IRN  12   d3    d3     +2
+dagger           ----     )   4  10 IRN  30   d4    d3     +2
+silver daggr     ----     )  40  12 SLV   3   d4    d3     +2
+athame           ----     )   4  10 IRN ---   d4    d3     +2 engrave 19/turn
+elven dagger runed dagger )   4  10 WOO  10   d5    d3     +2 => sting
+=== KNIVES ===
+worm tooth       ----     )   2  20 --- ---   d2    d2
+knife            ----     )   4   5 IRN  20   d3    d2        shito
+stiletto         ----     )   4   5 IRN   5   d3    d2
+scalpel          ----     )   4   5 MET ---   d3    d3     +2
+crysknife        ----     ) 100  20 MIN ---   d10   d10    +3 ench worm tooth
+=== AXES ===
+axe              ----     )   8  60 IRN  40   d6    d4
+battle-axe   dbl-head axe )  40 120 IRN  10   d8+d4 d6+2d4    two-handed
+=== PICK-AXES ===
+pick-axe         ----     (  50 100 IRN ~~~   d6    d3
+dwrv mattock broad pick   )  50 120 IRN  13   d12   d8+2d6 -1 two-handed
+=== SHORT SWORDS ===
+orcish ss    crude ss     )  10  30 IRN   3   d5    d8
+short sword      ----     )  10  30 IRN   8   d6    d8        wakizashi
+dwarvish ss  broad ss     )  10  30 IRN   2   d7    d8
+elven ss     runed ss     )  10  30 WOO   2   d8    d8
+=== BROADSWORDS ===
+broadsword       ----     )  10  70 IRN   8   2d4   d6+1      ninja-to
+runesword    runed brdsd  ) 300  40 IRN ---   2d4   d6+1
+elvn broadsd runed brdsd  )  10  70 WOO   4   d6+d4 d6+1
+=== LONG SWORDS ===
+long sword       ----     )  15  40 IRN  50   d8    d12       => excalibur
+katana       samurai sd   )  80  40 IRN   4   d10   d12    +1
+=== TWO-HANDED SWORDS ===
+two-hnded sd     ----     )  50 150 IRN  22   d12   3d6
+tsurugi      long smri sd ) 500  60 MET ---   d16   d8+2d6 +2
+=== CLUBS ===
+club             ----     )   3  30 WOO  12   d6    d3
+aklys        thonged club )   4  15 IRN   8   d6    d3
+=== FLAILS ===
+flail            ----     )   4  15 IRN  40   d6+1  2d4       nunchaku
+grpplng hook iron hook    (  50  30 IRN ~~~   d2    d6
+=== POLEARMS ===
+partisan     vulgar plrm  )  10  80 IRN   5   d6    d6+1      two-handed (all)
+fauchard     pole sickle  )   5  60 IRN   6   d6    d8
+glaive       sngl-edg plm )   6  75 IRN   8   d6    d10       naginata
+bec-de-corbn beaked plrm  )   8 100 IRN   4   d8    d6
+spetum       forked plrm  )   5  50 IRN   5   d6+1  2d6
+lucern hammr pronged plrm )   7 150 IRN   5   2d4   d6
+guisarme     pruning hook )   5  80 IRN   6   2d4   d8
+ranseur      hilted plrm  )   6  50 IRN   5   2d4   2d4
+voulge       pole cleaver )   5 125 IRN   4   2d4   2d4
+bill-guisarm hooked plrm  )   7 120 IRN   4   2d4   d10
+bardiche     long poleaxe )   7 120 IRN   4   2d4   3d4
+halberd      angled plaxe )  10 150 IRN   8   d10   2d6
+=== SPEARS ===
+orcish spear crude spear  )   3  30 IRN  13   d5    d8
+spear            ----     )   3  30 IRN  50   d6    d8
+silver spear     ----     )  40  36 SLV   2   d6    d8
+elven spear  runed spear  )   3  30 WOO  10   d7    d8
+dwrvsh spear stout spear  )   3  35 IRN  12   d8    d8
+javelin      throwing spr )   3  20 IRN  10   d6    d6
+=== BOWS ===
+orcish bow   crude bow    )  60  30 WOO  12   d2    d2
+orcish arrow crude arrow  )   2   1 IRN  20   d5    d6
+bow              ----     )  60  30 WOO  24   d2    d2
+arrow            ----     )   2   1 IRN  55   d6    d6
+elven bow    runed bow    )  60  30 WOO  12   d2    d2
+elven arrow  runed arrow  )   2   1 WOO  20   d7    d6
+yumi         long bow     )  60  30 WOO ---   d2    d2
+ya           bamboo arrow )   4   1 MET  15   d7    d7     +1
+silver arrow     ----     )   5   1 SLV  12   d6    d6
+=== SLINGS ===
+sling            ----     )  20   3 LTH  40   d2    d2
+flintstone   gray stone   *   1  10 MIN ~~~   d6    d6
+=== CROSSBOWS ===
+crossbow         ----     )  40  50 WOO  45   d2    d2
+crossbw bolt     ----     )   2   1 IRN  55   d4+1  d6+1
+=== WHIPS ===
+bullwhip         ----     )   4  20 LTH   2   d2    1         disarm, pickup
+rubber hose      ----     )   3  20 PLA ---   d4    d3
+=== UNIQUE ===
+scimitar     curved sword )  15  40 IRN  15   d8    d8
+silver saber     ----     )  75  40 SLV   6   d8    d8
+mace             ----     )   5  30 IRN  40   d6+1  d6
+morning star     ----     )  10 120 IRN  12   2d4   d6+1
+war hammer       ----     )   5  50 IRN  15   d4+1  d4
+quarterstaff staff        )   5  40 WOO  11   d6    d6        two-handed
+trident          ----     )   5  25 IRN   8   d6+1  3d4       TH +4 swim, +2 S;
+lance            ----     )  10 180 IRN   4   d6    d8        joust 2d10+stun
+dart             ----     )   2   1 IRN  60   d3    d2
+shuriken     throwng star )   5   1 IRN  35   d8    d6     +2
+boomerang        ----     )  20   5 WOO  15   d9    d9        ccw, catch dex/20
+unicorn horn     ----     ( 100  20 BON ~~~   d12   d12    +1 two-handed

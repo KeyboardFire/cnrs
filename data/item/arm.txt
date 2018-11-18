@@ -1,0 +1,71 @@
+              APPEARANCE     $  WGT MAT PRB   AC MC SPECIAL
+=== SHIRTS ===
+hawaiian         ----     [   3   5 CLO   8
+t-shirt          ----     [   2   5 CLO   2
+=== SUITS ===
+lth jacket       ----     [  10  30 LTH  12    1
+lth armor        ----     [   5 150 LTH  82    2  1
+orc ring ml  crude rng ml [  80 250 IRN  20    2  1
+stud lth arm     ----     [  15 200 LTH  72    3  1
+ring mail        ----     [ 100 250 IRN  72    3  1
+scale mail       ----     [  45 250 IRN  72    4  1
+orc chain ml crude chn ml [  75 300 IRN  20    4  1
+chain mail       ----     [  75 300 IRN  72    5  1
+elven mth-ct     ----     [ 240 150 MTH  15    5  2
+splint mail      ----     [  80 400 IRN  62    6  1
+banded mail      ----     [  90 350 IRN  72    6  1
+dwrv mth-ct      ----     [ 240 150 MTH  10    6  2
+brnze plt ml     ----     [ 400 450 CPR  25    6  1
+plate mail       ----     [ 600 450 IRN  44    7  2 tanko
+cryst plt ml     ----     [ 820 450 GLA  10    7  2
+dragon scale     ----     [ 500  40 DRA ---    3
+dra scale ml     ----     [ 900  40 DRA ---    9
+=== CLOAKS ===
+mummy wrap       ----     [   2   3 CLO ---       1 -invis
+orcish cloak coarse mntlt [  40  10 CLO   8       1
+dwarvish clk hooded cloak [  50  10 CLO   8       1
+leather clk      ----     [  40  15 LTH   8    1  1
+displacement pc of cloth  [  50  10 CLO  10    1  1
+oilskin clk  slippery clk [  50  10 CLO   8    1  2
+alchemy smk  apron        [  50  10 CLO   9    1  1 +poi+acd
+invisibility opera cloak  [  60  10 CLO  10    1  1
+magic resist ornmntl cope [  60  10 CLO   2    1  1
+elven cloak  faded pall   [  60  10 CLO   8    1  1
+robe             ----     [  50  15 CLO   3    2  2
+protection   tatterd cape [  50  10 CLO   9    3  3
+=== HELMS ===
+fedora           ----     [   1   3 CLO ---
+dunce cap    conical hat  [   1   4 CLO   3
+cornuthaum   conical hat  [  80   4 CLO   3       1
+dented pot       ----     [   8  10 IRN   2    1
+elven lth hm leather hat  [   8   3 LTH   6    1
+helmet       plumed helmt [  10  30 IRN  10    1    kabuto
+orcish helm  iron skll cp [  10  30 IRN   6    1
+brilliance   etched helmt [  50  50 IRN   6    1    +int+wis
+opp alignmnt crestd helmt [  50  50 IRN   6    1
+telepathy    visord helmt [  50  50 IRN   2    1
+dwrv iron hm hard hat     [  20  40 IRN   6    2
+=== GLOVES ===
+lth gloves   old gloves   [   8  10 LTH  16    1    yugake
+gnt of dex   padded glovs [  50  10 LTH   8    1
+gnt of fumbl riding glovs [  50  10 LTH   8    1
+gnt of power fencng glovs [  50  30 IRN   8    1
+=== SHIELDS ===
+small shield     ----     [   3  30 WOO   6    1
+orcish shld  red-eyed     [   7  50 IRN   2    1
+uruk-hai shd white-handed [   7  50 IRN   2    1
+elven shield blue & green [   7  40 WOO   2    2
+dwrv rndshld large round  [  10 100 IRN   4    2
+large shield     ----     [  10 100 IRN   7    2
+reflection   polished slv [  50  50 SLV   3    2
+=== BOOTS ===
+low boots    walkng shoes [   8  10 LTH  25    1
+elven boots  mud boots    [   8  15 LTH  12    1
+kickng boots buckld boots [   8  50 IRN  12    1
+fumble boots riding boots [  30  20 LTH  12    1
+levitation   snow boots   [  30  15 LTH  12    1
+jumpng boots hiking boots [  50  20 LTH  12    1
+speed boots  combat boots [  50  20 LTH  12    1
+water walkng jungle boots [  50  20 LTH  12    1
+high boots   jackboots    [  12  20 LTH  15    2
+iron shoes   hard shoes   [  16  50 IRN   7    2

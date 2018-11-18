@@ -1,0 +1,37 @@
+              APPEARANCE     $  WGT MAT PRB   HARD SPECIAL
+dilith cryst white gem    * 4.5   1 GEM 27+
+diamond      white gem    * 4.0   1 GEM 24+   yes
+ruby         red gem      * 3.5   1 GEM 21+   yes
+jacinth stne orange gem   * 3.2   1 GEM 18+   yes
+sapphire     blue gem     * 3.0   1 GEM 15+   yes
+black opal   black gem    * 2.5   1 GEM 12+   yes
+emerald      green gem    * 2.5   1 GEM  9+   yes
+turquoise st green/blue   * 2.0   1 GEM  6+
+citrine stne yellow gem   * 1.5   1 GEM  3+
+aquamarine s green/blue   * 1.5   1 GEM       yes
+amber stone  yllwish brwn * 1.0   1 GEM
+topaz stone  yllwish brwn * 900   1 GEM       yes
+jet stone    black gem    * 850   1 GEM
+opal         white gem    * 800   1 GEM
+chrysobryl s yellow gem   * 700   1 GEM
+garnet stone red gem      * 700   1 GEM
+amethyst stn violet gem   * 600   1 GEM            booze => fruit juice
+jasper stone red gem      * 500   1 GEM
+fluorite stn gr/blu/wh/vi * 400   1 GEM
+jade stone   green gem    * 300   1 GEM
+obsidian stn black gem    * 200   1 GEM
+agate stone  orange gem   * 200   1 GEM
+wrthless gla white gem    *   0   1 GLA
+wrthless gla blue gem     *   0   1 GLA
+wrthless gla red gem      *   0   1 GLA
+wrthless gla yllwish brwn *   0   1 GLA
+wrthless gla orange gem   *   0   1 GLA
+wrthless gla yellow gem   *   0   1 GLA
+wrthless gla black gem    *   0   1 GLA
+wrthless gla green gem    *   0   1 GLA
+wrthless gla violet gem   *   0   1 GLA
+luckstone    gray stone   *  60  10 MIN
+loadstone    gray stone   *   1 500 MIN
+touchstone   gray stone   *  45  10 MIN
+flint stone  gray stone   *   1  10 MIN
+rock         rock         *   0  10 MIN
