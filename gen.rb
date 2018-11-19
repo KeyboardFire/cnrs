@@ -13,7 +13,11 @@ ring
 scr
 tool
 wand
-weap'.split
+weap
+lowr
+uppr
+symb
+spec'.split
 colorscheme = '
         .bk, .C                         { color: #555; }
         .re, .DRA                       { color: #a00; }
