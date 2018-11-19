@@ -69,6 +69,7 @@ File.open('cnrs.html', ?w) do |f|
             end
             eol = line.slice!(80..-1) || ''
             idx = 0
+            len = 0
             sp.each do |w, d|
                 clr = case d
                     when /^\$(\d*)$/ then eol[$1.to_i,2]
@@ -78,16 +79,18 @@ File.open('cnrs.html', ?w) do |f|
                 if clr && clr[0] == ?<
                     clr.slice! 0
                     idx -= 1
-                else
-                    f.print ' ' if idx > 0
+                elsif idx > 0
+                    f.print ' '
+                    len += 1
                 end
                 while clr && clr[-3] =~ /[*!]/
                     clr = eol.include?(clr[-3]) ? clr[-2,2] : clr[0...-3]
                 end
                 f.print html(line[idx,w], clr)
+                len += (line[idx,w]||'').size
                 idx += w + 1
             end
-            f.puts
+            f.puts ' ' * (80 - len)
         end
         f.puts
     end
