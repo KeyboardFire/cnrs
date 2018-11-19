@@ -6,8 +6,8 @@ ki-rin       A 16 18  400             2*2d4,3d6,2d6 spel                        
 Archon       A 19 16  400 -DAT        2*weap 2d4,gaze 2d6 blnd,d8,4d6 spel      ma
 bat          B  0 22   20             d4                                        br
 giant bat    B  2 22   30             d6                                        re
-raven        B  4 20   20             d6,d6 blnd                                bl
-vampire bat  B  5 20   20 LP        p d6,drst                                   bl
+raven        B  4 20   20             d6,d6 blnd                                bk
+vampire bat  B  5 20   20 LP        p d6,drst                                   bk
 plains cntr  C  4 18  500             weap d6,d6                                br
 forest cntr  C  5 18  600             weap d8,d6                                gr
 mntain cntr  C  6 20  500             weap d10,2*d6                             cy
@@ -16,7 +16,7 @@ baby slv drg D 12  9  500             2d6                                       
 baby red drg D 12  9  500 F           2d6                                       re
 baby whi drg D 12  9  500 C           2d6                                       wh
 baby org drg D 12  9  500 L           2d6                                       or
-baby bla drg D 12  9  500 D           2d6                                       bl
+baby bla drg D 12  9  500 D           2d6                                       bk
 baby blu drg D 12  9  500 E           2d6                                       bl
 baby grn drg D 12  9  500 P         p 2d6                                       gr
 baby ylw drg D 12  9  500 AT        a 2d6                                       ye
@@ -25,7 +25,7 @@ slv dragon   D 15  9 1500 C           brea 4d6 cold,3d8,2*d4                    
 red dragon   D 15  9 1500 F    F      brea 6d6 fire,3d8,2*d4                    re
 white dragon D 15  9 1500 C    C      brea 4d6 cold,3d8,2*d4                    wh
 ornge dragon D 15  9 1500 L    L      brea 4d25 slee,3d8,2*d4                   or
-black dragon D 15  9 1500 D    D      brea d255 disn,3d8,2*d4                   bl
+black dragon D 15  9 1500 D    D      brea d255 disn,3d8,2*d4                   bk
 blue dragon  D 15  9 1500 E    E      brea 4d6 elec,3d8,2*d4                    bl
 green dragon D 15  9 1500 P    P    p brea 4d6 drst,3d8,2*d4                    gr
 yellw dragon D 15  9 1500 AT   T    a brea 4d6 acid,3d8,2*d4                    ye
@@ -72,11 +72,11 @@ human mummy  M  6 12  200 CLP       p 2*2d4                                     
 ettin mummy  M  7 12  250 CLP       p 2*2d6                                     bl
 giant mummy  M  8 14  375 CLP       p 2*3d4                                     cy
 red naga hlg N  3 10  100 FP   FP     d4                                        re
-bla naga hlg N  3 10  100 PAT  PT   a d4                                        bl
+bla naga hlg N  3 10  100 PAT  PT   a d4                                        bk
 gld naga hlg N  3 10  100 P    P      d4                                        ye
 grd naga hlg N  3 10  100 P    P      d4                                        gr
 red naga     N  6 12  400 FP   FP     2d4,brea 2d6 fire                         re
-black naga   N  8 14  400 PAT  PT   a 2d6,spit acid                             bl
+black naga   N  8 14  400 PAT  PT   a 2d6,spit acid                             bk
 golden naga  N 10 14  400 P    P      2d6,4d6 spel                              ye
 guardn naga  N 12 16  400 P    P    p d6 plys,spit d6 drst,hugs 2d4             gr
 ogre         O  5 10  500             weap 2d5                                  br
@@ -85,7 +85,7 @@ ogre king    O  9 14  750             weap 3d5                                  
 gray ooze    P  3  1  250 -LDE FCP  a 2d8 rust                                  gr
 brown puddng P  5  3  250 -FLD CEP  a dcay                                      br
 green slime  P  6  6  150 -FLD      * d4 slim,none slim                         gr
-black puddng P 10  6  250 -FLD CEP  a 3d8 corr,none corr                        bl
+black puddng P 10  6  250 -FLD CEP  a 3d8 corr,none corr                        bk
 qntm mchanic Q  7 12   20 P         p d4 tlpt                                   cy
 rust monster R  5 18  250             2*rust,none rust                          br
 disenchanter R 12 12  200             4d4 ench,none ench                        bl
@@ -105,14 +105,14 @@ vampire      V 10 12  400 LP        p d6,d6 drli                                
 vampire lord V 12 14  400 LP        p d8,d8 drli                                bl
 Vlad Impaler V 28 26  400 LP        p weap 2d10,d12 drli                        ma
 barrow wight W  3 12    0 CLP         weap drli,spel,d4                         gr
-wraith       W  6 12    0 CLPT        d6 drli                                   bl
+wraith       W  6 12    0 CLPT        d6 drli                                   bk
 Nazgul       W 13 12    0 CLP         weap d4 drli,brea 2d25 slee               ma
 xorn         X  8  9  700 FCT  T      3*d3,4d6                                  br
 monkey       Y  2 12   50             sitm,d3                                   gr
 ape          Y  4 12  500             2*d3,d6                                   br
 owlbear      Y  5 12  700             2*d6,hugs 2d8                             br
 yeti         Y  5 15  700 C    C      2*d6,d4                                   wh
-carnivrs ape Y  6 12  550             2*d4,hugs d8                              bl
+carnivrs ape Y  6 12  550             2*d4,hugs d8                              bk
 sasquatch    Y  7 15  750             2*d6,d8                                   gr
 kobld zombie Z  0  6   50 CLP       p d4                                        br
 gnome zombie Z  1  6   50 CLP       p d5                                        br
@@ -121,6 +121,6 @@ dwarf zombie Z  2  6  150 CLP       p d6                                        
 elf zombie   Z  3  6  175 CLP         d7                                        gr
 human zombie Z  4  6  200 CLP         d8                                        wh
 ettin zombie Z  6  8  250 CLP         2*d10                                     bl
-ghoul        Z  3  6   50 CLP       p d2 plys,d3                                bl
+ghoul        Z  3  6   50 CLP       p d2 plys,d3                                bk
 giant zombie Z  8  8  375 CLP         2*2d8                                     cy
 skeleton     Z 12  8    5 CLPT        weap 2d6,d6 slow                          wh

@@ -35,7 +35,7 @@ eatfunc = ->x{{POIS: ?p, ACID: ?a}[x]}
 
 syms = get('include/monsym.h').scan(/#define DEF_([^ ]*) *'\\?(.)'/).to_h
 colors = {
-    CLR_BLACK:          'bl',
+    CLR_BLACK:          'bk',
     CLR_RED:            're',
     CLR_GREEN:          'gr',
     CLR_BROWN:          'br',

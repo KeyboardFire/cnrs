@@ -3,7 +3,7 @@ giant ant    a  2 18   10             d4                                        
 killer bee   a  1 18    5 P    P    p d3 drst                                   ye
 soldier ant  a  3 18    5 P    P    p 2d4,3d4 drst                              bl
 fire ant     a  3 18   10 F    F      2d4,2d4 fire                              re
-giant beetle a  5  6   10 P    P    p 3d6                                       bl
+giant beetle a  5  6   10 P    P    p 3d6                                       bk
 queen bee    a  9 24    5 P    P    p d8 drst                                   ma
 acid blob    b  1  3   10 LPAT T    a none d8 acid                              gr
 quivrng blob b  5  1  100 LP   P      d8                                        wh
@@ -35,7 +35,7 @@ kitten       f  2 18  150             d6                                        
 housecat     f  4 16  200             d6                                        wh
 jaguar       f  4 15  300             2*d4,d8                                   br
 lynx         f  5 15  300             2*d4,d10                                  cy
-panther      f  5 15  300             2*d6,d10                                  bl
+panther      f  5 15  300             2*d6,d10                                  bk
 large cat    f  6 15  250             2d4                                       wh
 tiger        f  6 12  300             2*2d4,d10                                 ye
 gremlin      g  5 12   20 P    P    p 2*d6,d4,curs                              gr
@@ -73,7 +73,7 @@ hobgoblin    o  1  9  200             weap d6                                   
 orc          o  1  9  150             weap d8                                   re
 hill orc     o  2  9  200             weap d6                                   ye
 Mordor orc   o  3  5  200             weap d6                                   bl
-Uruk-hai     o  3  7  300             weap d8                                   bl
+Uruk-hai     o  3  7  300             weap d8                                   bk
 orc shaman   o  3  9  300             spel                                      bb
 orc-captain  o  5  5  350             2*weap 2d4                                ma
 rock piercer p  3  1  200             2d6                                       gr
@@ -85,7 +85,7 @@ leocrotta    q  6 18  500             3*2d6                                     
 wumpus       q  8  3  500             3d6                                       cy
 titanothere  q 12 12  650             2d8                                       gr
 baluchthrium q 14 12  800             2*5d4                                     gr
-mastodon     q 20 12  800             2*4d8                                     bl
+mastodon     q 20 12  800             2*4d8                                     bk
 sewer rat    r  0 12   12             d3                                        br
 giant rat    r  1 10   30             d3                                        br
 rabid rat    r  2 12    5 P         p 2d4 drco                                  br
@@ -101,7 +101,7 @@ trapper      t 12  3  350             engl d10 dgst                             
 pony         u  3 16  250             d6,d2                                     br
 whte unicorn u  4 24  300 P    P      d12,d6                                    wh
 gray unicorn u  4 24  300 P    P      d12,d6                                    gr
-blck unicorn u  4 24  300 P    P      d12,d6                                    bl
+blck unicorn u  4 24  300 P    P      d12,d6                                    bk
 horse        u  5 20  300             d8,d3                                     br
 warhorse     u  7 24  350             d10,d4                                    br
 fog cloud    v  3  1    0 LPT         engl d6                                   gr
@@ -117,5 +117,5 @@ purple worm  w 15  9  700             2d8,engl d10 dgst                         
 grid bug     x  0 12   10 EP          d1 elec                                   ma
 xan          x  7 18  300 P    P    p d4 legs                                   re
 yellow light y  3 15    0 -           expl 10d20 blnd                           ye
-black light  y  5 15    0 -           expl 10d12 halu                           bl
+black light  y  5 15    0 -           expl 10d12 halu                           bk
 zruty        z  9  8  600             2*3d4,3d6                                 br

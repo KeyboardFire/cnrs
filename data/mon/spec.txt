@@ -21,7 +21,7 @@ Pelias       @ 20 12  400 P           weap d6                                   
 Shamn Karnov @ 20 12  400             weap 2d4                                  ma
 Hippocrates  @ 20 12  400 P           weap d6                                   ma
 King Arthur  @ 20 12  400             2*weap d6                                 ma
-Grand Master @ 25 12  400 FELP        4d10,2d8,2*magc 2d8 clrc                  bl
+Grand Master @ 25 12  400 FELP        4d10,2d8,2*magc 2d8 clrc                  bk
 Arch Priest  @ 25 12  400 FELP        weap 4d10,2d8,2*magc 2d8 clrc             wh
 Orion        @ 20 12  700             weap d6                                   ma
 Mstr of Thvs @ 20 12  400 T           2*weap 2d6,2d4 samu                       ma
@@ -41,7 +41,7 @@ Scorpius     s 15 12  350 PT   P    p 2d6,2d6 samu,d4 dise                      
 Mstr Assassn @ 15 12  400 T           weap 2d6 drst,weap 2d8,2d6 samu           ma
 Ashkga Tkuji @ 15 12  400 T           2*weap 2d6,2d6 samu                       ma
 Lord Surtur  H 15 12  850 FT   F      2*weap 2d10,2d6 samu                      ma
-Dark One     @ 15 12  400 T           2*weap d6,d4 samu,spel                    bl
+Dark One     @ 15 12  400 T           2*weap d6,d4 samu,spel                    bk
 === QUEST GUARDIANS ===
 student      @  5 12  400             weap d6                                   wh
 chieftain    @  5 12  400 P           weap d6                                   wh

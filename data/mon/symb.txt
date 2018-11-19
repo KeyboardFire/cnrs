@@ -38,7 +38,7 @@ Medusa       @ 20 12  400 PT   PT   p weap 2d4,d8,gaze ston,d6 drst             
 Wiz of Yndor @ 30 12  400 FP   FP     2d12 samu,spel                            ma
 Croesus      @ 20 15  400             weap 4d10                                 ma
 ghost          10  3    0 -FEA        d1                                        gr
-shade          12 10    0 -FEA        2d6 plys,d6 slow                          bl
+shade          12 10    0 -FEA        2d6 plys,d6 slow                          bk
 water demon  &  8 12  400 FP        p weap d3,2*d3                              bl
 succubus     &  6 12  400 FP        p ssex,d3,d3                                gr
 horned devil &  6  9  400 FP        p weap d4,d4,2d3,d3                         br
