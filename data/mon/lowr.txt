@@ -1,0 +1,121 @@
+               LV SP NUTR RES  EAT  E ATTACKS
+giant ant    a  2 18   10             d4                                        br
+killer bee   a  1 18    5 P    P    p d3 drst                                   ye
+soldier ant  a  3 18    5 P    P    p 2d4,3d4 drst                              bl
+fire ant     a  3 18   10 F    F      2d4,2d4 fire                              re
+giant beetle a  5  6   10 P    P    p 3d6                                       bl
+queen bee    a  9 24    5 P    P    p d8 drst                                   ma
+acid blob    b  1  3   10 LPAT T    a none d8 acid                              gr
+quivrng blob b  5  1  100 LP   P      d8                                        wh
+gelatns cube b  6  6  150 -D   FCEL a 2d4 plys,none d4 plys                     cy
+chickatrice  c  4  4   10 PT   PT     d2,ston,none ston                         br
+cockatrice   c  5  6   30 PT   PT     d3,ston,none ston                         ye
+pyrolisk     c  6  6   30 PF   PF     gaze 2d6 fire                             re
+jackal       d  0 12  250             d2                                        br
+fox          d  0 15  250             d3                                        re
+coyote       d  1 12  250             d4                                        br
+werejackal   d  2 12  250 P         p d4 were                                   br
+little dog   d  2 18  150             d6                                        wh
+dingo        d  4 16  200             d6                                        ye
+dog          d  4 16  200             d6                                        wh
+large dog    d  6 15  250             2d4                                       wh
+wolf         d  5 12  250             2d4                                       br
+werewolf     d  5 12  250 P         p 2d6 were                                  br
+wntr wlf cub d  5 12  200 C    C      d8,brea d6 cold                           cy
+warg         d  7 12  350             2d6                                       br
+winter wolf  d  7 12  300 C    C      2d6,brea 2d6 cold                         cy
+hell hnd pup d  7 12  200 F    F      2d6,brea 2d6 fire                         re
+hell hound   d 12 14  300 F    F      3d6,brea 3d6 fire                         re
+gas spore    e  1  3   10             boom 4d6                                  gr
+floating eye e  2  1   10             none plys                                 bl
+freezng sphr e  6 13   10 C    C      expl 4d6 cold                             wh
+flamng sphr  e  6 13   10 F    F      expl 4d6 fire                             re
+shockng sphr e  6 13   10 E    E      expl 4d6 elec                             bb
+kitten       f  2 18  150             d6                                        wh
+housecat     f  4 16  200             d6                                        wh
+jaguar       f  4 15  300             2*d4,d8                                   br
+lynx         f  5 15  300             2*d4,d10                                  cy
+panther      f  5 15  300             2*d6,d10                                  bl
+large cat    f  6 15  250             2d4                                       wh
+tiger        f  6 12  300             2*2d4,d10                                 ye
+gremlin      g  5 12   20 P    P    p 2*d6,d4,curs                              gr
+gargoyle     g  6 10  200 T    T      2*2d6,2d4                                 br
+wingd grgyle g  9 15  300 T    T      2*3d6,3d4                                 ma
+hobbit       h  1  9  200             weap d6                                   gr
+dwarf        h  2  6  300             weap d8                                   re
+bugbear      h  3  9  250             weap 2d4                                  br
+dwarf lord   h  4  6  300             2*weap 2d4                                bl
+dwarf king   h  6  6  300             2*weap 2d6                                ma
+mind flayer  h  9 12  400             weap d4,3*2d1 drin                        ma
+mstr md flyr h 13 12  400             weap d8,5*2d1 drin                        ma
+manes        i  1  3  100 LP        p 2*d3,d4                                   re
+homunculus   i  2 12  100 LP   LP   p d3 slee                                   gr
+imp          i  3 12   10             d4                                        re
+lemure       i  3  3  100 LP   L    p d3                                        br
+quasit       i  3 15  200 P    P      2*d2 drdx,d4                              bl
+tengu        i  6 13  200 P    P      d7                                        cy
+blue jelly   j  4  0   20 CP   CP     none 0d6 cold                             bl
+spottd jelly j  5  0   20 AT        a none 0d6 acid                             gr
+ochre jelly  j  6  3   20 AT        a engl 3d6 acid,none 3d6 acid               br
+kobold       k  0  6  100 P         p weap d4                                   br
+large kobold k  1  6  150 P         p weap d6                                   re
+kobold lord  k  2  6  200 P         p weap 2d4                                  ma
+kobold shamn k  2  6  150 P         p spel                                      bb
+leprechaun   l  5 15   30             d2 sgld                                   gr
+small mimic  m  7  3  200 A           3d4                                       br
+large mimic  m  8  3  400 A           3d4 stck                                  re
+giant mimic  m  9  3  500 A           2*3d6 stck                                ma
+wood nymph   n  3 12  300             sitm,sedu                                 gr
+water nymph  n  3 12  300             sitm,sedu                                 bl
+mntn nymph   n  3 12  300             sitm,sedu                                 br
+goblin       o  0  6  100             weap d4                                   gr
+hobgoblin    o  1  9  200             weap d6                                   br
+orc          o  1  9  150             weap d8                                   re
+hill orc     o  2  9  200             weap d6                                   ye
+Mordor orc   o  3  5  200             weap d6                                   bl
+Uruk-hai     o  3  7  300             weap d8                                   bl
+orc shaman   o  3  9  300             spel                                      bb
+orc-captain  o  5  5  350             2*weap 2d4                                ma
+rock piercer p  3  1  200             2d6                                       gr
+iron piercer p  5  1  300             3d6                                       cy
+glas piercer p  7  1  300 A           4d6                                       wh
+rothe        q  2  9  100             2*d3,d8                                   br
+mumak        q  5  9  500             4d12,2d6                                  gr
+leocrotta    q  6 18  500             3*2d6                                     re
+wumpus       q  8  3  500             3d6                                       cy
+titanothere  q 12 12  650             2d8                                       gr
+baluchthrium q 14 12  800             2*5d4                                     gr
+mastodon     q 20 12  800             2*4d8                                     bl
+sewer rat    r  0 12   12             d3                                        br
+giant rat    r  1 10   30             d3                                        br
+rabid rat    r  2 12    5 P         p 2d4 drco                                  br
+wererat      r  2 12   30 P         p d4 were                                   br
+rock mole    r  3  3   30             d6                                        gr
+woodchuck    r  3  3   30             d6                                        br
+cave spider  s  1 12   50 P    P      d2                                        gr
+centipede    s  2  4   50 P    P      d3 drst                                   ye
+giant spider s  5 15  100 P    P    p 2d4 drst                                  ma
+scorpion     s  5 15  100 P    P    p 2*d2,d4 drst                              re
+lurker above t 10  3  350             engl d8 dgst                              gr
+trapper      t 12  3  350             engl d10 dgst                             gr
+pony         u  3 16  250             d6,d2                                     br
+whte unicorn u  4 24  300 P    P      d12,d6                                    wh
+gray unicorn u  4 24  300 P    P      d12,d6                                    gr
+blck unicorn u  4 24  300 P    P      d12,d6                                    bl
+horse        u  5 20  300             d8,d3                                     br
+warhorse     u  7 24  350             d10,d4                                    br
+fog cloud    v  3  1    0 LPT         engl d6                                   gr
+dust vortex  v  4 20    0 LPT         engl 2d8 blnd                             br
+ice vortex   v  5 20    0 CLPT        engl d6 cold                              cy
+enrgy vortex v  6 20    0 -FCA        engl d6 elec,engl 2d6 dren,none 0d4 elec  bb
+steam vortex v  7 22    0 FLPT        engl d8 fire                              bl
+fire vortex  v  8 22    0 FLPT        engl d10 fire,none 0d4 fire               ye
+baby long wm w  5  3  250             d4                                        br
+baby prpl wm w  8  3  250             d6                                        ma
+long worm    w  9  3  500             2d4                                       br
+purple worm  w 15  9  700             2d8,engl d10 dgst                         ma
+grid bug     x  0 12   10 EP          d1 elec                                   ma
+xan          x  7 18  300 P    P    p d4 legs                                   re
+yellow light y  3 15    0 -           expl 10d20 blnd                           ye
+black light  y  5 15    0 -           expl 10d12 halu                           bl
+zruty        z  9  8  600             2*3d4,3d6                                 br
