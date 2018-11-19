@@ -1,10 +1,10 @@
               APPEARANCE     $  WGT MAT PRB   EAT                               *
-change       circular     " 150  20 IRN 130   yes                               cy
-esp          triangular   " 150  20 IRN 175   yes                               cy
-life saving  concave      " 150  20 IRN  75                                     cy
-mgc breathng spherical    " 150  20 IRN  65   yes                               cy
-reflection   pyramidal    " 150  20 IRN  75                                     cy
-restfl sleep hexagonal    " 150  20 IRN 135   yes                               cy
-strngulation oval         " 150  20 IRN 135                                     cy
-unchanging   square       " 150  20 IRN  45                                     cy
-vs poison    octagonal    " 150  20 IRN 165   yes                               cy
+change       circular     " 150  20 IRN 130   yes
+esp          triangular   " 150  20 IRN 175   yes
+life saving  concave      " 150  20 IRN  75
+mgc breathng spherical    " 150  20 IRN  65   yes
+reflection   pyramidal    " 150  20 IRN  75
+restfl sleep hexagonal    " 150  20 IRN 135   yes
+strngulation oval         " 150  20 IRN 135
+unchanging   square       " 150  20 IRN  45
+vs poison    octagonal    " 150  20 IRN 165   yes
