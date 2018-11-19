@@ -42,7 +42,7 @@ colors = {
     CLR_BLUE:           'bl',
     CLR_MAGENTA:        'ma',
     CLR_CYAN:           'cy',
-    CLR_GRAY:           'gr',
+    CLR_GRAY:           'gy',
     CLR_ORANGE:         'or',
     CLR_BRIGHT_GREEN:   'bg',
     CLR_YELLOW:         'ye',

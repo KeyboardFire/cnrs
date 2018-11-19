@@ -33,7 +33,7 @@ Nfrt the Grn @ 20 12  400             weap d6,2d8 spel                          
 M of Huetotl & 16 12  400 FPT       p weap 8d4,weap 4d6,spel,2d6 samu           re
 Thoth Amon   @ 16 12  400 PT          weap d6,2*spel,d4 samu                    ma
 Chrmtc Dragn D 16 12 1700 *    *    p brea 6d6 rbre,spel,2d8 samu,2*4d8,d6      ma
-Cyclops      H 18 12  700 T           2*weap 4d8,2d6 samu                       gr
+Cyclops      H 18 12  700 T           2*weap 4d8,2d6 samu                       gy
 Ixoth        D 15 12 1600 FT   F      brea 8d6 fire,4d8,spel,2d4,2d4 samu       re
 Master Kaen  @ 25 12  400 PT   P      2*16d2,magc clrc,d4 samu                  ma
 Nalzok       & 16 12  400 FPT       p weap 8d4,weap 4d6,spel,2d6 samu           re

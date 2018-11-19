@@ -7,7 +7,7 @@ leathr golem '  6  6    0 LP          2*d6                                      
 wood golem   '  7  3    0 CLP         3d4                                       br
 flesh golem  '  9  8  600 -DAT -DT    2*2d8                                     re
 clay golem   ' 11  7    0 LP          3d10                                      br
-stone golem  ' 14  6    0 LPT         3d8                                       gr
+stone golem  ' 14  6    0 LPT         3d8                                       gy
 glass golem  ' 16  6    0 LPA         2*2d8                                     cy
 iron golem   ' 18  6    0 -DAT      p weap 4d10,brea 4d6 drst                   cy
 human        @  0 12  400             weap d6                                   wh
@@ -17,7 +17,7 @@ werewolf     @  5 12  400 P         p weap 2d4                                  
 elf          @ 10 12  350 L    L      weap d8                                   wh
 Woodland-elf @  4 12  350 L    L      weap 2d4                                  gr
 Green-elf    @  5 12  350 L    L      weap 2d4                                  bg
-Grey-elf     @  6 12  350 L    L      weap 2d4                                  gr
+Grey-elf     @  6 12  350 L    L      weap 2d4                                  gy
 elf-lord     @  8 12  350 L    L      2*weap 2d4                                bb
 Elvenking    @  9 12  350 L    L      2*weap 2d4                                ma
 doppelganger @  9 12  400 L           weap d12                                  wh
@@ -27,32 +27,32 @@ prisoner     @ 12 12  400             weap d6                                   
 Oracle       @ 12  0  400             none 0d4 magm                             bb
 algnd priest @ 12 12  400 E           weap 4d10,d4,magc clrc                    wh
 high priest  @ 25 15  400 FELP        weap 4d10,2d8,2*magc 2d8 clrc             wh
-soldier      @  6 10  400             weap d8                                   gr
+soldier      @  6 10  400             weap d8                                   gy
 sergeant     @  8 10  400             weap 2d6                                  re
 nurse        @ 11  6  400 P    P      2d6 heal                                  wh
 lieutenant   @ 10 10  400             2*weap 3d4                                gr
 captain      @ 12 10  400             2*weap 4d4                                bl
-watchman     @  6 10  400             weap d8                                   gr
+watchman     @  6 10  400             weap d8                                   gy
 watch captn  @ 10 10  400             2*weap 3d4                                gr
 Medusa       @ 20 12  400 PT   PT   p weap 2d4,d8,gaze ston,d6 drst             bg
 Wiz of Yndor @ 30 12  400 FP   FP     2d12 samu,spel                            ma
 Croesus      @ 20 15  400             weap 4d10                                 ma
-ghost          10  3    0 -FEA        d1                                        gr
+ghost          10  3    0 -FEA        d1                                        gy
 shade          12 10    0 -FEA        2d6 plys,d6 slow                          bk
 water demon  &  8 12  400 FP        p weap d3,2*d3                              bl
-succubus     &  6 12  400 FP        p ssex,d3,d3                                gr
+succubus     &  6 12  400 FP        p ssex,d3,d3                                gy
 horned devil &  6  9  400 FP        p weap d4,d4,2d3,d3                         br
-incubus      &  6 12  400 FP        p ssex,d3,d3                                gr
+incubus      &  6 12  400 FP        p ssex,d3,d3                                gy
 erinys       &  7 12  400 FP        p weap 2d4 drst                             re
 barbed devil &  8 12  400 FP        p 2*2d4,3d4                                 re
 marilith     &  7 12  400 FP        p 2*weap 2d4,4*2d4                          re
 vrock        &  8 12  400 FP        p 2*d4,2*d8,d6                              re
 hezrou       &  9  6  400 FP        p 2*d3,4d4                                  re
-bone devil   &  9 15  400 FP        p weap 3d4,2d4 drst                         gr
+bone devil   &  9 15  400 FP        p weap 3d4,2d4 drst                         gy
 ice devil    & 11  6  400 FCP       p 2*d4,2d4,3d4 cold                         wh
 nalfeshnee   & 11  9  400 FP        p 2*d4,2d4,spel                             re
 pit fiend    & 13  6  400 FP        p 2*weap 4d2,hugs 2d4                       re
-sandestin    & 13 12  400 T           2*weap 2d6                                gr
+sandestin    & 13 12  400 T           2*weap 2d6                                gy
 balrog       & 16  5  400 FP        p weap 8d4,weap 4d6                         re
 Juiblex      & 22  3    0 FPAT      * engl 4d10 dise,spit 3d6 acid              bg
 Yeenoghu     & 25 18  500 FP        p weap 3d6,weap 2d8 conf,d6 plys,2d6 magm   ma
@@ -69,7 +69,7 @@ mail daemon  & 25 24  300 -DA       p                                           
 djinni       &  7 12  400 PT        p weap 2d8                                  ye
 jellyfish    ;  3  3   20 P    P    p 3d3 drst                                  bl
 piranha      ;  5 12   30             2d6                                       re
-shark        ;  7 12  350             5d6                                       gr
+shark        ;  7 12  350             5d6                                       gy
 giant eel    ;  5  9  250             3d6,wrap                                  cy
 electric eel ;  7 10  250 E    E      4d6 elec,wrap                             bb
 kraken       ; 20  3 1000             2*2d4,hugs 2d6 wrap,5d4                   re
