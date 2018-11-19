@@ -1,8 +1,8 @@
-              APPEARANCE     $  WGT MAT PRB   INK SPECIAL
-mail         stamped      ?   0   5 PAP ---     2
+              APPEARANCE     $  WGT MAT PRB   INK SPECIAL                       *
+mail         stamped      ?   0   5 PAP ---     2                               *!
 identify     (random)     ?  20   5 PAP 180    14 1/5 1234all B, 21/25 1 U, 1 C
 light        (random)     ?  50   5 PAP  90     8 9/5/-5
-blank paper  unlabeled    ?  60   5 PAP  28    --
+blank paper  unlabeled    ?  60   5 PAP  28    --                               *!
 enchant weap (random)     ?  60   5 PAP  80    16 1-(3-e/3)/1/-1, proof!C conf
 enchant armr (random)     ?  80   5 PAP  63    16 1-(3-e/3)/1/-1, proof!C conf
 remove curse (random)     ?  80   5 PAP  65    16 all/equipped/nothing

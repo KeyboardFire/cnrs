@@ -21,7 +21,7 @@ colorscheme = '
         .br, .FLE, .LTH, .WOO           { color: #a50; }
         .bl                             { color: #00a; }
         .ma                             { color: #a0a; }
-        .cy, .IRN, .MTH, .GLA, .MET     { color: #0aa; }
+        .cy, .IRN, .MTH, .MET           { color: #0aa; }
         .gy, .N, .SLV, .MIN             { color: #aaa; }
         .no                             { color: #ddd; }
         .or                             { color: #f55; }
@@ -29,7 +29,7 @@ colorscheme = '
         .ye, .CPR, .GLD                 { color: #ff5; }
         .bb                             { color: #55f; }
         .bm, .CLO, .PLS, .GEM, .MAT     { color: #f5f; }
-        .bc                             { color: #5ff; }
+        .bc, .GLA                       { color: #5ff; }
         .wh, .L, .WAX, .PAP, .BON, .PLT { color: #fff; }
 '
 @colors = colorscheme.scan(/\.(\w+)/).map &:first

@@ -1,29 +1,29 @@
-              APPEARANCE     $  WGT MAT PRB   SPECIAL
-water        clear        !   0  20 GLA  69
-booze        ruby         !  50  20 GLA  42   sake, +conf 3d8, nutr 30/20/10
-fruit juice  dark green   !  50  20 GLA  42   nutr 30/20/10
-see invis    purple-red   !  50  20 GLA  42   -blind!C, 750-849, perm B
-sickness     smoky        !  50  20 GLA  42   uni fruit juice, weap poison
-confusion    brown        ! 100  20 GLA  42   8-16/16-24/24-30, uni water
-extra healng pink         ! 100  20 GLA  47   8/6/4d8, +5/2/0, -hal-bli, -sic!C
-hallucnation cyan         ! 100  20 GLA  40   300-499/600-799/900-1099, uni wat
-healing      puce         ! 100  20 GLA  57   8/6/4d4, +1/1/0, -bli!C, -sic B
-holy water   clear        ! 100  20 GLA  11.5 -lycanthropy, -sic!cha
-unholy water clear        ! 100  20 GLA  11.5 -2d6 law, +2d6 cha
-restore ablt cloudy       ! 100  20 GLA  40   all/1/0
-sleeping     fizzy        ! 100  20 GLA  42   13-23/25-35/37-47
-blindness    orange       ! 150  20 GLA  40   125-324/250-449/375-574, uni watr
-gain energy  sky blue     ! 150  20 GLA  42   +3/2/-1d6
-invisibility milky        ! 150  20 GLA  40   31-45, perm B, wake monsters C
-mon detction effervescent ! 150  20 GLA  40   21-60 B, wake monsters C
-obj detction dark         ! 150  20 GLA  42   inv B
-enlightenmnt yellow       ! 200  20 GLA  20   +int+wis B, nothing C
-full healing brillnt blue ! 200  20 GLA  10   400, +8/4/0, -hal-bli, -sic!C
-levitation   swirly       ! 200  20 GLA  42   10-149, 250-299+land at will B
-polymorph    black        ! 200  20 GLA  10
-speed        white        ! 200  20 GLA  42   160-169/100-109/40-49
-acid         emerald      ! 250  20 GLA  10   -stone, d4/d8/2d8
-oil          magenta      ! 250  20 GLA  30   lit -slime (throw up), weap -corr
-gain ability bubbly       ! 300  20 GLA  42   all/1/0
-gain level   golden       ! 300  20 GLA  20   additional xp B, up dlvl C
-paralysis    murky        ! 300  20 GLA  42   13-22/25-34/37-46
+              APPEARANCE     $  WGT MAT PRB   SPECIAL                           *
+water        clear        !   0  20 GLA  69                                     cy*!
+booze        ruby         !  50  20 GLA  42   sake, +conf 3d8, nutr 30/20/10    re!
+fruit juice  pink         !  50  20 GLA  42   nutr 30/20/10                     bm!
+see invis    orange       !  50  20 GLA  42   -blind!C, 750-849, perm B         or
+sickness     yellow       !  50  20 GLA  42   uni fruit juice, weap poison      ye!
+confusion    emerald      ! 100  20 GLA  42   8-16/16-24/24-30, uni water       bg
+extra healng dark green   ! 100  20 GLA  47   8/6/4d8, +5/2/0, -hal-bli, -sic!C gr
+hallucnation cyan         ! 100  20 GLA  40   300-499/600-799/900-1099, uni wat cy
+healing      sky blue     ! 100  20 GLA  57   8/6/4d4, +1/1/0, -bli!C, -sic B   cy
+holy water   clear        ! 100  20 GLA  11.5 -lycanthropy, -sic!cha            cy*
+unholy water clear        ! 100  20 GLA  11.5 -2d6 law, +2d6 cha                cy*
+restore ablt brillnt blue ! 100  20 GLA  40   all/1/0                           bb
+sleeping     magenta      ! 100  20 GLA  42   13-23/25-35/37-47                 ma
+blindness    purple-red   ! 150  20 GLA  40   125-324/250-449/375-574, uni watr ma
+gain energy  puce         ! 150  20 GLA  42   +3/2/-1d6                         re
+invisibility milky        ! 150  20 GLA  40   31-45, perm B, wake monsters C    wh
+mon detction swirly       ! 150  20 GLA  40   21-60 B, wake monsters C          br
+obj detction bubbly       ! 150  20 GLA  42   inv B                             wh
+enlightenmnt smoky        ! 200  20 GLA  20   +int+wis B, nothing C             gy
+full healing cloudy       ! 200  20 GLA  10   400, +8/4/0, -hal-bli, -sic!C     wh
+levitation   effervescent ! 200  20 GLA  42   10-149, 250-299+land at will B    gy
+polymorph    black        ! 200  20 GLA  10                                     bk
+speed        golden       ! 200  20 GLA  42   160-169/100-109/40-49             ye
+acid         brown        ! 250  20 GLA  10   -stone, d4/d8/2d8                 br!
+oil          fizzy        ! 250  20 GLA  30   lit -slime (throw up), weap -corr cy!
+gain ability dark         ! 300  20 GLA  42   all/1/0                           bk
+gain level   white        ! 300  20 GLA  20   additional xp B, up dlvl C        wh
+paralysis    murky        ! 300  20 GLA  42   13-22/25-34/37-46                 br

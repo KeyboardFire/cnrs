@@ -1,28 +1,28 @@
-              APPEARANCE     $  WGT MAT PRB   DIR BREAK      SPECIAL
-light        glass        / 100   7 ~~~  95       1-4c/blind radius 5
-nothing      oak          / 100   7 ~~~  25
-digging      copper       / 150   7 ~~~  55   ray 1-4c/proc!
-enlightenmnt aluminum     / 150   7 ~~~  15
-locking      short        / 150   7 ~~~  25   bm
-magic missle spiked       / 150   7 ~~~  50   ray 4c         2d6 (-mr-refl)
-make invis   balsa        / 150   7 ~~~  45   bm  1-4c/proc? -engulf-punish
-opening      ebony        / 150   7 ~~~  25   bm
-probing      silver       / 150   7 ~~~  30   bm
-secret door  uranium      / 150   7 ~~~  50       proc       radius 8
-slow monster runed        / 150   7 ~~~  50   bm  1-4c/proc
-speed monst  jeweled      / 150   7 ~~~  50   bm  1-4c/proc
-striking     crystal      / 150   7 ~~~  75   bm  1-c+1d6/pr 2d12 if d20<10+AC
-undead trnng marble       / 150   7 ~~~  50   bm  1-4c/proc  d8 undead, revive
-cold         platinum     / 175   7 ~~~  40   ray 8c/proc    6d6 (+7 fire res)
-fire         iron         / 175   7 ~~~  40   ray 8c/proc    6d6 (+7 cold res)
-lightning    long         / 175   7 ~~~  40   ray 16c        6d6, blind
-sleep        maple        / 175   7 ~~~  50   ray 1-4c/proc  (lvl/2+1)d25
-cancellation tin          / 200   7 ~~~  45   bm  1-4c/proc
-create mon   iridium      / 200   7 ~~~  45       1-4c/proc! 2-8 1/23
-polymorph    steel        / 200   7 ~~~  45   bm  1-4c/proc
-teleport     curved       / 200   7 ~~~  45   bm  1-4c/proc
-death        pine         / 500   7 ~~~   5   ray 16c
-wishing      brass        / 500   7 ~~~   5
-             zinc         /         ~~~
-             hexagonal    /         ~~~
-             forked       /         ~~~
+              APPEARANCE     $  WGT MAT PRB   DIR BREAK      SPECIAL            *
+light        glass        / 100   7 GLA  95       1-4c/blind radius 5           bc
+nothing      balsa        / 100   7 WOO  25                                     br!
+digging      crystal      / 150   7 GLA  55   ray 1-4c/proc!                    bc
+enlightenmnt maple        / 150   7 WOO  15                                     br
+locking      pine         / 150   7 WOO  25   bm                                br
+magic missle oak          / 150   7 WOO  50   ray 4c         2d6 (-mr-refl)     br
+make invis   ebony        / 150   7 WOO  45   bm  1-4c/proc? -engulf-punish     br
+opening      marble       / 150   7 MIN  25   bm                                gy
+probing      tin          / 150   7 MET  30   bm                                cy
+secret door  brass        / 150   7 CPR  50       proc       radius 8           ye
+slow monster copper       / 150   7 CPR  50   bm  1-4c/proc                     ye
+speed monst  silver       / 150   7 SLV  50   bm  1-4c/proc                     gy
+striking     platinum     / 150   7 PLT  75   bm  1-c+1d6/pr 2d12 if d20<10+AC  wh
+undead trnng iridium      / 150   7 MET  50   bm  1-4c/proc  d8 undead, revive  bc
+cold         zinc         / 175   7 MET  40   ray 8c/proc    6d6 (+7 fire res)  cy
+fire         aluminum     / 175   7 MET  40   ray 8c/proc    6d6 (+7 cold res)  cy
+lightning    uranium      / 175   7 MET  40   ray 16c        6d6, blind         cy
+sleep        iron         / 175   7 IRN  50   ray 1-4c/proc  (lvl/2+1)d25       cy
+cancellation steel        / 200   7 IRN  45   bm  1-4c/proc                     cy
+create mon   hexagonal    / 200   7 IRN  45       1-4c/proc! 2-8 1/23           cy
+polymorph    short        / 200   7 IRN  45   bm  1-4c/proc                     cy
+teleport     runed        / 200   7 IRN  45   bm  1-4c/proc                     cy
+death        long         / 500   7 IRN   5   ray 16c                           cy
+wishing      curved       / 500   7 IRN   5                                     cy
+             forked       /         WOO                                         br
+             spiked       /         IRN                                         cy
+             jeweled      /         IRN                                         gy
