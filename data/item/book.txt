@@ -1,4 +1,4 @@
-              APPEARANCE     $  WGT MAT PRB   LVL DIR TIME SKILL
+              APPEARANCE     $  WGT MAT PRB   LVL DIR TIME SKILL                *
 blank paper  plain        +   0  50 PAP  18.3                                   *!
 === ATTACK ===
 force bolt   parchment    + 100  50 PAP  35.6   1 bm     4                      wh
