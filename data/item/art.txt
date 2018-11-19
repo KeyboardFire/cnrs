@@ -1,12 +1,12 @@
               BASE ITEM     $  AI GEN  (CARRY) USE / INVOKE
 cleaver      battle-axe   1500 N  BARs +d3 TH, +d6 dmg, arc-swing
 demonbane    long sword   2500 L  angl +d5 TH x2 dmg major &
-dragonbane   broadsword    500 U       +d5 TH x2 dmg  D, reflection
+dragonbane   broadsword    500         +d5 TH x2 dmg  D, reflection
 excalibur    long sword   4000 L* LAWc +d5 TH, +d10 dmg, drain res, search
 eye aethiopc amult of ESP 4000 N* WIZq (pwr gen, .5spl) MR, telepthy / brnchprt
 eyes ovrwrld lenses       2500 N* MONq astral vision, -bli-gaze, MR / enlightmt
-fire brand   long sword   3000 U       +d5 TH x2 dmg-fire, fire resistance
-frost brand  long sword   3000 U       +d5 TH x2 dmg-cold, cold resistance
+fire brand   long sword   3000         +d5 TH x2 dmg-fire, fire resistance
+frost brand  long sword   3000         +d5 TH x2 dmg-cold, cold resistance
 giantslayer  long sword    200 N       +d5 TH x2 dmg  H
 grayswandir  silver saber 8000 L       +d5 TH, x2 dmg, -hallu
 grimtooth    orcish daggr  300 C       +d2 TH, +d6 dmg
@@ -17,7 +17,7 @@ magicbane    athame       3500 N  WIZs +d3 TH, special, MR, -curse
 mstr ky thvr skeleton key 3500 C* ROGq (warn, .5phys, tele ctrl) rumor, untrap
 mtr holiness helm brllnce 2000 L* PRIq (fire res) prot, .5undead&demon / +pwr
 mjollnir     war hammer   4000 N  VALs +d5 TH +d24 dmg-shock, return when throw
-ogresmasher  war hammer    200 U       +d5 TH x2 dmg O, 25 CON
+ogresmasher  war hammer    200         +d5 TH x2 dmg O, 25 CON
 orb dtection crystal ball 2500 L* ARCq (MR, .5spl, telepathy) / invis
 orb of fate  crystal ball 3500 N* VALq (.5phys, .5spl, warn, luck) / levelport
 orcrist      elvn brdswrd 2000 C  name +d5 TH x2 dmg orc
@@ -28,7 +28,7 @@ stff aesclps quarterstaff 5000 N* HEAq x2dmg drain, rgn, -drn / +hp-sic-bli-sli
 sting        elven dagger  800 C  name +d5 TH x2 dmg orc, warn orc, cut webs
 stormbringer runesword    8000 C* CHAc +d5 TH +d2 dmg drain, -drn, bloodthirsty
 sunsword     long sword   1500 L  angl +d5 TH x2 dmg undead, light, -lght blind
-trollsbane   morning star  200 U       +d5 TH x2 dmg T, no T revival
+trollsbane   morning star  200         +d5 TH x2 dmg T, no T revival
 tsrg mramasa tsurugi      4500 L* SAMq (luck) protection, +d8 dmg, 5% bisection
 vorpal blade long sword   4000 N  NEUc +d5 TH, +1 dmg, 5% behead (100% for J)
-werebane     silver saber 1500 U       +d5 TH x2 dmg werecreatures
+werebane     silver saber 1500         +d5 TH x2 dmg werecreatures

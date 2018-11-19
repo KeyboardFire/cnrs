@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>cnrs</title>
+        <style>
+        body { background-color: #000; color: #ddd; }
+
+        
+        .bk, .C                         { color: #555; }
+        .re, .DRA                       { color: #a00; }
+        .gr, .VEG                       { color: #0a0; }
+        .br, .FLE, .LTH, .WOO           { color: #a50; }
+        .bl                             { color: #00a; }
+        .ma                             { color: #a0a; }
+        .cy, .IRN, .MTH, .GLA, .MET     { color: #0aa; }
+        .gy, .N, .SLV, .MIN             { color: #aaa; }
+        .no                             { color: #ddd; }
+        .or                             { color: #f55; }
+        .bg                             { color: #5f5; }
+        .ye, .CPR, .GLD                 { color: #ff5; }
+        .bb                             { color: #55f; }
+        .bm, .CLO, .PLS, .GEM, .MAT     { color: #f5f; }
+        .bc                             { color: #5ff; }
+        .wh, .L, .WAX, .PAP, .BON, .PLT { color: #fff; }
+
+
+        </style>
+    </head>
+    <body>
+        <pre>
+<span class=cy>            </span> <span class=bk> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>EAT                               </span>
+<span class=cy>change      </span> <span class=gy>circular    </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy>130</span>   <span class=no>yes                               </span>
+<span class=cy>esp         </span> <span class=gy>triangular  </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy>175</span>   <span class=no>yes                               </span>
+<span class=cy>life saving </span> <span class=gy>concave     </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy> 75</span>   <span class=no>                                  </span>
+<span class=cy>mgc breathng</span> <span class=gy>spherical   </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy> 65</span>   <span class=no>yes                               </span>
+<span class=cy>reflection  </span> <span class=gy>pyramidal   </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy> 75</span>   <span class=no>                                  </span>
+<span class=cy>restfl sleep</span> <span class=gy>hexagonal   </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy>135</span>   <span class=no>yes                               </span>
+<span class=cy>strngulation</span> <span class=gy>oval        </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy>135</span>   <span class=no>                                  </span>
+<span class=cy>unchanging  </span> <span class=gy>square      </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy> 45</span>   <span class=no>                                  </span>
+<span class=cy>vs poison   </span> <span class=gy>octagonal   </span> <span class=cy>"</span> <span class=ye>150</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy>165</span>   <span class=no>yes                               </span>
+
+<span class=wh>            </span> <span class=bk> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=gr>AC</span> <span class=cy>MC</span> <span class=no>SPECIAL</span>
+<span class=bg>=== SHIRTS ===</span>
+<span class=wh>hawaiian    </span> <span class=bk>    ----    </span> <span class=ma>[</span> <span class=ye>  3</span> <span class=or>  5</span> <span class=CLO>CLO</span> <span class=gy>  8</span>   <span class=gr>  </span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>t-shirt     </span> <span class=bk>    ----    </span> <span class=wh>[</span> <span class=ye>  2</span> <span class=or>  5</span> <span class=CLO>CLO</span> <span class=gy>  2</span>   <span class=gr>  </span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=bg>=== SUITS ===</span>
+<span class=wh>lth jacket  </span> <span class=bk>    ----    </span> <span class=gy>[</span> <span class=ye> 10</span> <span class=or> 30</span> <span class=LTH>LTH</span> <span class=gy> 12</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>lth armor   </span> <span class=bk>    ----    </span> <span class=br>[</span> <span class=ye>  5</span> <span class=or>150</span> <span class=LTH>LTH</span> <span class=gy> 82</span>   <span class=gr> 2</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>orc ring ml </span> <span class=bk>crude rng ml</span> <span class=gy>[</span> <span class=ye> 80</span> <span class=or>250</span> <span class=IRN>IRN</span> <span class=gy> 20</span>   <span class=gr> 2</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>stud lth arm</span> <span class=bk>    ----    </span> <span class=br>[</span> <span class=ye> 15</span> <span class=or>200</span> <span class=LTH>LTH</span> <span class=gy> 72</span>   <span class=gr> 3</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>ring mail   </span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye>100</span> <span class=or>250</span> <span class=IRN>IRN</span> <span class=gy> 72</span>   <span class=gr> 3</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>scale mail  </span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye> 45</span> <span class=or>250</span> <span class=IRN>IRN</span> <span class=gy> 72</span>   <span class=gr> 4</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>orc chain ml</span> <span class=bk>crude chn ml</span> <span class=bk>[</span> <span class=ye> 75</span> <span class=or>300</span> <span class=IRN>IRN</span> <span class=gy> 20</span>   <span class=gr> 4</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>chain mail  </span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye> 75</span> <span class=or>300</span> <span class=IRN>IRN</span> <span class=gy> 72</span>   <span class=gr> 5</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>elven mth-ct</span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye>240</span> <span class=or>150</span> <span class=MTH>MTH</span> <span class=gy> 15</span>   <span class=gr> 5</span> <span class=cy> 2</span> <span class=no>                            </span>
+<span class=wh>splint mail </span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye> 80</span> <span class=or>400</span> <span class=IRN>IRN</span> <span class=gy> 62</span>   <span class=gr> 6</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>banded mail </span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye> 90</span> <span class=or>350</span> <span class=IRN>IRN</span> <span class=gy> 72</span>   <span class=gr> 6</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>dwrv mth-ct </span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye>240</span> <span class=or>150</span> <span class=MTH>MTH</span> <span class=gy> 10</span>   <span class=gr> 6</span> <span class=cy> 2</span> <span class=no>                            </span>
+<span class=wh>brnze plt ml</span> <span class=bk>    ----    </span> <span class=ye>[</span> <span class=ye>400</span> <span class=or>450</span> <span class=CPR>CPR</span> <span class=gy> 25</span>   <span class=gr> 6</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>plate mail  </span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye>600</span> <span class=or>450</span> <span class=IRN>IRN</span> <span class=gy> 44</span>   <span class=gr> 7</span> <span class=cy> 2</span> <span class=no>tanko                       </span>
+<span class=wh>cryst plt ml</span> <span class=bk>    ----    </span> <span class=wh>[</span> <span class=ye>820</span> <span class=or>450</span> <span class=GLA>GLA</span> <span class=gy> 10</span>   <span class=gr> 7</span> <span class=cy> 2</span> <span class=no>                            </span>
+<span class=wh>dragon scale</span> <span class=bk>    ----    </span> <span class=bm>[</span> <span class=ye>500</span> <span class=or> 40</span> <span class=DRA>DRA</span> <span class=gy>---</span>   <span class=gr> 3</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>dra scale ml</span> <span class=bk>    ----    </span> <span class=bm>[</span> <span class=ye>900</span> <span class=or> 40</span> <span class=DRA>DRA</span> <span class=gy>---</span>   <span class=gr> 9</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=bg>=== CLOAKS ===</span>
+<span class=wh>mummy wrap  </span> <span class=bk>    ----    </span> <span class=gy>[</span> <span class=ye>  2</span> <span class=or>  3</span> <span class=CLO>CLO</span> <span class=gy>---</span>   <span class=gr>  </span> <span class=cy> 1</span> <span class=no>-invis                      </span>
+<span class=wh>orcish cloak</span> <span class=bk>coarse mntlt</span> <span class=bk>[</span> <span class=ye> 40</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy>  8</span>   <span class=gr>  </span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>dwarvish clk</span> <span class=bk>hooded cloak</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy>  8</span>   <span class=gr>  </span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>leather clk </span> <span class=bk>    ----    </span> <span class=br>[</span> <span class=ye> 40</span> <span class=or> 15</span> <span class=LTH>LTH</span> <span class=gy>  8</span>   <span class=gr> 1</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=cy>displacement</span> <span class=gy>pc of cloth </span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy> 10</span>   <span class=gr> 1</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>oilskin clk </span> <span class=bk>slippery clk</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy>  8</span>   <span class=gr> 1</span> <span class=cy> 2</span> <span class=no>                            </span>
+<span class=cy>alchemy smk </span> <span class=bk>apron       </span> <span class=wh>[</span> <span class=ye> 50</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy>  9</span>   <span class=gr> 1</span> <span class=cy> 1</span> <span class=no>+poi+acd                    </span>
+<span class=cy>invisibility</span> <span class=gy>opera cloak </span> <span class=bm>[</span> <span class=ye> 60</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy> 10</span>   <span class=gr> 1</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=cy>magic resist</span> <span class=gy>ornmntl cope</span> <span class=wh>[</span> <span class=ye> 60</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy>  2</span>   <span class=gr> 1</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=cy>elven cloak </span> <span class=bk>faded pall  </span> <span class=bk>[</span> <span class=ye> 60</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy>  8</span>   <span class=gr> 1</span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=cy>robe        </span> <span class=bk>    ----    </span> <span class=re>[</span> <span class=ye> 50</span> <span class=or> 15</span> <span class=CLO>CLO</span> <span class=gy>  3</span>   <span class=gr> 2</span> <span class=cy> 2</span> <span class=no>                            </span>
+<span class=cy>protection  </span> <span class=gy>tatterd cape</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 10</span> <span class=CLO>CLO</span> <span class=gy>  9</span>   <span class=gr> 3</span> <span class=cy> 3</span> <span class=no>                            </span>
+<span class=bg>=== HELMS ===</span>
+<span class=wh>fedora      </span> <span class=bk>    ----    </span> <span class=br>[</span> <span class=ye>  1</span> <span class=or>  3</span> <span class=CLO>CLO</span> <span class=gy>---</span>   <span class=gr>  </span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>dunce cap   </span> <span class=gy>conical hat </span> <span class=bl>[</span> <span class=ye>  1</span> <span class=or>  4</span> <span class=CLO>CLO</span> <span class=gy>  3</span>   <span class=gr>  </span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>cornuthaum  </span> <span class=gy>conical hat </span> <span class=bl>[</span> <span class=ye> 80</span> <span class=or>  4</span> <span class=CLO>CLO</span> <span class=gy>  3</span>   <span class=gr>  </span> <span class=cy> 1</span> <span class=no>                            </span>
+<span class=wh>dented pot  </span> <span class=bk>    ----    </span> <span class=bk>[</span> <span class=ye>  8</span> <span class=or> 10</span> <span class=IRN>IRN</span> <span class=gy>  2</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>elven lth hm</span> <span class=bk>leather hat </span> <span class=br>[</span> <span class=ye>  8</span> <span class=or>  3</span> <span class=LTH>LTH</span> <span class=gy>  6</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>helmet      </span> <span class=gy>plumed helmt</span> <span class=cy>[</span> <span class=ye> 10</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy> 10</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>kabuto                      </span>
+<span class=wh>orcish helm </span> <span class=bk>iron skll cp</span> <span class=bk>[</span> <span class=ye> 10</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy>  6</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>brilliance  </span> <span class=gy>etched helmt</span> <span class=gr>[</span> <span class=ye> 50</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy>  6</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>+int+wis                    </span>
+<span class=cy>opp alignmnt</span> <span class=gy>crestd helmt</span> <span class=cy>[</span> <span class=ye> 50</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy>  6</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>telepathy   </span> <span class=gy>visord helmt</span> <span class=cy>[</span> <span class=ye> 50</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy>  2</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>dwrv iron hm</span> <span class=bk>hard hat    </span> <span class=cy>[</span> <span class=ye> 20</span> <span class=or> 40</span> <span class=IRN>IRN</span> <span class=gy>  6</span>   <span class=gr> 2</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=bg>=== GLOVES ===</span>
+<span class=wh>lth gloves  </span> <span class=gy>old gloves  </span> <span class=br>[</span> <span class=ye>  8</span> <span class=or> 10</span> <span class=LTH>LTH</span> <span class=gy> 16</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>yugake                      </span>
+<span class=cy>gnt of dex  </span> <span class=gy>padded glovs</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 10</span> <span class=LTH>LTH</span> <span class=gy>  8</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>gnt of fumbl</span> <span class=gy>riding glovs</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 10</span> <span class=LTH>LTH</span> <span class=gy>  8</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>gnt of power</span> <span class=gy>fencng glovs</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy>  8</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=bg>=== SHIELDS ===</span>
+<span class=wh>small shield</span> <span class=bk>    ----    </span> <span class=br>[</span> <span class=ye>  3</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy>  6</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>orcish shld </span> <span class=bk>red-eyed    </span> <span class=re>[</span> <span class=ye>  7</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy>  2</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>uruk-hai shd</span> <span class=bk>white-handed</span> <span class=cy>[</span> <span class=ye>  7</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy>  2</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>elven shield</span> <span class=bk>blue &amp; green</span> <span class=gr>[</span> <span class=ye>  7</span> <span class=or> 40</span> <span class=WOO>WOO</span> <span class=gy>  2</span>   <span class=gr> 2</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>dwrv rndshld</span> <span class=bk>large round </span> <span class=cy>[</span> <span class=ye> 10</span> <span class=or>100</span> <span class=IRN>IRN</span> <span class=gy>  4</span>   <span class=gr> 2</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>large shield</span> <span class=bk>    ----    </span> <span class=cy>[</span> <span class=ye> 10</span> <span class=or>100</span> <span class=IRN>IRN</span> <span class=gy>  7</span>   <span class=gr> 2</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>reflection  </span> <span class=bk>polished slv</span> <span class=gy>[</span> <span class=ye> 50</span> <span class=or> 50</span> <span class=SLV>SLV</span> <span class=gy>  3</span>   <span class=gr> 2</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=bg>=== BOOTS ===</span>
+<span class=wh>low boots   </span> <span class=bk>walkng shoes</span> <span class=br>[</span> <span class=ye>  8</span> <span class=or> 10</span> <span class=LTH>LTH</span> <span class=gy> 25</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>elven boots </span> <span class=gy>mud boots   </span> <span class=br>[</span> <span class=ye>  8</span> <span class=or> 15</span> <span class=LTH>LTH</span> <span class=gy> 12</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>kickng boots</span> <span class=gy>buckld boots</span> <span class=br>[</span> <span class=ye>  8</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy> 12</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>fumble boots</span> <span class=gy>riding boots</span> <span class=br>[</span> <span class=ye> 30</span> <span class=or> 20</span> <span class=LTH>LTH</span> <span class=gy> 12</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>levitation  </span> <span class=gy>snow boots  </span> <span class=br>[</span> <span class=ye> 30</span> <span class=or> 15</span> <span class=LTH>LTH</span> <span class=gy> 12</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>jumpng boots</span> <span class=gy>hiking boots</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 20</span> <span class=LTH>LTH</span> <span class=gy> 12</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>speed boots </span> <span class=gy>combat boots</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 20</span> <span class=LTH>LTH</span> <span class=gy> 12</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=cy>water walkng</span> <span class=gy>jungle boots</span> <span class=br>[</span> <span class=ye> 50</span> <span class=or> 20</span> <span class=LTH>LTH</span> <span class=gy> 12</span>   <span class=gr> 1</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>high boots  </span> <span class=bk>jackboots   </span> <span class=br>[</span> <span class=ye> 12</span> <span class=or> 20</span> <span class=LTH>LTH</span> <span class=gy> 15</span>   <span class=gr> 2</span> <span class=cy>  </span> <span class=no>                            </span>
+<span class=wh>iron shoes  </span> <span class=bk>hard shoes  </span> <span class=cy>[</span> <span class=ye> 16</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy>  7</span>   <span class=gr> 2</span> <span class=cy>  </span> <span class=no>                            </span>
+
+<span class=wh>            </span> <span class=bk> BASE ITEM  </span> <span class=ye>  $ </span> A<span class=re>I</span> <span class=cy>GEN </span> <span class=no>(CARRY) USE / INVOKE</span>
+<span class=wh>cleaver     </span> <span class=bk>battle-axe  </span> <span class=ye>1500</span> <span class=N>N</span><span class=re> </span> <span class=cy>BARs</span> <span class=no>+d3 TH, +d6 dmg, arc-swing</span>
+<span class=wh>demonbane   </span> <span class=bk>long sword  </span> <span class=ye>2500</span> <span class=L>L</span><span class=re> </span> <span class=cy>angl</span> <span class=no>+d5 TH x2 dmg major &amp;</span>
+<span class=wh>dragonbane  </span> <span class=bk>broadsword  </span> <span class=ye> 500</span>  <span class=re> </span> <span class=cy>    </span> <span class=no>+d5 TH x2 dmg  D, reflection</span>
+<span class=wh>excalibur   </span> <span class=bk>long sword  </span> <span class=ye>4000</span> <span class=L>L</span><span class=re>*</span> <span class=cy>LAWc</span> <span class=no>+d5 TH, +d10 dmg, drain res, search</span>
+<span class=wh>eye aethiopc</span> <span class=bk>amult of ESP</span> <span class=ye>4000</span> <span class=N>N</span><span class=re>*</span> <span class=cy>WIZq</span> <span class=no>(pwr gen, .5spl) MR, telepthy / brnchprt</span>
+<span class=wh>eyes ovrwrld</span> <span class=bk>lenses      </span> <span class=ye>2500</span> <span class=N>N</span><span class=re>*</span> <span class=cy>MONq</span> <span class=no>astral vision, -bli-gaze, MR / enlightmt</span>
+<span class=wh>fire brand  </span> <span class=bk>long sword  </span> <span class=ye>3000</span>  <span class=re> </span> <span class=cy>    </span> <span class=no>+d5 TH x2 dmg-fire, fire resistance</span>
+<span class=wh>frost brand </span> <span class=bk>long sword  </span> <span class=ye>3000</span>  <span class=re> </span> <span class=cy>    </span> <span class=no>+d5 TH x2 dmg-cold, cold resistance</span>
+<span class=wh>giantslayer </span> <span class=bk>long sword  </span> <span class=ye> 200</span> <span class=N>N</span><span class=re> </span> <span class=cy>    </span> <span class=no>+d5 TH x2 dmg  H</span>
+<span class=wh>grayswandir </span> <span class=bk>silver saber</span> <span class=ye>8000</span> <span class=L>L</span><span class=re> </span> <span class=cy>    </span> <span class=no>+d5 TH, x2 dmg, -hallu</span>
+<span class=wh>grimtooth   </span> <span class=bk>orcish daggr</span> <span class=ye> 300</span> <span class=C>C</span><span class=re> </span> <span class=cy>    </span> <span class=no>+d2 TH, +d6 dmg</span>
+<span class=wh>heart ahrimn</span> <span class=bk>luckstone   </span> <span class=ye>2500</span> <span class=N>N</span><span class=re>*</span> <span class=cy>BARq</span> <span class=no>(stealth) +d5 TH, x2 dmg / levitation</span>
+<span class=wh>longbw diana</span> <span class=bk>bow         </span> <span class=ye>4000</span> <span class=C>C</span><span class=re>*</span> <span class=cy>RANq</span> <span class=no>(telepathy) +d5 TH, reflct / make arrows</span>
+<span class=wh>mgc mrr mrln</span> <span class=bk>mirror      </span> <span class=ye>1500</span> <span class=L>L</span><span class=re>*</span> <span class=cy>KNIq</span> <span class=no>(MR, telepathy, x2spl) rumor</span>
+<span class=wh>magicbane   </span> <span class=bk>athame      </span> <span class=ye>3500</span> <span class=N>N</span><span class=re> </span> <span class=cy>WIZs</span> <span class=no>+d3 TH, special, MR, -curse</span>
+<span class=wh>mstr ky thvr</span> <span class=bk>skeleton key</span> <span class=ye>3500</span> <span class=C>C</span><span class=re>*</span> <span class=cy>ROGq</span> <span class=no>(warn, .5phys, tele ctrl) rumor, untrap</span>
+<span class=wh>mtr holiness</span> <span class=bk>helm brllnce</span> <span class=ye>2000</span> <span class=L>L</span><span class=re>*</span> <span class=cy>PRIq</span> <span class=no>(fire res) prot, .5undead&amp;demon / +pwr</span>
+<span class=wh>mjollnir    </span> <span class=bk>war hammer  </span> <span class=ye>4000</span> <span class=N>N</span><span class=re> </span> <span class=cy>VALs</span> <span class=no>+d5 TH +d24 dmg-shock, return when throw</span>
+<span class=wh>ogresmasher </span> <span class=bk>war hammer  </span> <span class=ye> 200</span>  <span class=re> </span> <span class=cy>    </span> <span class=no>+d5 TH x2 dmg O, 25 CON</span>
+<span class=wh>orb dtection</span> <span class=bk>crystal ball</span> <span class=ye>2500</span> <span class=L>L</span><span class=re>*</span> <span class=cy>ARCq</span> <span class=no>(MR, .5spl, telepathy) / invis</span>
+<span class=wh>orb of fate </span> <span class=bk>crystal ball</span> <span class=ye>3500</span> <span class=N>N</span><span class=re>*</span> <span class=cy>VALq</span> <span class=no>(.5phys, .5spl, warn, luck) / levelport</span>
+<span class=wh>orcrist     </span> <span class=bk>elvn brdswrd</span> <span class=ye>2000</span> <span class=C>C</span><span class=re> </span> <span class=cy>name</span> <span class=no>+d5 TH x2 dmg orc</span>
+<span class=wh>plt ynd ex c</span> <span class=bk>credit card </span> <span class=ye>7000</span> <span class=N>N</span><span class=re>*</span> <span class=cy>TOUq</span> <span class=no>(MR, .5spl, telepathy) / charge</span>
+<span class=wh>sceptr might</span> <span class=bk>mace        </span> <span class=ye>2500</span> <span class=L>L</span><span class=re>*</span> <span class=cy>CAVq</span> <span class=no>+d5 TH x2 dmg cross-align, MR / conflict</span>
+<span class=wh>snickersnee </span> <span class=bk>katana      </span> <span class=ye>1200</span> <span class=L>L</span><span class=re> </span> <span class=cy>SAMs</span> <span class=no>+d8 dmg</span>
+<span class=wh>stff aesclps</span> <span class=bk>quarterstaff</span> <span class=ye>5000</span> <span class=N>N</span><span class=re>*</span> <span class=cy>HEAq</span> <span class=no>x2dmg drain, rgn, -drn / +hp-sic-bli-sli</span>
+<span class=wh>sting       </span> <span class=bk>elven dagger</span> <span class=ye> 800</span> <span class=C>C</span><span class=re> </span> <span class=cy>name</span> <span class=no>+d5 TH x2 dmg orc, warn orc, cut webs</span>
+<span class=wh>stormbringer</span> <span class=bk>runesword   </span> <span class=ye>8000</span> <span class=C>C</span><span class=re>*</span> <span class=cy>CHAc</span> <span class=no>+d5 TH +d2 dmg drain, -drn, bloodthirsty</span>
+<span class=wh>sunsword    </span> <span class=bk>long sword  </span> <span class=ye>1500</span> <span class=L>L</span><span class=re> </span> <span class=cy>angl</span> <span class=no>+d5 TH x2 dmg undead, light, -lght blind</span>
+<span class=wh>trollsbane  </span> <span class=bk>morning star</span> <span class=ye> 200</span>  <span class=re> </span> <span class=cy>    </span> <span class=no>+d5 TH x2 dmg T, no T revival</span>
+<span class=wh>tsrg mramasa</span> <span class=bk>tsurugi     </span> <span class=ye>4500</span> <span class=L>L</span><span class=re>*</span> <span class=cy>SAMq</span> <span class=no>(luck) protection, +d8 dmg, 5% bisection</span>
+<span class=wh>vorpal blade</span> <span class=bk>long sword  </span> <span class=ye>4000</span> <span class=N>N</span><span class=re> </span> <span class=cy>NEUc</span> <span class=no>+d5 TH, +1 dmg, 5% behead (100% for J)</span>
+<span class=wh>werebane    </span> <span class=bk>silver saber</span> <span class=ye>1500</span>  <span class=re> </span> <span class=cy>    </span> <span class=no>+d5 TH x2 dmg werecreatures</span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>LVL DIR TIME SKILL</span>
+<span class=wh>blank paper </span> <span class=gy>plain       </span> + <span class=ye>  0</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 18</span> 3 <span class=no></span>
+<span class=bg>=== ATTACK ===</span>
+<span class=wh>force bolt  </span> <span class=gy>(random)    </span> + <span class=ye>100</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 35</span> 6 <span class=no>  1 bm     4</span>
+<span class=wh>drain life  </span> <span class=gy>(random)    </span> + <span class=ye>200</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 10</span> 1 <span class=no>  2 bm     4</span>
+<span class=wh>mgc missile </span> <span class=gy>(random)    </span> + <span class=ye>200</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 45</span> 8 <span class=no>  2 ray    4</span>
+<span class=wh>cone of cold</span> <span class=gy>(random)    </span> + <span class=ye>400</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 10</span> 1 <span class=no>  4 ray   23  S</span>
+<span class=wh>fireball    </span> <span class=gy>(random)    </span> + <span class=ye>400</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 20</span> 3 <span class=no>  4 ray   14  S</span>
+<span class=wh>fngr of dth </span> <span class=gy>(random)    </span> + <span class=ye>700</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 05</span> 0 <span class=no>  7 ray   82</span>
+<span class=bg>=== CLERICAL ===</span>
+<span class=wh>protection  </span> <span class=gy>(random)    </span> + <span class=ye>100</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 18</span> 3 <span class=no>  1        5  E</span>
+<span class=wh>create mon  </span> <span class=gy>(random)    </span> + <span class=ye>200</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 35</span> 6 <span class=no>  2        5</span>
+<span class=wh>remove curse</span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 25</span> 4 <span class=no>  3       12  S</span>
+<span class=wh>create fmlr </span> <span class=gy>(random)    </span> + <span class=ye>600</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 10</span> 1 <span class=no>  6       44</span>
+<span class=wh>turn undead </span> <span class=gy>(random)    </span> + <span class=ye>600</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 16</span> 2 <span class=no>  6 bm    50</span>
+<span class=bg>=== DIVINATION ===</span>
+<span class=wh>detect mon  </span> <span class=gy>(random)    </span> + <span class=ye>100</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 43</span> 7 <span class=no>  1        3  S</span>
+<span class=wh>light       </span> <span class=gy>(random)    </span> + <span class=ye>100</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 45</span> 8 <span class=no>  1        3</span>
+<span class=wh>detect food </span> <span class=gy>(random)    </span> + <span class=ye>200</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 30</span> 5 <span class=no>  2        5  S</span>
+<span class=wh>clairvoyance</span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 15</span> 2 <span class=no>  3        8</span>
+<span class=wh>dtct unseen </span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 20</span> 3 <span class=no>  3       10</span>
+<span class=wh>identify    </span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 20</span> 3 <span class=no>  3       14  S</span>
+<span class=wh>dtct trsure </span> <span class=gy>(random)    </span> + <span class=ye>400</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 20</span> 3 <span class=no>  4       17  S</span>
+<span class=wh>magic mappng</span> <span class=gy>(random)    </span> + <span class=ye>500</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 18</span> 3 <span class=no>  5       37</span>
+<span class=bg>=== ENCHANTMENT ===</span>
+<span class=wh>sleep       </span> <span class=gy>(random)    </span> + <span class=ye>100</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 50</span> 9 <span class=no>  1 ray    3</span>
+<span class=wh>confuse mon </span> <span class=gy>(random)    </span> + <span class=ye>200</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 30</span> 5 <span class=no>  2        4  S</span>
+<span class=wh>slow monster</span> <span class=gy>(random)    </span> + <span class=ye>200</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 30</span> 5 <span class=no>  2 bm     4</span>
+<span class=wh>cause fear  </span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 25</span> 4 <span class=no>  3        8</span>
+<span class=wh>charm mon   </span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 20</span> 3 <span class=no>  3        8</span>
+<span class=bg>=== ESCAPE ===</span>
+<span class=wh>jumping     </span> <span class=gy>(random)    </span> + <span class=ye>100</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 20</span> 3 <span class=no>  1        5  BSE</span>
+<span class=wh>haste self  </span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 33</span> 6 <span class=no>  3       10  S</span>
+<span class=wh>invisibility</span> <span class=gy>(random)    </span> + <span class=ye>400</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 25</span> 4 <span class=no>  4       17</span>
+<span class=wh>levitation  </span> <span class=gy>(random)    </span> + <span class=ye>400</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 20</span> 3 <span class=no>  4       14  S</span>
+<span class=wh>tele away   </span> <span class=gy>(random)    </span> + <span class=ye>600</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 15</span> 2 <span class=no>  6 bm    38</span>
+<span class=bg>=== HEALING ===</span>
+<span class=wh>healing     </span> <span class=gy>(random)    </span> + <span class=ye>100</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 40</span> 7 <span class=no>  1 bm     4</span>
+<span class=wh>cure blind  </span> <span class=gy>(random)    </span> + <span class=ye>200</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 25</span> 4 <span class=no>  2        4</span>
+<span class=wh>cure sick   </span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 32</span> 5 <span class=no>  3        8</span>
+<span class=wh>extra healng</span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 27</span> 4 <span class=no>  3 bm    12</span>
+<span class=wh>stn to flesh</span> <span class=gy>(random)    </span> + <span class=ye>300</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 15</span> 2 <span class=no>  3 bm     4</span>
+<span class=wh>restore ablt</span> <span class=gy>(random)    </span> + <span class=ye>400</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 25</span> 4 <span class=no>  4       17  S</span>
+<span class=bg>=== MATTER ===</span>
+<span class=wh>knock       </span> <span class=gy>(random)    </span> + <span class=ye>100</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 35</span> 6 <span class=no>  1 bm     3</span>
+<span class=wh>wizard lock </span> <span class=gy>(random)    </span> + <span class=ye>200</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 30</span> 5 <span class=no>  2 bm     5</span>
+<span class=wh>dig         </span> <span class=gy>(random)    </span> + <span class=ye>500</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 20</span> 3 <span class=no>  5 ray   32</span>
+<span class=wh>polymorph   </span> <span class=gy>(random)    </span> + <span class=ye>600</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 10</span> 1 <span class=no>  6 bm    50</span>
+<span class=wh>cancellation</span> <span class=gy>(random)    </span> + <span class=ye>700</span> <span class=or> 50</span> <span class=PAP>PAP</span> <span class=gy> 15</span> 2 <span class=no>  7 bm    66</span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>NUTR TIME VEGAN SPECIAL</span>
+<span class=bg>=== MEAT ===</span>
+<span class=wh>meatball    </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or>  1</span> <span class=FLE>FLE</span> <span class=gy>---</span>   <span class=no>   5    1</span>
+<span class=wh>meat ring   </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or>  1</span> <span class=FLE>FLE</span> <span class=gy>---</span>   <span class=no>   5    1</span>
+<span class=wh>meat stick  </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or>  1</span> <span class=FLE>FLE</span> <span class=gy>---</span>   <span class=no>   5    1</span>
+<span class=wh>egg         </span> <span class=gy>    ----    </span> % <span class=ye>  9</span> <span class=or>  1</span> <span class=FLE>FLE</span> <span class=gy> 85</span>   <span class=no>  80    1       +vomit (400)</span>
+<span class=wh>tripe ration</span> <span class=gy>    ----    </span> % <span class=ye> 15</span> <span class=or> 10</span> <span class=FLE>FLE</span> <span class=gy>140</span>   <span class=no> 200    2       +vomit!orc!cav</span>
+<span class=wh>huge chunk  </span> <span class=gy>    ----    </span> % <span class=ye>105</span> <span class=or>400</span> <span class=FLE>FLE</span> <span class=gy>---</span>   <span class=no>2000   20</span>
+<span class=bg>=== FRUITS/VEGETABLES ===</span>
+<span class=wh>kelp frond  </span> <span class=gy>    ----    </span> % <span class=ye>  6</span> <span class=or>  1</span> <span class=VEG>VEG</span> <span class=gy>---</span>   <span class=no>  30    1  yes</span>
+<span class=wh>eucalyptus  </span> <span class=gy>    ----    </span> % <span class=ye>  6</span> <span class=or>  1</span> <span class=VEG>VEG</span> <span class=gy>  3</span>   <span class=no>  30    1  yes  -sick-vomit</span>
+<span class=wh>garlic      </span> <span class=gy>    ----    </span> % <span class=ye>  7</span> <span class=or>  1</span> <span class=VEG>VEG</span> <span class=gy>  7</span>   <span class=no>  40    1  yes  undead flee</span>
+<span class=wh>wolfsbane   </span> <span class=gy>    ----    </span> % <span class=ye>  7</span> <span class=or>  1</span> <span class=VEG>VEG</span> <span class=gy>  7</span>   <span class=no>  40    1  yes  -lycanthropy</span>
+<span class=wh>apple       </span> <span class=gy>    ----    </span> % <span class=ye>  7</span> <span class=or>  2</span> <span class=VEG>VEG</span> <span class=gy> 15</span>   <span class=no>  50    1  yes  +sleep (cursed)</span>
+<span class=wh>carrot      </span> <span class=gy>    ----    </span> % <span class=ye>  7</span> <span class=or>  2</span> <span class=VEG>VEG</span> <span class=gy> 15</span>   <span class=no>  50    1  yes  -blindness</span>
+<span class=wh>pear        </span> <span class=gy>    ----    </span> % <span class=ye>  7</span> <span class=or>  2</span> <span class=VEG>VEG</span> <span class=gy> 10</span>   <span class=no>  50    1  yes</span>
+<span class=wh>banana      </span> <span class=gy>    ----    </span> % <span class=ye>  9</span> <span class=or>  2</span> <span class=VEG>VEG</span> <span class=gy> 10</span>   <span class=no>  80    1  yes</span>
+<span class=wh>orange      </span> <span class=gy>    ----    </span> % <span class=ye>  9</span> <span class=or>  2</span> <span class=VEG>VEG</span> <span class=gy> 10</span>   <span class=no>  80    1  yes</span>
+<span class=wh>melon       </span> <span class=gy>    ----    </span> % <span class=ye> 10</span> <span class=or>  5</span> <span class=VEG>VEG</span> <span class=gy> 10</span>   <span class=no> 100    1  yes</span>
+<span class=wh>slime mold  </span> <span class=gy>    ----    </span> % <span class=ye> 17</span> <span class=or>  5</span> <span class=VEG>VEG</span> <span class=gy> 75</span>   <span class=no> 250    1  yes</span>
+<span class=bg>=== PEOPLE FOOD ===</span>
+<span class=wh>frtne cookie</span> <span class=gy>    ----    </span> % <span class=ye>  7</span> <span class=or>  1</span> <span class=VEG>VEG</span> <span class=gy> 55</span>   <span class=no>  40    1</span>
+<span class=wh>candy bar   </span> <span class=gy>    ----    </span> % <span class=ye> 10</span> <span class=or>  2</span> <span class=VEG>VEG</span> <span class=gy> 13</span>   <span class=no> 100    1</span>
+<span class=wh>cream pie   </span> <span class=gy>    ----    </span> % <span class=ye> 10</span> <span class=or> 10</span> <span class=VEG>VEG</span> <span class=gy> 25</span>   <span class=no> 100    1       +blind (apply)</span>
+<span class=wh>royal jelly </span> <span class=gy>    ----    </span> % <span class=ye> 15</span> <span class=or>  2</span> <span class=VEG>VEG</span> <span class=gy>---</span>   <span class=no> 200    1       +str+hp+leg</span>
+<span class=wh>pancake     </span> <span class=gy>    ----    </span> % <span class=ye> 15</span> <span class=or>  2</span> <span class=VEG>VEG</span> <span class=gy> 25</span>   <span class=no> 200    2</span>
+<span class=wh>C-ration    </span> <span class=gy>    ----    </span> % <span class=ye> 20</span> <span class=or> 10</span> <span class=VEG>VEG</span> <span class=gy>---</span>   <span class=no> 300    1  yes</span>
+<span class=wh>K-ration    </span> <span class=gy>    ----    </span> % <span class=ye> 25</span> <span class=or> 10</span> <span class=VEG>VEG</span> <span class=gy>---</span>   <span class=no> 400    1  yes</span>
+<span class=wh>cram ration </span> <span class=gy>    ----    </span> % <span class=ye> 35</span> <span class=or> 15</span> <span class=VEG>VEG</span> <span class=gy> 20</span>   <span class=no> 600    3  yes</span>
+<span class=wh>food ration </span> <span class=gy>    ----    </span> % <span class=ye> 45</span> <span class=or> 20</span> <span class=VEG>VEG</span> <span class=gy>380</span>   <span class=no> 800    5  yes  gunyoki</span>
+<span class=wh>lembas wafer</span> <span class=gy>    ----    </span> % <span class=ye> 45</span> <span class=or>  5</span> <span class=VEG>VEG</span> <span class=gy> 20</span>   <span class=no> 800    2  yes</span>
+<span class=bg>=== TINS ===</span>
+<span class=wh>homemade tin</span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or> 10</span> <span class=MET>MET</span> <span class=gy>  ~</span>   <span class=no>  50    ~ b,j,F see [tin]</span>
+<span class=wh>spinach, B  </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or> 10</span> <span class=MET>MET</span> <span class=gy>  ~</span>   <span class=no> 600    ~  yes</span>
+<span class=wh>spinach, U  </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or> 10</span> <span class=MET>MET</span> <span class=gy>  ~</span>   <span class=no>>400    ~  yes</span>
+<span class=wh>spinach, C  </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or> 10</span> <span class=MET>MET</span> <span class=gy>  ~</span>   <span class=no>>200    ~  yes</span>
+<span class=wh>other tins  </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or> 10</span> <span class=MET>MET</span> <span class=gy>  ~</span>   <span class=no>   ~    ~ b,j,F</span>
+<span class=bg>=== CORPSES ===</span>
+<span class=wh>lichen      </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or> 20</span> <span class=VEG>VEG</span> <span class=gy>---</span>   <span class=no> 200    3  yes  -rot</span>
+<span class=wh>lizard      </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or> 10</span> <span class=FLE>FLE</span> <span class=gy>---</span>   <span class=no>  40    3       -stone</span>
+<span class=wh>other       </span> <span class=gy>    ----    </span> % <span class=ye>  5</span> <span class=or>  ~</span>  ~  <span class=gy>---</span>   <span class=no>   ~    ~ b,j,F</span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>HARD SPECIAL</span>
+<span class=wh>dilith cryst</span> <span class=gy>white gem   </span> * <span class=ye>4.5</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>27+</span>  <span class=no></span>
+<span class=wh>diamond     </span> <span class=gy>white gem   </span> * <span class=ye>4.0</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>24+</span>   <span class=no>yes</span>
+<span class=wh>ruby        </span> <span class=gy>red gem     </span> * <span class=ye>3.5</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>21+</span>   <span class=no>yes</span>
+<span class=wh>jacinth stne</span> <span class=gy>orange gem  </span> * <span class=ye>3.2</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>18+</span>   <span class=no>yes</span>
+<span class=wh>sapphire    </span> <span class=gy>blue gem    </span> * <span class=ye>3.0</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>15+</span>   <span class=no>yes</span>
+<span class=wh>black opal  </span> <span class=gy>black gem   </span> * <span class=ye>2.5</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>12+</span>   <span class=no>yes</span>
+<span class=wh>emerald     </span> <span class=gy>green gem   </span> * <span class=ye>2.5</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy> 9+</span>   <span class=no>yes</span>
+<span class=wh>turquoise st</span> <span class=gy>green/blue  </span> * <span class=ye>2.0</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy> 6+</span>  <span class=no></span>
+<span class=wh>citrine stne</span> <span class=gy>yellow gem  </span> * <span class=ye>1.5</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy> 3+</span>  <span class=no></span>
+<span class=wh>aquamarine s</span> <span class=gy>green/blue  </span> * <span class=ye>1.5</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>   </span>   <span class=no>yes</span>
+<span class=wh>amber stone </span> <span class=gy>yllwish brwn</span> * <span class=ye>1.0</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>topaz stone </span> <span class=gy>yllwish brwn</span> * <span class=ye>900</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>   </span>   <span class=no>yes</span>
+<span class=wh>jet stone   </span> <span class=gy>black gem   </span> * <span class=ye>850</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>opal        </span> <span class=gy>white gem   </span> * <span class=ye>800</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>chrysobryl s</span> <span class=gy>yellow gem  </span> * <span class=ye>700</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>garnet stone</span> <span class=gy>red gem     </span> * <span class=ye>700</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>amethyst stn</span> <span class=gy>violet gem  </span> * <span class=ye>600</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy>   </span>   <span class=no>     booze => fruit juice</span>
+<span class=wh>jasper stone</span> <span class=gy>red gem     </span> * <span class=ye>500</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>fluorite stn</span> <span class=gy>gr/blu/wh/vi</span> * <span class=ye>400</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>jade stone  </span> <span class=gy>green gem   </span> * <span class=ye>300</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>obsidian stn</span> <span class=gy>black gem   </span> * <span class=ye>200</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>agate stone </span> <span class=gy>orange gem  </span> * <span class=ye>200</span> <span class=or>  1</span> <span class=GEM>GEM</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>white gem   </span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>blue gem    </span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>red gem     </span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>yllwish brwn</span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>orange gem  </span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>yellow gem  </span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>black gem   </span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>green gem   </span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>wrthless gla</span> <span class=gy>violet gem  </span> * <span class=ye>  0</span> <span class=or>  1</span> <span class=GLA>GLA</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>luckstone   </span> <span class=gy>gray stone  </span> * <span class=ye> 60</span> <span class=or> 10</span> <span class=MIN>MIN</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>loadstone   </span> <span class=gy>gray stone  </span> * <span class=ye>  1</span> <span class=or>500</span> <span class=MIN>MIN</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>touchstone  </span> <span class=gy>gray stone  </span> * <span class=ye> 45</span> <span class=or> 10</span> <span class=MIN>MIN</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>flint stone </span> <span class=gy>gray stone  </span> * <span class=ye>  1</span> <span class=or> 10</span> <span class=MIN>MIN</span> <span class=gy></span>  <span class=no></span>
+<span class=wh>rock        </span> <span class=gy>rock        </span> * <span class=ye>  0</span> <span class=or> 10</span> <span class=MIN>MIN</span> <span class=gy></span>  <span class=no></span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>SPECIAL</span>
+<span class=wh>water       </span> <span class=gy>clear       </span> ! <span class=ye>  0</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 69</span>  <span class=no></span>
+<span class=wh>booze       </span> <span class=gy>ruby        </span> ! <span class=ye> 50</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>sake, +conf 3d8, nutr 30/20/10</span>
+<span class=wh>fruit juice </span> <span class=gy>dark green  </span> ! <span class=ye> 50</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>nutr 30/20/10</span>
+<span class=wh>see invis   </span> <span class=gy>purple-red  </span> ! <span class=ye> 50</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>-blind!C, 750-849, perm B</span>
+<span class=wh>sickness    </span> <span class=gy>smoky       </span> ! <span class=ye> 50</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>uni fruit juice, weap poison</span>
+<span class=wh>confusion   </span> <span class=gy>brown       </span> ! <span class=ye>100</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>8-16/16-24/24-30, uni water</span>
+<span class=wh>extra healng</span> <span class=gy>pink        </span> ! <span class=ye>100</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 47</span>   <span class=no>8/6/4d8, +5/2/0, -hal-bli, -sic!C</span>
+<span class=wh>hallucnation</span> <span class=gy>cyan        </span> ! <span class=ye>100</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 40</span>   <span class=no>300-499/600-799/900-1099, uni wat</span>
+<span class=wh>healing     </span> <span class=gy>puce        </span> ! <span class=ye>100</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 57</span>   <span class=no>8/6/4d4, +1/1/0, -bli!C, -sic B</span>
+<span class=wh>holy water  </span> <span class=gy>clear       </span> ! <span class=ye>100</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 11</span> 5 <span class=no>-lycanthropy, -sic!cha</span>
+<span class=wh>unholy water</span> <span class=gy>clear       </span> ! <span class=ye>100</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 11</span> 5 <span class=no>-2d6 law, +2d6 cha</span>
+<span class=wh>restore ablt</span> <span class=gy>cloudy      </span> ! <span class=ye>100</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 40</span>   <span class=no>all/1/0</span>
+<span class=wh>sleeping    </span> <span class=gy>fizzy       </span> ! <span class=ye>100</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>13-23/25-35/37-47</span>
+<span class=wh>blindness   </span> <span class=gy>orange      </span> ! <span class=ye>150</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 40</span>   <span class=no>125-324/250-449/375-574, uni watr</span>
+<span class=wh>gain energy </span> <span class=gy>sky blue    </span> ! <span class=ye>150</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>+3/2/-1d6</span>
+<span class=wh>invisibility</span> <span class=gy>milky       </span> ! <span class=ye>150</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 40</span>   <span class=no>31-45, perm B, wake monsters C</span>
+<span class=wh>mon detction</span> <span class=gy>effervescent</span> ! <span class=ye>150</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 40</span>   <span class=no>21-60 B, wake monsters C</span>
+<span class=wh>obj detction</span> <span class=gy>dark        </span> ! <span class=ye>150</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>inv B</span>
+<span class=wh>enlightenmnt</span> <span class=gy>yellow      </span> ! <span class=ye>200</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 20</span>   <span class=no>+int+wis B, nothing C</span>
+<span class=wh>full healing</span> <span class=gy>brillnt blue</span> ! <span class=ye>200</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 10</span>   <span class=no>400, +8/4/0, -hal-bli, -sic!C</span>
+<span class=wh>levitation  </span> <span class=gy>swirly      </span> ! <span class=ye>200</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>10-149, 250-299+land at will B</span>
+<span class=wh>polymorph   </span> <span class=gy>black       </span> ! <span class=ye>200</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 10</span>  <span class=no></span>
+<span class=wh>speed       </span> <span class=gy>white       </span> ! <span class=ye>200</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>160-169/100-109/40-49</span>
+<span class=wh>acid        </span> <span class=gy>emerald     </span> ! <span class=ye>250</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 10</span>   <span class=no>-stone, d4/d8/2d8</span>
+<span class=wh>oil         </span> <span class=gy>magenta     </span> ! <span class=ye>250</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 30</span>   <span class=no>lit -slime (throw up), weap -corr</span>
+<span class=wh>gain ability</span> <span class=gy>bubbly      </span> ! <span class=ye>300</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>all/1/0</span>
+<span class=wh>gain level  </span> <span class=gy>golden      </span> ! <span class=ye>300</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 20</span>   <span class=no>additional xp B, up dlvl C</span>
+<span class=wh>paralysis   </span> <span class=gy>murky       </span> ! <span class=ye>300</span> <span class=or> 20</span> <span class=GLA>GLA</span> <span class=gy> 42</span>   <span class=no>13-22/25-34/37-46</span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>CHARGE?</span>
+<span class=wh>meat ring   </span> <span class=gy>    ----    </span> = <span class=ye>  5</span> <span class=or>  1</span> <span class=FLE>FLE</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>adornment   </span> <span class=gy>iron        </span> = <span class=ye>100</span> <span class=or>  3</span> <span class=IRN>IRN</span> <span class=gy> 34</span>   <span class=no>  yes</span>
+<span class=wh>hunger      </span> <span class=gy>twisted     </span> = <span class=ye>100</span> <span class=or>  3</span> <span class=IRN>IRN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>protection  </span> <span class=gy>steel       </span> = <span class=ye>100</span> <span class=or>  3</span> <span class=IRN>IRN</span> <span class=gy> 34</span>   <span class=no>  yes</span>
+<span class=wh>prot shp chg</span> <span class=gy>wire        </span> = <span class=ye>100</span> <span class=or>  3</span> <span class=IRN>IRN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>stealth     </span> <span class=gy>engagement  </span> = <span class=ye>100</span> <span class=or>  3</span> <span class=IRN>IRN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>sustn abilty</span> <span class=gy>shiny       </span> = <span class=ye>100</span> <span class=or>  3</span> <span class=IRN>IRN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>warning     </span> <span class=gy>bronze      </span> = <span class=ye>100</span> <span class=or>  3</span> <span class=CPR>CPR</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>aggr monster</span> <span class=gy>brass       </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=CPR>CPR</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>cold res    </span> <span class=gy>copper      </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=CPR>CPR</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>gain con    </span> <span class=gy>silver      </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=SLV>SLV</span> <span class=gy> 34</span>   <span class=no>  yes</span>
+<span class=wh>gain str    </span> <span class=gy>gold        </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=GLD>GLD</span> <span class=gy> 34</span>   <span class=no>  yes</span>
+<span class=wh>increase acc</span> <span class=gy>wooden      </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=WOO>WOO</span> <span class=gy> 34</span>   <span class=no>  yes</span>
+<span class=wh>increase dmg</span> <span class=gy>granite     </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=MIN>MIN</span> <span class=gy> 34</span>   <span class=no>  yes</span>
+<span class=wh>invisibility</span> <span class=gy>clay        </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=MIN>MIN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>poison res  </span> <span class=gy>coral       </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=MIN>MIN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>see invisble</span> <span class=gy>moonstone   </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=MIN>MIN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>shock res   </span> <span class=gy>opal        </span> = <span class=ye>150</span> <span class=or>  3</span> <span class=MIN>MIN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>fire res    </span> <span class=gy>black onyx  </span> = <span class=ye>200</span> <span class=or>  3</span> <span class=MIN>MIN</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>free action </span> <span class=gy>jade        </span> = <span class=ye>200</span> <span class=or>  3</span> <span class=GEM>GEM</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>levitation  </span> <span class=gy>agate       </span> = <span class=ye>200</span> <span class=or>  3</span> <span class=GEM>GEM</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>regeneration</span> <span class=gy>topaz       </span> = <span class=ye>200</span> <span class=or>  3</span> <span class=GEM>GEM</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>searching   </span> <span class=gy>sapphire    </span> = <span class=ye>200</span> <span class=or>  3</span> <span class=GEM>GEM</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>slow digest </span> <span class=gy>ruby        </span> = <span class=ye>200</span> <span class=or>  3</span> <span class=GEM>GEM</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>teleport    </span> <span class=gy>diamond     </span> = <span class=ye>200</span> <span class=or>  3</span> <span class=GEM>GEM</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>conflict    </span> <span class=gy>emerald     </span> = <span class=ye>300</span> <span class=or>  3</span> <span class=GEM>GEM</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>polymorph   </span> <span class=gy>tiger eye   </span> = <span class=ye>300</span> <span class=or>  3</span> <span class=GEM>GEM</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>poly ctrl   </span> <span class=gy>pearl       </span> = <span class=ye>300</span> <span class=or>  3</span> <span class=BON>BON</span> <span class=gy> 34</span>  <span class=no></span>
+<span class=wh>tele ctrl   </span> <span class=gy>ivory       </span> = <span class=ye>300</span> <span class=or>  3</span> <span class=BON>BON</span> <span class=gy> 34</span>  <span class=no></span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>INK SPECIAL</span>
+<span class=wh>mail        </span> <span class=gy>stamped     </span> ? <span class=ye>  0</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy>---</span>   <span class=no>  2</span>
+<span class=wh>identify    </span> <span class=gy>(random)    </span> ? <span class=ye> 20</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy>180</span>   <span class=no> 14 1/5 1234all B, 21/25 1 U, 1 C</span>
+<span class=wh>light       </span> <span class=gy>(random)    </span> ? <span class=ye> 50</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 90</span>   <span class=no>  8 9/5/-5</span>
+<span class=wh>blank paper </span> <span class=gy>unlabeled   </span> ? <span class=ye> 60</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 28</span>   <span class=no> --</span>
+<span class=wh>enchant weap</span> <span class=gy>(random)    </span> ? <span class=ye> 60</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 80</span>   <span class=no> 16 1-(3-e/3)/1/-1, proof!C conf</span>
+<span class=wh>enchant armr</span> <span class=gy>(random)    </span> ? <span class=ye> 80</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 63</span>   <span class=no> 16 1-(3-e/3)/1/-1, proof!C conf</span>
+<span class=wh>remove curse</span> <span class=gy>(random)    </span> ? <span class=ye> 80</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 65</span>   <span class=no> 16 all/equipped/nothing</span>
+<span class=wh>confuse mon </span> <span class=gy>(random)    </span> ? <span class=ye>100</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 53</span>   <span class=no> 12 2-8/1/conf self, -conf B</span>
+<span class=wh>destroy armr</span> <span class=gy>(random)    </span> ? <span class=ye>100</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 45</span>   <span class=no> 10 cursed -1 C, proof C conf</span>
+<span class=wh>fire        </span> <span class=gy>(random)    </span> ? <span class=ye>100</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 30</span>   <span class=no>  8 15-25/2-3/1-2, choose centr B</span>
+<span class=wh>food dtction</span> <span class=gy>(random)    </span> ? <span class=ye>100</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 25</span>   <span class=no>  8 food appraisal B, potions B</span>
+<span class=wh>gold dtction</span> <span class=gy>(random)    </span> ? <span class=ye>100</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 33</span>   <span class=no>  8 traps conf</span>
+<span class=wh>magic mappng</span> <span class=gy>(random)    </span> ? <span class=ye>100</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 45</span>   <span class=no>  8 secret doors B, 1/7 C/conf</span>
+<span class=wh>scare monstr</span> <span class=gy>(random)    </span> ? <span class=ye>100</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 35</span>   <span class=no> 20 disint C, U>1</span>
+<span class=wh>teleport    </span> <span class=gy>(random)    </span> ? <span class=ye>100</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 55</span>   <span class=no> 20 controlled B, levelport C</span>
+<span class=wh>amnesia     </span> <span class=gy>(random)    </span> ? <span class=ye>200</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 35</span>   <span class=no>  8</span>
+<span class=wh>create mon  </span> <span class=gy>(random)    </span> ? <span class=ye>200</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 45</span>   <span class=no> 10 1B, 1/73 2-5U, 13+C, acid con</span>
+<span class=wh>earth       </span> <span class=gy>(random)    </span> ? <span class=ye>200</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 18</span>   <span class=no>  8 !head/all/head (d20, 2 helm)</span>
+<span class=wh>taming      </span> <span class=gy>(random)    </span> ? <span class=ye>200</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 15</span>   <span class=no> 20 anger C, &lt;=5 sq conf</span>
+<span class=wh>charging    </span> <span class=gy>(random)    </span> ? <span class=ye>300</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 15</span>   <span class=no> 16 max or +5-20 energy conf</span>
+<span class=wh>genocide    </span> <span class=gy>(random)    </span> ? <span class=ye>300</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 15</span>   <span class=no> 30 class/species/reverse</span>
+<span class=wh>punishment  </span> <span class=gy>(random)    </span> ? <span class=ye>300</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 15</span>   <span class=no> 10 nothing B/conf</span>
+<span class=wh>stnkng cloud</span> <span class=gy>(random)    </span> ? <span class=ye>300</span> <span class=or>  5</span> <span class=PAP>PAP</span> <span class=gy> 15</span>   <span class=no> 20 8-10/6-8/4-6, range &lt;5.6</span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>SPECIAL</span>
+<span class=bg>=== CHARACTER ACCESSORIES ===</span>
+<span class=wh>blindfold   </span> <span class=gy>    ----    </span> ( <span class=ye> 20</span> <span class=or>  2</span> <span class=CLO>CLO</span> <span class=gy> 50</span>  <span class=no></span>
+<span class=wh>lenses      </span> <span class=gy>    ----    </span> ( <span class=ye> 80</span> <span class=or>  3</span> <span class=GLA>GLA</span> <span class=gy>  5</span>   <span class=no>-raven, -venom, +search, +book</span>
+<span class=wh>towel       </span> <span class=gy>    ----    </span> ( <span class=ye> 50</span> <span class=or>  2</span> <span class=CLO>CLO</span> <span class=gy> 50</span>   <span class=no>-slippery, -pie/venom, -engrave</span>
+<span class=bg>=== PET ACCESSORIES ===</span>
+<span class=wh>leash       </span> <span class=gy>    ----    </span> ( <span class=ye> 20</span> <span class=or> 12</span> <span class=LTH>LTH</span> <span class=gy> 65</span>   <span class=no>max 2</span>
+<span class=wh>saddle      </span> <span class=gy>    ----    </span> ( <span class=ye>150</span> <span class=or>200</span> <span class=LTH>LTH</span> <span class=gy>  5</span>  <span class=no></span>
+<span class=bg>=== CONTAINERS ===</span>
+<span class=wh>bg of holdng</span> <span class=gy>bag         </span> ( <span class=ye>100</span> <span class=or> 15</span> <span class=CLO>CLO</span> <span class=gy> 20</span>   <span class=no>0.25/0.5/2</span>
+<span class=wh>chest       </span> <span class=gy>    ----    </span> ( <span class=ye> 16</span> <span class=or>600</span> <span class=WOO>WOO</span> <span class=gy> 35</span>  <span class=no></span>
+<span class=wh>ice box     </span> <span class=gy>    ----    </span> ( <span class=ye> 42</span> <span class=or>900</span> <span class=PLS>PLS</span> <span class=gy>  5</span>  <span class=no></span>
+<span class=wh>large box   </span> <span class=gy>    ----    </span> ( <span class=ye>  8</span> <span class=or>350</span> <span class=WOO>WOO</span> <span class=gy> 40</span>  <span class=no></span>
+<span class=wh>oilskin sack</span> <span class=gy>bag         </span> ( <span class=ye>100</span> <span class=or> 15</span> <span class=CLO>CLO</span> <span class=gy>  5</span>  <span class=no></span>
+<span class=wh>sack        </span> <span class=gy>bag         </span> ( <span class=ye>  2</span> <span class=or> 15</span> <span class=CLO>CLO</span> <span class=gy> 35</span>  <span class=no></span>
+<span class=bg>=== TONAL INSTRUMENTS ===</span>
+<span class=wh>bugle       </span> <span class=gy>    ----    </span> ( <span class=ye> 15</span> <span class=or> 10</span> <span class=CPR>CPR</span> <span class=gy>  4</span>   <span class=no>wake soldier/watchman, wake/scare</span>
+<span class=wh>fire horn   </span> <span class=gy>horn        </span> ( <span class=ye> 50</span> <span class=or> 18</span> <span class=BON>BON</span> <span class=gy>  2</span>   <span class=no>cf wand of fire</span>
+<span class=wh>frost horn  </span> <span class=gy>horn        </span> ( <span class=ye> 50</span> <span class=or> 18</span> <span class=BON>BON</span> <span class=gy>  2</span>   <span class=no>cf wand of cold</span>
+<span class=wh>magic flute </span> <span class=gy>flute       </span> ( <span class=ye> 36</span> <span class=or>  5</span> <span class=WOO>WOO</span> <span class=gy>  2</span>   <span class=no>sleep</span>
+<span class=wh>magic harp  </span> <span class=gy>harp        </span> ( <span class=ye> 50</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy>  2</span>   <span class=no>tame</span>
+<span class=wh>tooled horn </span> <span class=gy>horn        </span> ( <span class=ye> 15</span> <span class=or> 18</span> <span class=BON>BON</span> <span class=gy>  5</span>   <span class=no>wake/scare</span>
+<span class=wh>wooden flute</span> <span class=gy>flute       </span> ( <span class=ye> 12</span> <span class=or>  5</span> <span class=WOO>WOO</span> <span class=gy>  4</span>  <span class=no></span>
+<span class=wh>wooden harp </span> <span class=gy>harp        </span> ( <span class=ye> 50</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy>  4</span>  <span class=no></span>
+<span class=bg>=== ATONAL INSTRUMENTS ===</span>
+<span class=wh>bell        </span> <span class=gy>    ----    </span> ( <span class=ye> 50</span> <span class=or> 30</span> <span class=CPR>CPR</span> <span class=gy>  2</span>   <span class=no>wake, call pet, nymph C</span>
+<span class=wh>bell of opng</span> <span class=gy>silver bell </span> ( <span class=ye> 5k</span> <span class=or> 10</span> <span class=SLV>SLV</span> <span class=gy>  0</span>   <span class=no>detect 8, -engulf, open B, inv1</span>
+<span class=wh>dr of erthqk</span> <span class=gy>drum        </span> ( <span class=ye> 25</span> <span class=or> 25</span> <span class=LTH>LTH</span> <span class=gy>  2</span>   <span class=no>pits, anger, wake all</span>
+<span class=wh>leather drum</span> <span class=gy>drum        </span> ( <span class=ye> 25</span> <span class=or> 25</span> <span class=LTH>LTH</span> <span class=gy>  4</span>   <span class=no>wake/scare, deaf 30-49</span>
+<span class=wh>mgc whistle </span> <span class=gy>whistle     </span> ( <span class=ye> 10</span> <span class=or>  3</span> <span class=MET>MET</span> <span class=gy> 30</span>  <span class=no></span>
+<span class=wh>tin whistle </span> <span class=gy>whistle     </span> ( <span class=ye> 10</span> <span class=or>  3</span> <span class=MET>MET</span> <span class=gy>100</span>  <span class=no></span>
+<span class=bg>=== LIGHT SOURCES ===</span>
+<span class=wh>brass lantrn</span> <span class=gy>    ----    </span> ( <span class=ye> 20</span> <span class=or> 30</span> <span class=CPR>CPR</span> <span class=gy> 30</span>   <span class=no>radius 3</span>
+<span class=wh>candelabrum </span> <span class=gy>    ----    </span> ( <span class=ye> 5k</span> <span class=or> 10</span> ABC <span class=gy>  0</span>   <span class=no>radius 4, inv2</span>
+<span class=wh>magic lamp  </span> <span class=gy>lamp        </span> ( <span class=ye> 50</span> <span class=or> 20</span> <span class=CPR>CPR</span> <span class=gy> 15</span>   <span class=no>radius 3, 80%/20%/5%</span>
+<span class=wh>oil lamp    </span> <span class=gy>lamp        </span> ( <span class=ye> 10</span> <span class=or> 20</span> <span class=CPR>CPR</span> <span class=gy> 45</span>   <span class=no>radius 3</span>
+<span class=wh>tallow cndle</span> <span class=gy>candle      </span> ( <span class=ye> 10</span> <span class=or>  2</span> <span class=WAX>WAX</span> <span class=gy> 20</span>   <span class=no>radius 2 (1-6), 3 (7-48), etc.</span>
+<span class=wh>wax candle  </span> <span class=gy>candle      </span> ( <span class=ye> 20</span> <span class=or>  2</span> <span class=WAX>WAX</span> <span class=gy>  5</span>   <span class=no>radius 2 (1-6), 3 (7-48), etc.</span>
+<span class=bg>=== TRAPS ===</span>
+<span class=wh>beartrap    </span> <span class=gy>    ----    </span> ( <span class=ye> 60</span> <span class=or>200</span> <span class=IRN>IRN</span> <span class=gy>  0</span>  <span class=no></span>
+<span class=wh>land mine   </span> <span class=gy>    ----    </span> ( <span class=ye>180</span> <span class=or>300</span> <span class=IRN>IRN</span> <span class=gy>  0</span>  <span class=no></span>
+<span class=bg>=== UNLOCKING TOOLS ===</span>
+<span class=wh>credit card </span> <span class=gy>    ----    </span> ( <span class=ye> 10</span> <span class=or>  1</span> <span class=IRN>IRN</span> <span class=gy> 15</span>   <span class=no>per turn: 2dex% door, dex%  box</span>
+<span class=wh>lock pick   </span> <span class=gy>    ----    </span> ( <span class=ye> 20</span> <span class=or>  4</span> <span class=IRN>IRN</span> <span class=gy> 60</span>   <span class=no>per turn: 3dex% door, 4dex% box</span>
+<span class=wh>skeleton key</span> <span class=gy>key         </span> ( <span class=ye> 10</span> <span class=or>  3</span> <span class=PLS>PLS</span> <span class=gy> 80</span>   <span class=no>per turn: 70+d% door, 75+d% box</span>
+<span class=bg>=== WEAPON-TOOLS ===</span>
+<span class=wh>grpplng hook</span> <span class=gy>iron hook   </span> ( <span class=ye> 50</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy> 20</span>   <span class=no>flail: ESUSE/SUUUS/UU@UU</span>
+<span class=wh>pick-axe    </span> <span class=gy>    ----    </span> ( <span class=ye> 50</span> <span class=or>100</span> <span class=IRN>IRN</span> <span class=gy>  5</span>  <span class=no></span>
+<span class=wh>unicorn horn</span> <span class=gy>    ----    </span> ( <span class=ye>100</span> <span class=or> 20</span> <span class=BON>BON</span> <span class=gy>  0</span>   <span class=no>fixes bli/dea/con/hal/stu/sic/vom</span>
+<span class=bg>=== MISCELLANEOUS ===</span>
+<span class=wh>bag of trcks</span> <span class=gy>bag         </span> ( <span class=ye>100</span> <span class=or> 15</span> <span class=CLO>CLO</span> <span class=gy> 20</span>   <span class=no>loot d10, apply mon (2-8 1/23)</span>
+<span class=wh>can of greas</span> <span class=gy>    ----    </span> ( <span class=ye> 20</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy> 15</span>   <span class=no>-corr-grab, 50% wear off</span>
+<span class=wh>crystal ball</span> <span class=gy>glass orb   </span> ( <span class=ye> 60</span> <span class=or>150</span> <span class=GLA>GLA</span> <span class=gy> 15</span>   <span class=no>int>d20 search; fail cond/d30</span>
+<span class=wh>expensv cmra</span> <span class=gy>    ----    </span> ( <span class=ye>200</span> <span class=or> 12</span> <span class=PLS>PLS</span> <span class=gy> 15</span>   <span class=no>blind/flee (75% within 2), wake</span>
+<span class=wh>figurine    </span> <span class=gy>    ----    </span> ( <span class=ye> 80</span> <span class=or> 50</span> <span class=MIN>MIN</span> <span class=gy> 25</span>   <span class=no>80% tame/peaceful/hostile</span>
+<span class=wh>hrn of plnty</span> <span class=gy>horn        </span> ( <span class=ye> 50</span> <span class=or> 18</span> <span class=BON>BON</span> <span class=gy>  2</span>   <span class=no>1/13 pot (boo sic fj acd oil wat)</span>
+<span class=wh>magic marker</span> <span class=gy>    ----    </span> ( <span class=ye> 50</span> <span class=or>  2</span> <span class=PLS>PLS</span> <span class=gy> 15</span>   <span class=no>book ink 10*lvl, ink/2 thru ink-1</span>
+<span class=wh>mirror      </span> <span class=gy>lookng glass</span> ( <span class=ye> 10</span> <span class=or> 13</span> <span class=GLA>GLA</span> <span class=gy> 45</span>   <span class=no>80% flee 2d4 (-humanoid-blind)</span>
+<span class=wh>stethoscope </span> <span class=gy>    ----    </span> ( <span class=ye> 75</span> <span class=or>  4</span> <span class=IRN>IRN</span> <span class=gy> 25</span>  <span class=no></span>
+<span class=wh>tin opener  </span> <span class=gy>    ----    </span> ( <span class=ye> 30</span> <span class=or>  4</span> <span class=IRN>IRN</span> <span class=gy> 35</span>  <span class=no></span>
+<span class=wh>tinning kit </span> <span class=gy>    ----    </span> ( <span class=ye> 30</span> <span class=or>100</span> <span class=IRN>IRN</span> <span class=gy> 15</span>   <span class=no>-taint-poi-acd</span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>DIR BREAK      SPECIAL</span>
+<span class=wh>light       </span> <span class=gy>glass       </span> / <span class=ye>100</span> <span class=or>  7</span> ~~~ <span class=gy> 95</span>   <span class=no>    1-4c/blind radius 5</span>
+<span class=wh>nothing     </span> <span class=gy>oak         </span> / <span class=ye>100</span> <span class=or>  7</span> ~~~ <span class=gy> 25</span>  <span class=no></span>
+<span class=wh>digging     </span> <span class=gy>copper      </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 55</span>   <span class=no>ray 1-4c/proc!</span>
+<span class=wh>enlightenmnt</span> <span class=gy>aluminum    </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 15</span>  <span class=no></span>
+<span class=wh>locking     </span> <span class=gy>short       </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 25</span>   <span class=no>bm</span>
+<span class=wh>magic missle</span> <span class=gy>spiked      </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 50</span>   <span class=no>ray 4c         2d6 (-mr-refl)</span>
+<span class=wh>make invis  </span> <span class=gy>balsa       </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 45</span>   <span class=no>bm  1-4c/proc? -engulf-punish</span>
+<span class=wh>opening     </span> <span class=gy>ebony       </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 25</span>   <span class=no>bm</span>
+<span class=wh>probing     </span> <span class=gy>silver      </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 30</span>   <span class=no>bm</span>
+<span class=wh>secret door </span> <span class=gy>uranium     </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 50</span>   <span class=no>    proc       radius 8</span>
+<span class=wh>slow monster</span> <span class=gy>runed       </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 50</span>   <span class=no>bm  1-4c/proc</span>
+<span class=wh>speed monst </span> <span class=gy>jeweled     </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 50</span>   <span class=no>bm  1-4c/proc</span>
+<span class=wh>striking    </span> <span class=gy>crystal     </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 75</span>   <span class=no>bm  1-c+1d6/pr 2d12 if d20&lt;10+AC</span>
+<span class=wh>undead trnng</span> <span class=gy>marble      </span> / <span class=ye>150</span> <span class=or>  7</span> ~~~ <span class=gy> 50</span>   <span class=no>bm  1-4c/proc  d8 undead, revive</span>
+<span class=wh>cold        </span> <span class=gy>platinum    </span> / <span class=ye>175</span> <span class=or>  7</span> ~~~ <span class=gy> 40</span>   <span class=no>ray 8c/proc    6d6 (+7 fire res)</span>
+<span class=wh>fire        </span> <span class=gy>iron        </span> / <span class=ye>175</span> <span class=or>  7</span> ~~~ <span class=gy> 40</span>   <span class=no>ray 8c/proc    6d6 (+7 cold res)</span>
+<span class=wh>lightning   </span> <span class=gy>long        </span> / <span class=ye>175</span> <span class=or>  7</span> ~~~ <span class=gy> 40</span>   <span class=no>ray 16c        6d6, blind</span>
+<span class=wh>sleep       </span> <span class=gy>maple       </span> / <span class=ye>175</span> <span class=or>  7</span> ~~~ <span class=gy> 50</span>   <span class=no>ray 1-4c/proc  (lvl/2+1)d25</span>
+<span class=wh>cancellation</span> <span class=gy>tin         </span> / <span class=ye>200</span> <span class=or>  7</span> ~~~ <span class=gy> 45</span>   <span class=no>bm  1-4c/proc</span>
+<span class=wh>create mon  </span> <span class=gy>iridium     </span> / <span class=ye>200</span> <span class=or>  7</span> ~~~ <span class=gy> 45</span>   <span class=no>    1-4c/proc! 2-8 1/23</span>
+<span class=wh>polymorph   </span> <span class=gy>steel       </span> / <span class=ye>200</span> <span class=or>  7</span> ~~~ <span class=gy> 45</span>   <span class=no>bm  1-4c/proc</span>
+<span class=wh>teleport    </span> <span class=gy>curved      </span> / <span class=ye>200</span> <span class=or>  7</span> ~~~ <span class=gy> 45</span>   <span class=no>bm  1-4c/proc</span>
+<span class=wh>death       </span> <span class=gy>pine        </span> / <span class=ye>500</span> <span class=or>  7</span> ~~~ <span class=gy>  5</span>   <span class=no>ray 16c</span>
+<span class=wh>wishing     </span> <span class=gy>brass       </span> / <span class=ye>500</span> <span class=or>  7</span> ~~~ <span class=gy>  5</span>  <span class=no></span>
+<span class=wh>            </span> <span class=gy>zinc        </span> / <span class=ye>   </span> <span class=or>   </span> ~~~ <span class=gy></span>  <span class=no></span>
+<span class=wh>            </span> <span class=gy>hexagonal   </span> / <span class=ye>   </span> <span class=or>   </span> ~~~ <span class=gy></span>  <span class=no></span>
+<span class=wh>            </span> <span class=gy>forked      </span> / <span class=ye>   </span> <span class=or>   </span> ~~~ <span class=gy></span>  <span class=no></span>
+
+<span class=wh>            </span> <span class=gy> APPEARANCE </span>   <span class=ye> $ </span> <span class=or>WGT</span> <span class=MAT>MAT</span> <span class=gy>PRB</span>   <span class=no>SMALL LARGE  TH SPECIAL</span>
+<span class=bg>=== DAGGERS ===</span>
+<span class=wh>orcish daggr</span> <span class=gy>crude dagger</span> ) <span class=ye>  4</span> <span class=or> 10</span> <span class=IRN>IRN</span> <span class=gy> 12</span>   <span class=no>d3    d3     +2</span>
+<span class=wh>dagger      </span> <span class=gy>    ----    </span> ) <span class=ye>  4</span> <span class=or> 10</span> <span class=IRN>IRN</span> <span class=gy> 30</span>   <span class=no>d4    d3     +2</span>
+<span class=wh>silver daggr</span> <span class=gy>    ----    </span> ) <span class=ye> 40</span> <span class=or> 12</span> <span class=SLV>SLV</span> <span class=gy>  3</span>   <span class=no>d4    d3     +2</span>
+<span class=wh>athame      </span> <span class=gy>    ----    </span> ) <span class=ye>  4</span> <span class=or> 10</span> <span class=IRN>IRN</span> <span class=gy>---</span>   <span class=no>d4    d3     +2 engrave 19/turn</span>
+<span class=wh>elven dagger</span> <span class=gy>runed dagger</span> ) <span class=ye>  4</span> <span class=or> 10</span> <span class=WOO>WOO</span> <span class=gy> 10</span>   <span class=no>d5    d3     +2 => sting</span>
+<span class=bg>=== KNIVES ===</span>
+<span class=wh>worm tooth  </span> <span class=gy>    ----    </span> ) <span class=ye>  2</span> <span class=or> 20</span> --- <span class=gy>---</span>   <span class=no>d2    d2</span>
+<span class=wh>knife       </span> <span class=gy>    ----    </span> ) <span class=ye>  4</span> <span class=or>  5</span> <span class=IRN>IRN</span> <span class=gy> 20</span>   <span class=no>d3    d2        shito</span>
+<span class=wh>stiletto    </span> <span class=gy>    ----    </span> ) <span class=ye>  4</span> <span class=or>  5</span> <span class=IRN>IRN</span> <span class=gy>  5</span>   <span class=no>d3    d2</span>
+<span class=wh>scalpel     </span> <span class=gy>    ----    </span> ) <span class=ye>  4</span> <span class=or>  5</span> <span class=MET>MET</span> <span class=gy>---</span>   <span class=no>d3    d3     +2</span>
+<span class=wh>crysknife   </span> <span class=gy>    ----    </span> ) <span class=ye>100</span> <span class=or> 20</span> <span class=MIN>MIN</span> <span class=gy>---</span>   <span class=no>d10   d10    +3 ench worm tooth</span>
+<span class=bg>=== AXES ===</span>
+<span class=wh>axe         </span> <span class=gy>    ----    </span> ) <span class=ye>  8</span> <span class=or> 60</span> <span class=IRN>IRN</span> <span class=gy> 40</span>   <span class=no>d6    d4</span>
+<span class=wh>battle-axe  </span> <span class=gy>dbl-head axe</span> ) <span class=ye> 40</span> <span class=or>120</span> <span class=IRN>IRN</span> <span class=gy> 10</span>   <span class=no>d8+d4 d6+2d4    two-handed</span>
+<span class=bg>=== PICK-AXES ===</span>
+<span class=wh>pick-axe    </span> <span class=gy>    ----    </span> ( <span class=ye> 50</span> <span class=or>100</span> <span class=IRN>IRN</span> <span class=gy>~~~</span>   <span class=no>d6    d3</span>
+<span class=wh>dwrv mattock</span> <span class=gy>broad pick  </span> ) <span class=ye> 50</span> <span class=or>120</span> <span class=IRN>IRN</span> <span class=gy> 13</span>   <span class=no>d12   d8+2d6 -1 two-handed</span>
+<span class=bg>=== SHORT SWORDS ===</span>
+<span class=wh>orcish ss   </span> <span class=gy>crude ss    </span> ) <span class=ye> 10</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy>  3</span>   <span class=no>d5    d8</span>
+<span class=wh>short sword </span> <span class=gy>    ----    </span> ) <span class=ye> 10</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy>  8</span>   <span class=no>d6    d8        wakizashi</span>
+<span class=wh>dwarvish ss </span> <span class=gy>broad ss    </span> ) <span class=ye> 10</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy>  2</span>   <span class=no>d7    d8</span>
+<span class=wh>elven ss    </span> <span class=gy>runed ss    </span> ) <span class=ye> 10</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy>  2</span>   <span class=no>d8    d8</span>
+<span class=bg>=== BROADSWORDS ===</span>
+<span class=wh>broadsword  </span> <span class=gy>    ----    </span> ) <span class=ye> 10</span> <span class=or> 70</span> <span class=IRN>IRN</span> <span class=gy>  8</span>   <span class=no>2d4   d6+1      ninja-to</span>
+<span class=wh>runesword   </span> <span class=gy>runed brdsd </span> ) <span class=ye>300</span> <span class=or> 40</span> <span class=IRN>IRN</span> <span class=gy>---</span>   <span class=no>2d4   d6+1</span>
+<span class=wh>elvn broadsd</span> <span class=gy>runed brdsd </span> ) <span class=ye> 10</span> <span class=or> 70</span> <span class=WOO>WOO</span> <span class=gy>  4</span>   <span class=no>d6+d4 d6+1</span>
+<span class=bg>=== LONG SWORDS ===</span>
+<span class=wh>long sword  </span> <span class=gy>    ----    </span> ) <span class=ye> 15</span> <span class=or> 40</span> <span class=IRN>IRN</span> <span class=gy> 50</span>   <span class=no>d8    d12       => excalibur</span>
+<span class=wh>katana      </span> <span class=gy>samurai sd  </span> ) <span class=ye> 80</span> <span class=or> 40</span> <span class=IRN>IRN</span> <span class=gy>  4</span>   <span class=no>d10   d12    +1</span>
+<span class=bg>=== TWO-HANDED SWORDS ===</span>
+<span class=wh>two-hnded sd</span> <span class=gy>    ----    </span> ) <span class=ye> 50</span> <span class=or>150</span> <span class=IRN>IRN</span> <span class=gy> 22</span>   <span class=no>d12   3d6</span>
+<span class=wh>tsurugi     </span> <span class=gy>long smri sd</span> ) <span class=ye>500</span> <span class=or> 60</span> <span class=MET>MET</span> <span class=gy>---</span>   <span class=no>d16   d8+2d6 +2</span>
+<span class=bg>=== CLUBS ===</span>
+<span class=wh>club        </span> <span class=gy>    ----    </span> ) <span class=ye>  3</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy> 12</span>   <span class=no>d6    d3</span>
+<span class=wh>aklys       </span> <span class=gy>thonged club</span> ) <span class=ye>  4</span> <span class=or> 15</span> <span class=IRN>IRN</span> <span class=gy>  8</span>   <span class=no>d6    d3</span>
+<span class=bg>=== FLAILS ===</span>
+<span class=wh>flail       </span> <span class=gy>    ----    </span> ) <span class=ye>  4</span> <span class=or> 15</span> <span class=IRN>IRN</span> <span class=gy> 40</span>   <span class=no>d6+1  2d4       nunchaku</span>
+<span class=wh>grpplng hook</span> <span class=gy>iron hook   </span> ( <span class=ye> 50</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy>~~~</span>   <span class=no>d2    d6</span>
+<span class=bg>=== POLEARMS ===</span>
+<span class=wh>partisan    </span> <span class=gy>vulgar plrm </span> ) <span class=ye> 10</span> <span class=or> 80</span> <span class=IRN>IRN</span> <span class=gy>  5</span>   <span class=no>d6    d6+1      two-handed (all)</span>
+<span class=wh>fauchard    </span> <span class=gy>pole sickle </span> ) <span class=ye>  5</span> <span class=or> 60</span> <span class=IRN>IRN</span> <span class=gy>  6</span>   <span class=no>d6    d8</span>
+<span class=wh>glaive      </span> <span class=gy>sngl-edg plm</span> ) <span class=ye>  6</span> <span class=or> 75</span> <span class=IRN>IRN</span> <span class=gy>  8</span>   <span class=no>d6    d10       naginata</span>
+<span class=wh>bec-de-corbn</span> <span class=gy>beaked plrm </span> ) <span class=ye>  8</span> <span class=or>100</span> <span class=IRN>IRN</span> <span class=gy>  4</span>   <span class=no>d8    d6</span>
+<span class=wh>spetum      </span> <span class=gy>forked plrm </span> ) <span class=ye>  5</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy>  5</span>   <span class=no>d6+1  2d6</span>
+<span class=wh>lucern hammr</span> <span class=gy>pronged plrm</span> ) <span class=ye>  7</span> <span class=or>150</span> <span class=IRN>IRN</span> <span class=gy>  5</span>   <span class=no>2d4   d6</span>
+<span class=wh>guisarme    </span> <span class=gy>pruning hook</span> ) <span class=ye>  5</span> <span class=or> 80</span> <span class=IRN>IRN</span> <span class=gy>  6</span>   <span class=no>2d4   d8</span>
+<span class=wh>ranseur     </span> <span class=gy>hilted plrm </span> ) <span class=ye>  6</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy>  5</span>   <span class=no>2d4   2d4</span>
+<span class=wh>voulge      </span> <span class=gy>pole cleaver</span> ) <span class=ye>  5</span> <span class=or>125</span> <span class=IRN>IRN</span> <span class=gy>  4</span>   <span class=no>2d4   2d4</span>
+<span class=wh>bill-guisarm</span> <span class=gy>hooked plrm </span> ) <span class=ye>  7</span> <span class=or>120</span> <span class=IRN>IRN</span> <span class=gy>  4</span>   <span class=no>2d4   d10</span>
+<span class=wh>bardiche    </span> <span class=gy>long poleaxe</span> ) <span class=ye>  7</span> <span class=or>120</span> <span class=IRN>IRN</span> <span class=gy>  4</span>   <span class=no>2d4   3d4</span>
+<span class=wh>halberd     </span> <span class=gy>angled plaxe</span> ) <span class=ye> 10</span> <span class=or>150</span> <span class=IRN>IRN</span> <span class=gy>  8</span>   <span class=no>d10   2d6</span>
+<span class=bg>=== SPEARS ===</span>
+<span class=wh>orcish spear</span> <span class=gy>crude spear </span> ) <span class=ye>  3</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy> 13</span>   <span class=no>d5    d8</span>
+<span class=wh>spear       </span> <span class=gy>    ----    </span> ) <span class=ye>  3</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy> 50</span>   <span class=no>d6    d8</span>
+<span class=wh>silver spear</span> <span class=gy>    ----    </span> ) <span class=ye> 40</span> <span class=or> 36</span> <span class=SLV>SLV</span> <span class=gy>  2</span>   <span class=no>d6    d8</span>
+<span class=wh>elven spear </span> <span class=gy>runed spear </span> ) <span class=ye>  3</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy> 10</span>   <span class=no>d7    d8</span>
+<span class=wh>dwrvsh spear</span> <span class=gy>stout spear </span> ) <span class=ye>  3</span> <span class=or> 35</span> <span class=IRN>IRN</span> <span class=gy> 12</span>   <span class=no>d8    d8</span>
+<span class=wh>javelin     </span> <span class=gy>throwing spr</span> ) <span class=ye>  3</span> <span class=or> 20</span> <span class=IRN>IRN</span> <span class=gy> 10</span>   <span class=no>d6    d6</span>
+<span class=bg>=== BOWS ===</span>
+<span class=wh>orcish bow  </span> <span class=gy>crude bow   </span> ) <span class=ye> 60</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy> 12</span>   <span class=no>d2    d2</span>
+<span class=wh>orcish arrow</span> <span class=gy>crude arrow </span> ) <span class=ye>  2</span> <span class=or>  1</span> <span class=IRN>IRN</span> <span class=gy> 20</span>   <span class=no>d5    d6</span>
+<span class=wh>bow         </span> <span class=gy>    ----    </span> ) <span class=ye> 60</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy> 24</span>   <span class=no>d2    d2</span>
+<span class=wh>arrow       </span> <span class=gy>    ----    </span> ) <span class=ye>  2</span> <span class=or>  1</span> <span class=IRN>IRN</span> <span class=gy> 55</span>   <span class=no>d6    d6</span>
+<span class=wh>elven bow   </span> <span class=gy>runed bow   </span> ) <span class=ye> 60</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy> 12</span>   <span class=no>d2    d2</span>
+<span class=wh>elven arrow </span> <span class=gy>runed arrow </span> ) <span class=ye>  2</span> <span class=or>  1</span> <span class=WOO>WOO</span> <span class=gy> 20</span>   <span class=no>d7    d6</span>
+<span class=wh>yumi        </span> <span class=gy>long bow    </span> ) <span class=ye> 60</span> <span class=or> 30</span> <span class=WOO>WOO</span> <span class=gy>---</span>   <span class=no>d2    d2</span>
+<span class=wh>ya          </span> <span class=gy>bamboo arrow</span> ) <span class=ye>  4</span> <span class=or>  1</span> <span class=MET>MET</span> <span class=gy> 15</span>   <span class=no>d7    d7     +1</span>
+<span class=wh>silver arrow</span> <span class=gy>    ----    </span> ) <span class=ye>  5</span> <span class=or>  1</span> <span class=SLV>SLV</span> <span class=gy> 12</span>   <span class=no>d6    d6</span>
+<span class=bg>=== SLINGS ===</span>
+<span class=wh>sling       </span> <span class=gy>    ----    </span> ) <span class=ye> 20</span> <span class=or>  3</span> <span class=LTH>LTH</span> <span class=gy> 40</span>   <span class=no>d2    d2</span>
+<span class=wh>flintstone  </span> <span class=gy>gray stone  </span> * <span class=ye>  1</span> <span class=or> 10</span> <span class=MIN>MIN</span> <span class=gy>~~~</span>   <span class=no>d6    d6</span>
+<span class=bg>=== CROSSBOWS ===</span>
+<span class=wh>crossbow    </span> <span class=gy>    ----    </span> ) <span class=ye> 40</span> <span class=or> 50</span> <span class=WOO>WOO</span> <span class=gy> 45</span>   <span class=no>d2    d2</span>
+<span class=wh>crossbw bolt</span> <span class=gy>    ----    </span> ) <span class=ye>  2</span> <span class=or>  1</span> <span class=IRN>IRN</span> <span class=gy> 55</span>   <span class=no>d4+1  d6+1</span>
+<span class=bg>=== WHIPS ===</span>
+<span class=wh>bullwhip    </span> <span class=gy>    ----    </span> ) <span class=ye>  4</span> <span class=or> 20</span> <span class=LTH>LTH</span> <span class=gy>  2</span>   <span class=no>d2    1         disarm, pickup</span>
+<span class=wh>rubber hose </span> <span class=gy>    ----    </span> ) <span class=ye>  3</span> <span class=or> 20</span> PLA <span class=gy>---</span>   <span class=no>d4    d3</span>
+<span class=bg>=== UNIQUE ===</span>
+<span class=wh>scimitar    </span> <span class=gy>curved sword</span> ) <span class=ye> 15</span> <span class=or> 40</span> <span class=IRN>IRN</span> <span class=gy> 15</span>   <span class=no>d8    d8</span>
+<span class=wh>silver saber</span> <span class=gy>    ----    </span> ) <span class=ye> 75</span> <span class=or> 40</span> <span class=SLV>SLV</span> <span class=gy>  6</span>   <span class=no>d8    d8</span>
+<span class=wh>mace        </span> <span class=gy>    ----    </span> ) <span class=ye>  5</span> <span class=or> 30</span> <span class=IRN>IRN</span> <span class=gy> 40</span>   <span class=no>d6+1  d6</span>
+<span class=wh>morning star</span> <span class=gy>    ----    </span> ) <span class=ye> 10</span> <span class=or>120</span> <span class=IRN>IRN</span> <span class=gy> 12</span>   <span class=no>2d4   d6+1</span>
+<span class=wh>war hammer  </span> <span class=gy>    ----    </span> ) <span class=ye>  5</span> <span class=or> 50</span> <span class=IRN>IRN</span> <span class=gy> 15</span>   <span class=no>d4+1  d4</span>
+<span class=wh>quarterstaff</span> <span class=gy>staff       </span> ) <span class=ye>  5</span> <span class=or> 40</span> <span class=WOO>WOO</span> <span class=gy> 11</span>   <span class=no>d6    d6        two-handed</span>
+<span class=wh>trident     </span> <span class=gy>    ----    </span> ) <span class=ye>  5</span> <span class=or> 25</span> <span class=IRN>IRN</span> <span class=gy>  8</span>   <span class=no>d6+1  3d4       TH +4 swim, +2 S;</span>
+<span class=wh>lance       </span> <span class=gy>    ----    </span> ) <span class=ye> 10</span> <span class=or>180</span> <span class=IRN>IRN</span> <span class=gy>  4</span>   <span class=no>d6    d8        joust 2d10+stun</span>
+<span class=wh>dart        </span> <span class=gy>    ----    </span> ) <span class=ye>  2</span> <span class=or>  1</span> <span class=IRN>IRN</span> <span class=gy> 60</span>   <span class=no>d3    d2</span>
+<span class=wh>shuriken    </span> <span class=gy>throwng star</span> ) <span class=ye>  5</span> <span class=or>  1</span> <span class=IRN>IRN</span> <span class=gy> 35</span>   <span class=no>d8    d6     +2</span>
+<span class=wh>boomerang   </span> <span class=gy>    ----    </span> ) <span class=ye> 20</span> <span class=or>  5</span> <span class=WOO>WOO</span> <span class=gy> 15</span>   <span class=no>d9    d9        ccw, catch dex/20</span>
+<span class=wh>unicorn horn</span> <span class=gy>    ----    </span> ( <span class=ye>100</span> <span class=or> 20</span> <span class=BON>BON</span> <span class=gy>~~~</span>   <span class=no>d12   d12    +1 two-handed</span>
+
+        </pre>
+    </body>
+</html>
