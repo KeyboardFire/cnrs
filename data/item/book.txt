@@ -1,49 +1,49 @@
               APPEARANCE     $  WGT MAT PRB   LVL DIR TIME SKILL
-blank paper  plain        +   0  50 PAP  18.3
+blank paper  plain        +   0  50 PAP  18.3                                   *!
 === ATTACK ===
-force bolt   (random)     + 100  50 PAP  35.6   1 bm     4
-drain life   (random)     + 200  50 PAP  10.1   2 bm     4
-mgc missile  (random)     + 200  50 PAP  45.8   2 ray    4
-cone of cold (random)     + 400  50 PAP  10.1   4 ray   23  S
-fireball     (random)     + 400  50 PAP  20.3   4 ray   14  S
-fngr of dth  (random)     + 700  50 PAP  05.0   7 ray   82
+force bolt   parchment    + 100  50 PAP  35.6   1 bm     4                      wh
+drain life   vellum       + 200  50 PAP  10.1   2 bm     4                      wh
+mgc missile  ragged       + 200  50 PAP  45.8   2 ray    4                      wh
+cone of cold dog eared    + 400  50 PAP  10.1   4 ray   23  S                   wh
+fireball     mottled      + 400  50 PAP  20.3   4 ray   14  S                   wh
+fngr of dth  stained      + 700  50 PAP   5.0   7 ray   82                      wh
 === CLERICAL ===
-protection   (random)     + 100  50 PAP  18.3   1        5  E
-create mon   (random)     + 200  50 PAP  35.6   2        5
-remove curse (random)     + 300  50 PAP  25.4   3       12  S
-create fmlr  (random)     + 600  50 PAP  10.1   6       44
-turn undead  (random)     + 600  50 PAP  16.2   6 bm    50
+protection   cloth        + 100  50 PAP  18.3   1        5  E                   br
+create mon   leather      + 200  50 PAP  35.6   2        5                      br
+remove curse white        + 300  50 PAP  25.4   3       12  S                   wh
+create fmlr  pink         + 600  50 PAP  10.1   6       44                      bm
+turn undead  red          + 600  50 PAP  16.2   6 bm    50                      re
 === DIVINATION ===
-detect mon   (random)     + 100  50 PAP  43.7   1        3  S
-light        (random)     + 100  50 PAP  45.8   1        3
-detect food  (random)     + 200  50 PAP  30.5   2        5  S
-clairvoyance (random)     + 300  50 PAP  15.2   3        8
-dtct unseen  (random)     + 300  50 PAP  20.3   3       10
-identify     (random)     + 300  50 PAP  20.3   3       14  S
-dtct trsure  (random)     + 400  50 PAP  20.3   4       17  S
-magic mappng (random)     + 500  50 PAP  18.3   5       37
+detect mon   orange       + 100  50 PAP  43.7   1        3  S                   or
+light        yellow       + 100  50 PAP  45.8   1        3                      ye
+detect food  velvet       + 200  50 PAP  30.5   2        5  S                   ma
+clairvoyance light green  + 300  50 PAP  15.2   3        8                      bg
+dtct unseen  dark green   + 300  50 PAP  20.3   3       10                      gr
+identify     turquoise    + 300  50 PAP  20.3   3       14  S                   bc
+dtct trsure  cyan         + 400  50 PAP  20.3   4       17  S                   cy
+magic mappng light blue   + 500  50 PAP  18.3   5       37                      bb
 === ENCHANTMENT ===
-sleep        (random)     + 100  50 PAP  50.9   1 ray    3
-confuse mon  (random)     + 200  50 PAP  30.5   2        4  S
-slow monster (random)     + 200  50 PAP  30.5   2 bm     4
-cause fear   (random)     + 300  50 PAP  25.4   3        8
-charm mon    (random)     + 300  50 PAP  20.3   3        8
+sleep        dark blue    + 100  50 PAP  50.9   1 ray    3                      bl
+confuse mon  indigo       + 200  50 PAP  30.5   2        4  S                   bl
+slow monster magenta      + 200  50 PAP  30.5   2 bm     4                      ma
+cause fear   purple       + 300  50 PAP  25.4   3        8                      ma
+charm mon    violet       + 300  50 PAP  20.3   3        8                      ma
 === ESCAPE ===
-jumping      (random)     + 100  50 PAP  20.3   1        5  BSE
-haste self   (random)     + 300  50 PAP  33.6   3       10  S
-invisibility (random)     + 400  50 PAP  25.4   4       17
-levitation   (random)     + 400  50 PAP  20.3   4       14  S
-tele away    (random)     + 600  50 PAP  15.2   6 bm    38
+jumping      tan          + 100  50 PAP  20.3   1        5  BSE                 br
+haste self   plaid        + 300  50 PAP  33.6   3       10  S                   gr
+invisibility light brown  + 400  50 PAP  25.4   4       17                      br
+levitation   dark brown   + 400  50 PAP  20.3   4       14  S                   br
+tele away    gray         + 600  50 PAP  15.2   6 bm    38                      gy
 === HEALING ===
-healing      (random)     + 100  50 PAP  40.7   1 bm     4
-cure blind   (random)     + 200  50 PAP  25.4   2        4
-cure sick    (random)     + 300  50 PAP  32.5   3        8
-extra healng (random)     + 300  50 PAP  27.4   3 bm    12
-stn to flesh (random)     + 300  50 PAP  15.2   3 bm     4
-restore ablt (random)     + 400  50 PAP  25.4   4       17  S
+healing      wrinkled     + 100  50 PAP  40.7   1 bm     4                      wh
+cure blind   dusty        + 200  50 PAP  25.4   2        4                      wh
+cure sick    bronze       + 300  50 PAP  32.5   3        8                      ye
+extra healng copper       + 300  50 PAP  27.4   3 bm    12                      ye
+stn to flesh silver       + 300  50 PAP  15.2   3 bm     4                      gy
+restore ablt gold         + 400  50 PAP  25.4   4       17  S                   ye
 === MATTER ===
-knock        (random)     + 100  50 PAP  35.6   1 bm     3
-wizard lock  (random)     + 200  50 PAP  30.5   2 bm     5
-dig          (random)     + 500  50 PAP  20.3   5 ray   32
-polymorph    (random)     + 600  50 PAP  10.1   6 bm    50
-cancellation (random)     + 700  50 PAP  15.2   7 bm    66
+knock        glittering   + 100  50 PAP  35.6   1 bm     3                      wh
+wizard lock  shining      + 200  50 PAP  30.5   2 bm     5                      wh
+dig          dull         + 500  50 PAP  20.3   5 ray   32                      wh
+polymorph    thin         + 600  50 PAP  10.1   6 bm    50                      wh
+cancellation thick        + 700  50 PAP  15.2   7 bm    66                      wh
