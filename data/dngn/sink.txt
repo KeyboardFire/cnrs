@@ -1,0 +1,47 @@
+=== KICKING ===
+80% Klunk! The pipes vibrate noisily.           no effect
+33% A black ooze gushes up from the drain!      black pudding created (once)
+33% The dishwasher returns!                     foocubus created (once)
+33% Flupp! Muddy waste pops up from the drain.  ring created (once)
+~   Ouch! That hurts!                           d5 (d3 CON>15), 33% leg (5-10)
+=== QUAFFING ===
+55% ~                                           no effect
+ 5% You take a sip of scalding hot water.       d6 dmg if not fire resistant
+ 5% Eek! There's <> in the sink!                sewer rat created
+ 5% Some <> liquid flows from the faucet.       random potion quaff effect
+ 5% You find a ring in the sink!                "dirty water" if already found
+ 5% The pipes break! Water spurts out!          becomes fountain
+ 5% The water moves as though of its own will!  water elemental created
+ 5% Yuk, this water tastes awful.               gain 1 xp
+ 5% Gaggg... this tastes like sewage!           increased hunger
+ 5% This water contain toxic wastes!            self-poly if not unchanging
+=== RING ID ===
+meat ring     Several flies buzz around the sink.
+adornment    *The faucets flash brightly for a moment.
+hunger       *Suddenly, <item> vanish(es) from the sink!
+protection   *The sink glows [silver/black] for a moment.
+prot shp chg *The sink looks nothing like a fountain.
+stealth      *The sink seems to blend into the floor for a moment.
+sustn abilty  The water flow seems fixed.
+warning      *The sink glows white for a moment.
+aggr monster  Several flies buzz angrily around the sink.
+cold res     *The cold water faucet flashes brightly for a moment.
+gain con      The water flow seems [greater/lesser] now.
+gain str      The water flow seems [stronger/weaker] now.
+increase acc  The water flow [hits/misses] the drain.
+increase dmg  The water's force seems [greater/lesser] now.
+invisibility *You don't see anything happen to the sink.
+poison res    You smell rotten <fruit>.
+see invisble *You see some air in the sink.
+shock res     Static electricity surrounds the sink.
+fire res     *The hot water faucet flashes brightly for a moment.
+free action  *You see the ring slide right down the drain!
+levitation    The sink quivers upward for a moment.
+regeneration *The sink looks as good as new.
+searching     You thought your <ring> got lost in the sink, but there it is!
+slow digest   The ring is regurgitated!
+teleport     *The sink vanishes.
+conflict      You hear loud noises coming from the drain.
+polymorph    *The sink transforms into a <fountain/throne/altar/grave>.
+poly ctrl    *The sink momentarily looks like a regularly erupting geyser.
+tele ctrl    *The sink looks like it is being beamed aboard somewhere.

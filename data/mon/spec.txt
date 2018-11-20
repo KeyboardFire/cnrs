@@ -16,44 +16,45 @@ tourist      @ 10 12  400             2*weap d6                                 
 valkyrie     @ 10 12  400 C           2*weap d8                                 wh
 wizard       @ 10 12  400             weap d6                                   wh
 === QUEST LEADERS ===
-Lord Crnrvon @ 20 12  400             weap d6                                   ma
-Pelias       @ 20 12  400 P           weap d6                                   ma
-Shamn Karnov @ 20 12  400             weap 2d4                                  ma
-Hippocrates  @ 20 12  400 P           weap d6                                   ma
-King Arthur  @ 20 12  400             2*weap d6                                 ma
-Grand Master @ 25 12  400 FELP        4d10,2d8,2*magc 2d8 clrc                  bk
-Arch Priest  @ 25 12  400 FELP        weap 4d10,2d8,2*magc 2d8 clrc             wh
-Orion        @ 20 12  700             weap d6                                   ma
-Mstr of Thvs @ 20 12  400 T           2*weap 2d6,2d4 samu                       ma
-Lord Sato    @ 20 12  400             weap d8,weap d6                           ma
-Twoflower    @ 20 12  400             2*weap d6                                 wh
-Norn         @ 20 12  550 C           weap d8,weap d6                           ma
-Nfrt the Grn @ 20 12  400             weap d6,2d8 spel                          gr
+Lord Crnrvon @ 20 12  400             weap d6                               Arc ma
+Pelias       @ 20 12  400 P           weap d6                               Bar ma
+Shamn Karnov @ 20 12  400             weap 2d4                              Cav ma
+Hippocrates  @ 20 12  400 P           weap d6                               Hea ma
+King Arthur  @ 20 12  400             2*weap d6                             Kni ma
+Grand Master @ 25 12  400 FELP        4d10,2d8,2*magc 2d8 clrc              Mon bk
+Arch Priest  @ 25 12  400 FELP        weap 4d10,2d8,2*magc 2d8 clrc         Pri wh
+Orion        @ 20 12  700             weap d6                               Ran ma
+Mstr of Thvs @ 20 12  400 T           2*weap 2d6,2d4 samu                   Rog ma
+Lord Sato    @ 20 12  400             weap d8,weap d6                       Sam ma
+Twoflower    @ 20 12  400             2*weap d6                             Tou wh
+Norn         @ 20 12  550 C           weap d8,weap d6                       Val ma
+Nfrt the Grn @ 20 12  400             weap d6,2d8 spel                      Wiz gr
 === QUEST NEMESES ===
-M of Huetotl & 16 12  400 FPT       p weap 8d4,weap 4d6,spel,2d6 samu           re
-Thoth Amon   @ 16 12  400 PT          weap d6,2*spel,d4 samu                    ma
-Chrmtc Dragn D 16 12 1700 *    *    p brea 6d6 rbre,spel,2d8 samu,2*4d8,d6      ma
-Cyclops      H 18 12  700 T           2*weap 4d8,2d6 samu                       gy
-Ixoth        D 15 12 1600 FT   F      brea 8d6 fire,4d8,spel,2d4,2d4 samu       re
-Master Kaen  @ 25 12  400 PT   P      2*16d2,magc clrc,d4 samu                  ma
-Nalzok       & 16 12  400 FPT       p weap 8d4,weap 4d6,spel,2d6 samu           re
-Scorpius     s 15 12  350 PT   P    p 2d6,2d6 samu,d4 dise                      ma
-Mstr Assassn @ 15 12  400 T           weap 2d6 drst,weap 2d8,2d6 samu           ma
-Ashkga Tkuji @ 15 12  400 T           2*weap 2d6,2d6 samu                       ma
-Lord Surtur  H 15 12  850 FT   F      2*weap 2d10,2d6 samu                      ma
-Dark One     @ 15 12  400 T           2*weap d6,d4 samu,spel                    bk
+M of Huetotl & 16 12  400 FPT       p weap 8d4,weap 4d6,spel,2d6 samu       Arc re
+Thoth Amon   @ 16 12  400 PT          weap d6,2*spel,d4 samu                Bar ma
+Chrmtc Dragn D 16 12 1700 *    *    p brea 6d6 rbre,spel,2d8 samu,2*4d8,d6  Cav ma
+Cyclops      H 18 12  700 T           2*weap 4d8,2d6 samu                   Hea gy
+Ixoth        D 15 12 1600 FT   F      brea 8d6 fire,4d8,spel,2d4,2d4 samu   Kni re
+Master Kaen  @ 25 12  400 PT   P      2*16d2,magc clrc,d4 samu              Mon ma
+Nalzok       & 16 12  400 FPT       p weap 8d4,weap 4d6,spel,2d6 samu       Pri re
+Scorpius     s 15 12  350 PT   P    p 2d6,2d6 samu,d4 dise                  Ran ma
+Mstr Assassn @ 15 12  400 T           weap 2d6 drst,weap 2d8,2d6 samu       Rog ma
+Ashkga Tkuji @ 15 12  400 T           2*weap 2d6,2d6 samu                   Sam ma
+Mstr of Thvs @ 20 12  400 T           2*weap 2d6,2d4 samu                   Tou ma
+Lord Surtur  H 15 12  850 FT   F      2*weap 2d10,2d6 samu                  Val ma
+Dark One     @ 15 12  400 T           2*weap d6,d4 samu,spel                Wiz bk
 === QUEST GUARDIANS ===
-student      @  5 12  400             weap d6                                   wh
-chieftain    @  5 12  400 P           weap d6                                   wh
-neanderthal  @  5 12  400             weap 2d4                                  wh
-attendant    @  5 12  400 P           weap d6                                   wh
-page         @  5 12  400             2*weap d6                                 wh
-abbot        @  5 12  400             8d2,3d2 stun,magc clrc                    wh
-acolyte      @  5 12  400             weap d6,magc clrc                         wh
-hunter       @  5 12  400             weap d4                                   wh
-thug         @  5 12  400             2*weap d6                                 wh
-ninja        @  5 12  400             2*weap d8                                 wh
-roshi        @  5 12  400             2*weap d8                                 wh
-guide        @  5 12  400             weap d6,spel                              wh
-warrior      @  5 12  400             2*weap d8                                 wh
-apprentice   @  5 12  400             weap d6,spel                              wh
+student      @  5 12  400             weap d6                               Arc wh
+chieftain    @  5 12  400 P           weap d6                               Bar wh
+neanderthal  @  5 12  400             weap 2d4                              Cav wh
+attendant    @  5 12  400 P           weap d6                               Hea wh
+page         @  5 12  400             2*weap d6                             Kni wh
+abbot        @  5 12  400             8d2,3d2 stun,magc clrc                Mon wh
+acolyte      @  5 12  400             weap d6,magc clrc                     Pri wh
+hunter       @  5 12  400             weap d4                               Ran wh
+thug         @  5 12  400             2*weap d6                             Rog wh
+ninja        @  5 12  400             2*weap d8                             Sam wh
+roshi        @  5 12  400             2*weap d8                             Sam wh
+guide        @  5 12  400             weap d6,spel                          Tou wh
+warrior      @  5 12  400             2*weap d8                             Val wh
+apprentice   @  5 12  400             weap d6,spel                          Wiz wh

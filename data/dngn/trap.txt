@@ -1,0 +1,39 @@
+anti-mgc fld ^ 2-(lvl+1) pw, -max if <0, d4 dmg if MR (+d4 .5dmg, MB, MR arti)  bb
+arrow trap   ^ d6 dmg, 1/15 disappear, untrap for 1-50 arrows                   cy
+bear trap    ^ easier to escape diagonally, untrap for beartrap (item)          cy
+dart trap    ^ d3 dmg, 1/6 poison, 1/15 disappear, untrap for 1-50 darts        cy
+fire trap    ^ 2d4 dmg 1-2d4 maxhp loss (0-1 dmg fire res), dig down => pit     re
+hole         ^ fill with boulder to remove                                      br
+magic trap   ^ various effects; see below                                       bb
+falling rock ^ 2d6 dmg (2 with hard hat), 1/15 disappear                        gy
+land mine    ^ wound legs and becomes pit, untrap for land mine (item)          re
+lvl teleprtr ^ max 3 levels down, removed iff player triggered                  ma
+pit          ^ d6 dmg, 3-7 turns to escape, fill with boulder to remove         bk
+polymrph trp ^ removed iff player triggered                                     bg
+magic portal ^                                                                  bm
+rllng bouldr ^ d20 dmg, removed iff no suitable boulder to roll                 gy
+rust trap    ^ dig down => pit                                                  bl
+sleeping gas ^ d25 turns of sleep, dig down => pit                              bb
+spiked pit   ^ d10 dmg, 1/6 poison, fill with boulder to remove                 bk
+squeaky bord ^ radius sqrt(20lvl), 6 for monster, untrap with oil/grease        br
+statue trap  ` can't be removed, most things set it off                         wh
+teleport     ^ ad aerarium => vault (removed if activated), dig down => pit     ma
+trap door    ^ Vlad is here, fill with boulder to remove                        br
+vibrating sq ~ 5sq from L/R, 4sq from U/D, not within 11 or in line with stairs ma
+web          " up to 12 turns (depending on str), 0 if >=18/50, burn with /oF   gy
+=== MAGIC TRAPS ===
+39% ~                                           no effect
+44% You are momentarily blinded by a flash...   d4 monsters, blind/deaf 10+d5
+ 5% A tower of flame erupts from the floor!     fire trap effect
+ 5% You feel charismatic!                       +1 cha, tame adjacent monsters
+ 5% You feel like someone is helping you.       uncursed remove curse effect
+ 3% You are caught in a magical explosion!      d10 dmg, +2 max pw, refill pw
+=== CONTAINER TRAPS ===
+no effect if d(13+luck) > 8; otherwise, if 0-(13-luck) (or 0-25 5%) is >= ...
+21 The <> explodes!                             destroyed, 6d6 dmg, wake monsts
+17 A cloud of noxious gas billows from the <>.  1/15 fatal, 1/3 3-5str, 6-15dmg
+13 You feel a needle prick your <>.             1/10 fatal, 1/2 3-5con, 6-15dmg
+ 9 A tower of flame bursts from the <>!         fire trap effect
+ 6 You are jolted by a surge of electricity!    4d4 dmg!shock, 1/3 zap ring/wnd
+ 3 Suddenly you are frozen in place!            5d6 paralysis
+ 0 A cloud of <> gas billows from the <>.       16-22 stun, 16-20 hallu

@@ -1,0 +1,31 @@
+=== SACRIFICING ===
+angry   anger -(1/8 or 1/12 if cha) value
+-align  alignment +min(value, abs(alignment), 24)
+nopray  timeout - (12.5 or 20.8 if cha) value
+else    gift if luck>=0, lvl>=3, check passes; else luck +1/5 value or set to 0
+=== GIFTS ===
+law     demonbane grayswandir snickersnee[sam] sunsword
+neu     cleaver[bar] giantslayer magicbane[wiz] mjollnir[val] vorpalblade
+cha     grimtooth orcrist sting stormbringer
+unalign dragonbane firebrand frostbrand ogresmasher trollsbane werebane
+=== DONATING ===
+<=0     -1 alignment
+<200lvl exercise wisdom if >50% visible gold
+<400lvl 500-999 clairvoyance, +1 alignment if <-3
+<600lvl 2-4 prot 1st time, 1 if <9, 1/prot chance if <20
+else    if >50% gold, co-aligned: alignment set to 0 or +2
+=== PRAYER ===
+a>14: favor (d(luck/2+3)); a<4: 1; else: d(luck+2+1[altar]+1[priest])
+1: 1maj; 2: *maj; 3: *maj or min; 4: *maj and *min; 5: *maj, *min, favor
+major   stone, slime, strngl, lava, sick, weak, lycanthropy, in wall, no hands,
+        C levi/blindfold/towel, overtaxed+(str-4), low hp (max cap lvl*15)
+        [lvl <6 = 1/5, <14 = 1/6, <22 = 1/7, <30 = 1/8, else 1/9]
+minor   punish, worn C, loadstn, attr loss, legs, hungry, bli/stun/conf/hallu
+1       no favor
+2       weapon C => U => B, repair erosion
+3       regain lvl or +5 maxhp, restore hp, str, nutrition
+4       reveal tune second time, ^ subsequent times
+5       uncurse all possessions (blessed remove curse effect)
+6       gain first available of [telepathy/speed/stealth/prot]
+7       tries for random unknown spellbook lvl times
+8+      crowned if a>=20, ^ otherwise

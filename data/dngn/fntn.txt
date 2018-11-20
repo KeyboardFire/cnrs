@@ -1,0 +1,28 @@
+=== QUAFFING ===
+30% The cool draught refreshes you.             (mgc) -hunger
+70% Wow! This makes you feel great!             (mgc) +attr (all luck>3), -mgc
+30% This tepid water is tasteless.              no effect
+30% The cool draught refreshes you.             -hunger
+ 3% You feel self-knowledgeable...              enlightenment
+ 3% The water is foul! You gag and vomit.       +hunger
+ 3% The water is contaminated!                  -d10hp-2-d4str (-d4hp pois res)
+ 3% An endless stream of snakes pour forth!     1+d5 water moccasins
+ 3% You unleash a water demon!                  80+dlvl% hostile (100% if "oY)
+ 3% You attract a water nymph!                  water nymph summoned
+ 3% This water's no good!                       20% curse each item, +hunger
+ 3% You see an image of someone stalking you.   see invis
+ 3% You sense the presence of monsters.         see monsters on level
+ 3% You spot a gem in the sparkling waters!     nymph if already found
+ 3% This water gives you bad breath!            scare monster for a while
+ 3% Water gushes forth from the overflowing...  pools created nearby
+=== DIPPING ===
+60% ~                                           no effect
+13% The water glows for a moment.               item uncursed if cursed
+ 3% (no message)                                item cursed
+ 3% An endless stream of snakes pour forth!     1+d5 water moccasins
+ 3% You unleash a water demon!                  80+dlvl% hostile (100% if "oY)
+ 3% You attract a water nymph!                  water nymph summoned
+ 3% Water gushes forth from the overflowing...  pools created nearby
+ 3% You spot a gem in the sparkling waters!     pools if already found
+ 3% An urge to take a bath overwhelms you.      lose gold, restore gems/gold
+ 3% Far below you, you see coins glistening...  2*d(height+1)+5$ or no effect

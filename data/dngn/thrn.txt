@@ -1,0 +1,22 @@
+=== SITTING ===
+You feel your luck is changing.                 wish if luck+d5>0; else +1 luck
+A voice echoes: "By thy Imperious order, <>..." uncursed genocide (species)
+You are granted an insight.                     blessed id (21/25 all)
+You feel much, much better!                     maxhp+4 if >max-6, bli/sic/leg
+vision clear/image in your mind/terrible drone  see invis/map level/conf d30
+You feel <>!                                    gain 1 point to random attr
+You feel <>!                                    lose 2+d4 from attr, d10 dmg
+A <> electric shock shoots through your body!   d30 dmg (d6 if shock res)
+You notice you have no gold!                    or "strange sensation" if none
+Thy audience hath been summoned, <>!            d10 throneroom monsters
+A curse upon thee for sitting upon this...      250-349 bli if luck>0 / curse
+You feel [threatened/a wrenching sensation].    tele if luck>=0 / wake all mons
+Your mind turns into a pretzel!                 conf 15+d7
+=== KICKING ===
+33% CRASH! You destroy the throne.              luck<0 or already looted
+33% You kick loose some ornamental coins...     201-500$, luck+1 gems (cap 6)
+25% The floor opens up under you!               trapdoor effect
+~   Ouch! That hurts!                           d5 (d3 CON>15), 33% leg (5-10)
+=== LOOTING ===
+$   The exchequer accepts your contribution.    throne mon, deposit $ in inv/ch
+10% (marked as looted)                          prevents further looting

@@ -1,0 +1,24 @@
+light         usual effect
+nothing       no effect
+digging       Gravel flies up from the floor!
+enlightenmnt  usual effect
+locking       no effect
+magic missle  The floor is riddled by bullet holes!
+make invis   *The engraving on the floor vanishes!                              *
+opening       no effect
+probing       no effect
+secret door   usual effect
+slow monster  The bugs on the floor slow down!
+speed monst   The bugs on the floor speed up!
+striking      The wand unsuccessfully fights your attempt to write!
+undead trnng  no effect
+cold          A few ice cubes drop from the wand.
+fire          This wand is a wand of fire!
+lightning     Lightning arcs from the wand. You are blinded by the flash!
+sleep         The bugs on the floor stop moving!                                *
+cancellation *The engraving on the floor vanishes!                              *
+create mon    usual effect
+polymorph    *The engraving now reads: <>
+teleport     *The engraving on the floor vanishes!                              *
+death         The bugs on the floor stop moving!                                *
+wishing       usual effect

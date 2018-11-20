@@ -1,0 +1,23 @@
+misc/calc.txt:
+ tin generation/eating/opening/tinning/etc.
+ spellbook prob
+ intrinsic corpse convey probabilities
+ other [base level] effects
+ wishing
+ wand range/charges
+ alchemy
+ recharging
+
+plyr/prop.txt:
+ intrinsics/extrinsics (e.g. curing sickness, getting conf)
+
+monster drain/magic resistance?
+
+probably won't include:
+ throwing potions, vapors
+ eating rings
+ wand wrest
+ what even is cancellation
+ polearm range
+ lance
+ coin/statue/boulder
