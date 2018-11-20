@@ -1,13 +1,3 @@
-misc/calc.txt:
- tin generation/eating/opening/tinning/etc.
- spellbook prob
- intrinsic corpse convey probabilities
- other [base level] effects
- wishing
- wand range/charges
- alchemy
- recharging
-
 plyr/prop.txt:
  intrinsics/extrinsics (e.g. curing sickness, getting conf)
 
@@ -26,3 +16,5 @@ probably won't include:
  polearm range
  lance
  coin/statue/boulder
+ other [base level] effects
+ to-hit (too complicated)

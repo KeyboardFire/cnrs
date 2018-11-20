@@ -1,0 +1,53 @@
+=== PRICE ID ===
+sell dupe !id arti !id*       !id is per-shk (25%), +10zm per ench on arm/weap
+1/2  1/3  3/4 1/4  3-9zm      dupe = Tou<15, shirt without arm/cloak, dunce cap
+buy  dupe !id arti <6 <8  <11 <16 <18 <19 else base0 hng wea fai
+     4/3  4/3 4    2  3/2 4/3 1   3/4 2/3 1/2  =>5zm 2   3   4
+=== FOOD ===
+oversatiated 2000+  pureed  500  d.fried 60  f.fried 40  all fried=>slip fingrs
+satiated     1000+  candied 100  dried   55  soup    20
+not hungry   150+   sauteed  95  hmmade  50  rotten  (vomit)
+hungry       50+    s.fried  80  boiled  50
+weak         0+     broiled  80  smoked  50  B 0-1, knife/dggr 3, (pick)axe 6
+fainting     <0     szechn   70  pickled 40  10+d(500/(str+dex)) otherwise
+starved      <-200-20con  (lvl+5)/20 bee/scorp, lvl/(10 tele 12 tctrl, else 15)
+=== CARRYING CAPACITY ===
+unencumbered <=cap    1SP +0TH        cap = 25*(str+con)+50, max 1000, -100/leg
+burdened     < 1.5cap 3/4 -1 fall down stairs, no jump spell
+stressed     < 2cap   1/2 -3 no stairs/move<10hp/kick/mount/regen; +hunger
+strained     < 2.5cap 1/4 -5 -1hp/30 move, 3 attack, no disarming traps
+overtaxed    < 3cap   1/8 -7 -1hp/10 move, no attack/tfZzrEae^T #loot
+overloaded   >=3cap   0   -9 can't move
+=== MAGIC ===
+range: 6-13 -3/mon -1/sq (bm), 7-13 -2/mon -1/bounce (ray), 1/20 bounce back
+wand charge generation: 1-3 (wishing), 4-8 (bm/ray), 11-15 (otherwise)
+book success rate: (int + 4 + xlvl/2 - 2*blvl) / 20  (+.1 if lens)
+B always succeeds, C always fails; failure effects: paralysis & d(blvl):
+1 tele          2 wake all      3 bli 250-349   4 lose all $
+5 conf 16-22    6 -hp,str!glove 7 7-25 dmg!MR   book gone if 7 or 33% chance
+=== ALCHEMY ===
+extra healng healing       + {gain level, gain energy, speed}
+full healing extra healing + {gain level, gain energy}
+gain ability full healing  + {gain level, gain energy}
+see invis    fruit juice   + {gain level, gain energy}
+booze/enligh confusion     + {gain level, gain energy} (60%, 30%)
+gain lvl/rnd enlightenment +  levitation               (60%, 30%)
+booze        fruit juice   + {enlightenment, speed}
+confusion    booze         +  enlightenment
+hallucnation booze         + {gain level, gain energy}
+sickness     fruit juice   +  sickness
+alch. blast  acid/cursed into anything, or 1/10 chance with any recipe
+(random)     1/2 evaporate, 1/4 sickness, 1/8 water, 1/8 random potion
+=== WISHING ===
+2   3   4   5     +2  +3  +4  +5    nth artifact
+4/6 3/6 2/6 1/6   4/5 3/5 2/5 1/5   2/n
+=== CHARGING ===
+wand 1    2    3    4   5   6    random x in natural range (see === MAGIC ===)
+boom 0.3% 2.3% 7.9% 19% 36% 63%  B: charges set to x, U: charges set to d(x)
+ring ench/7 change of explosion (always if >6 or <4), B +d3, U +1, C -d2
+tool BoO tin/cam/mm crys BoT/HoP/grease instruments lamps
+B    +d3 +15-30     =6   +6-15          +2d4        =1500
+U    +1  +10-20     +1   +1-5           +d4         +750
+cap  5   127        5(U) 50             20          1500
+special  rnd 75(B),50    +5-10 if>10                oil also works (#dip unlit)
+self if conf: set pwr to max, max+5d4 if already maxed
