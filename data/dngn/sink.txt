@@ -38,8 +38,8 @@ fire res     *The hot water faucet flashes brightly for a moment.
 free action  *You see the ring slide right down the drain!
 levitation    The sink quivers upward for a moment.
 regeneration *The sink looks as good as new.
-searching     You thought your <ring> got lost in the sink, but there it is!
-slow digest   The ring is regurgitated!
+searching     You thought your <ring> got lost in the sink, but there it is!    *
+slow digest   The ring is regurgitated!                                         *
 teleport     *The sink vanishes.
 conflict      You hear loud noises coming from the drain.
 polymorph    *The sink transforms into a <fountain/throne/altar/grave>.

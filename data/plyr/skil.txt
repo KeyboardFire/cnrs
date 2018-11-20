@@ -1,40 +1,40 @@
                 Arc  Bar  Cav  Hea  Kni  Mon  Pri  Rog  Ran  Sam  Tou  Val  Wiz
-dagger           B    B    B    S    B    -    -    E    E    B    E    E    E
-knife            B    -    S    E    B    -    -    E    S    S    S    -    S
-axe              -    E    S    -    S    -    -    -    S    -    B    E    S
-pick-axe         E    S    B    -    B    -    -    -    B    -    B    S    -
-short sword      B    E    -    S    S    -    -    E    B    E    E    S    B
-broadsword       -    S    -    -    S    -    -    S    -    S    B    S    -
-long sword       -    S    -    -    E    -    -    S    -    E    B    E    -
-2-handed sword   -    E    -    -    S    -    -    B    -    E    B    E    -
-scimitar         S    S    -    B    B    -    -    S    -    B    S    B    -
-saber            E    B    -    B    S    -    -    S    -    B    S    B    -
-club             S    S    E    S    B    -    E    S    -    -    -    -    S
-mace             -    S    E    B    S    -    E    S    -    -    B    -    B
-morning star     -    S    B    -    S    -    E    B    B    -    B    -    -
-flail            -    B    S    -    B    -    E    B    S    S    B    -    -
-hammer           -    E    S    -    B    -    E    B    B    -    B    E    -
-quarterstaff     S    B    E    E    -    B    E    -    B    B    B    B    E
-polearms         -    -    S    B    S    -    S    B    S    S    B    S    S
-spear            -    S    E    B    S    B    S    B    E    S    B    S    B
-trident          -    S    S    B    B    -    S    -    B    -    B    B    B
-lance            -    -    -    -    E    -    B    -    -    S    B    S    -
-bow              -    B    S    -    B    -    B    -    E    E    B    -    -
-sling            S    -    E    S    -    -    B    -    E    -    B    B    S
-crossbow         -    -    -    -    S    B    B    E    E    -    B    -    -
-dart             B    -    -    E    -    -    B    E    E    -    E    -    E
-shuriken         -    -    -    S    -    B    B    S    S    E    B    -    B
-boomerang        E    -    E    -    -    -    B    -    E    -    B    -    -
-whip             E    -    -    -    -    -    -    -    B    -    B    -    -
-unicorn horn     S    -    B    E    -    -    S    -    -    -    S    -    -
-bare hands       E    M    M    B    E    -    B    E    B    -    S    E    B
-2 weapon combat  B    B    -    -    S    -    -    E    -    E    S    S    -
-riding           B    B    -    -    E    -    -    B    B    S    B    S    B
-martial arts     -    -    -    -    -    GM   -    -    -    M    -    -    -
-attack           B    S    B    -    S    B    -    -    -    S    -    B    E
-healing          B    -    -    E    S    E    E    -    B    -    -    -    S
-divination       E    -    -    -    -    B    E    S    E    -    B    -    E
-enchantment      -    -    -    -    -    B    -    -    -    -    B    -    S
-clerical         -    -    -    -    S    S    E    -    -    S    -    -    S
-escape           -    -    -    -    -    S    -    S    B    -    S    B    E
-matter           B    -    S    -    -    B    -    S    -    -    -    -    E
+dagger           B    B    B    S    B              E    E    B    E    E    E
+knife            B         S    E    B              E    S    S    S         S
+axe                   E    S         S                   S         B    E    S
+pick axe         E    S    B         B                   B         B    S
+short sword      B    E         S    S              E    B    E    E    S    B
+broadsword            S              S              S         S    B    S
+long sword            S              E              S         E    B    E
+2 handed sword        E              S              B         E    B    E
+scimitar         S    S         B    B              S         B    S    B
+saber            E    B         B    S              S         B    S    B
+club             S    S    E    S    B         E    S                        S
+mace                  S    E    B    S         E    S              B         B
+morning star          S    B         S         E    B    B         B
+flail                 B    S         B         E    B    S    S    B
+hammer                E    S         B         E    B    B         B    E
+quarterstaff     S    B    E    E         B    E         B    B    B    B    E
+polearms                   S    B    S         S    B    S    S    B    S    S
+spear                 S    E    B    S    B    S    B    E    S    B    S    B
+trident               S    S    B    B         S         B         B    B    B
+lance                                E         B              S    B    S
+bow                   B    S         B         B         E    E    B
+sling            S         E    S              B         E         B    B    S
+crossbow                             S    B    B    E    E         B
+dart             B              E              B    E    E         E         E
+shuriken                        S         B    B    S    S    E    B         B
+boomerang        E         E                   B         E         B
+whip             E                                       B         B
+unicorn horn     S         B    E              S                   S
+bare hands       E    M    M    B    E         B    E    B         S    E    B
+2 weapon combat  B    B              S              E         E    S    S
+riding           B    B              E              B    B    S    B    S    B
+martial arts                              GM                  M
+attack           B    S    B         S    B                   S         B    E
+healing          B              E    S    E    E         B                   S
+divination       E                        B    E    S    E         B         E
+enchantment                               B                        B         S
+clerical                             S    S    E              S              S
+escape                                    S         S    B         S    B    E
+matter           B         S              B         S                        E

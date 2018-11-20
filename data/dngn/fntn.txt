@@ -1,6 +1,6 @@
 === QUAFFING ===
-30% The cool draught refreshes you.             (mgc) -hunger
-70% Wow! This makes you feel great!             (mgc) +attr (all luck>3), -mgc
+30% The cool draught refreshes you.             (mgc) -hunger                   *
+70% Wow! This makes you feel great!             (mgc) +attr (all luck>3), -mgc  *
 30% This tepid water is tasteless.              no effect
 30% The cool draught refreshes you.             -hunger
  3% You feel self-knowledgeable...              enlightenment
