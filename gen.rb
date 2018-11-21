@@ -43,7 +43,8 @@ def html str, clr, bold=false
     if classes.empty?
         str
     else
-        "<span class='#{classes * ' '}'>#{str}</span>"
+        "<b class='#{classes * ' '}'>#{str}</b>"
+            .gsub(?', classes.size == 1 ? '' : ?')
     end
 end
 
@@ -57,7 +58,8 @@ File.open('cnrs.html', ?w) do |f|
             body { background-color: #000; color: #ddd; font: 10px monospace; }
 
             #{colorscheme}
-            .fb { font-weight: bold; }
+            b { font-weight: normal; }
+            b.fb { font-weight: bold; }
 
             </style>
         </head>
