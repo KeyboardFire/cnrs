@@ -8,7 +8,8 @@ end
 data = Dir['data/*/*.txt'].map{|x| [x.split(?/)[-1][0..-5], File.read(x)]}.to_h
 spec = File.readlines('data/spec').map{|x| x.split(nil, 2)}.to_h.transform_values{|v|
     if v[0] == ?@
-        v[1..-1].split.map{|x| [x[0], [x[1], x[2,2]]]}.to_h
+        # bold is inverted here because most colored things should also be bolded
+        v[1..-1].split.map{|x| [x[0], [x[1], x[2,2], !x[4]]]}.to_h
     else
         v.split.map{|x| w, d = x.scan(/^\d+|.+/); [w.to_i, d]}
     end
@@ -33,12 +34,15 @@ colorscheme = '
         .wh, .L, .WAX, .PAP, .BON, .PLT { color: #fff; }
 '
 @colors = colorscheme.scan(/\.(\w+)/).map &:first
-def html str, clr
+def html str, clr, bold=false
     str = (str || '').gsub('&', '&amp;').gsub('<', '&lt;')
-    if @colors.include? clr
-        "<span class=#{clr}>#{str}</span>"
-    else
+    classes = []
+    classes.push clr if @colors.include? clr
+    classes.push 'fb' if bold
+    if classes.empty?
         str
+    else
+        "<span class='#{classes * ' '}'>#{str}</span>"
     end
 end
 
@@ -52,6 +56,7 @@ File.open('cnrs.html', ?w) do |f|
             body { background-color: #000; color: #ddd; font: 10px monospace; }
 
             #{colorscheme}
+            .fb { font-weight: bold; }
 
             </style>
         </head>
@@ -78,11 +83,14 @@ File.open('cnrs.html', ?w) do |f|
                     eol = line.slice!(80..-1) || ''
                     idx = 0
                     sp.each do |w, d|
-                        clr = case d
-                            when /^\$(\d*)$/ then eol[$1.to_i,2]
-                            when ?^ then (line[idx,w] || '').strip
-                            else d.clone
-                            end
+                        bold = false
+                        clr = d.clone
+                        # handle bold
+                        if clr && clr[0] == ?&
+                            clr.slice! 0
+                            bold = true
+                        end
+                        # handle suppression of space
                         if clr && clr[0] == ?<
                             clr.slice! 0
                             idx -= 1
@@ -90,10 +98,16 @@ File.open('cnrs.html', ?w) do |f|
                             rows[-1] += ' '
                             len += 1
                         end
+                        # handle special rules
+                        clr = case clr
+                            when /^\$(\d*)$/ then eol[$1.to_i,2]
+                            when ?^ then (line[idx,w] || '').strip
+                            else clr
+                            end
                         while clr && clr[-3] =~ /[^A-Za-z0-9$^]/
                             clr = eol.include?(clr[-3]) ? clr[-2,2] : clr[0...-3]
                         end
-                        rows[-1] += html(line[idx,w], clr)
+                        rows[-1] += html(line[idx,w], clr, bold)
                         len += (line[idx,w]||'').size
                         idx += w + 1
                     end
