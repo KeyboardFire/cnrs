@@ -5,8 +5,8 @@ def tr a, c=true
     c ? transposed.map(&:compact) : transposed.map{|x| x[1..-1]}
 end
 
-data = Dir['data/*/*.txt'].map{|x| [x.split(?/)[-1][0..-5], File.read(x)]}.to_h
-spec = File.readlines('data/spec').map{|x| x.split(nil, 2)}.to_h.transform_values{|v|
+@data = Dir['data/*/*.txt'].map{|x| [x.split(?/)[-1][0..-5], File.read(x)]}.to_h
+@spec = File.readlines('data/spec').map{|x| x.split(nil, 2)}.to_h.transform_values{|v|
     if v[0] == ?@
         # bold is inverted here because most colored things should also be bolded
         v[1..-1].split.map{|x| [x[0], [x[1], x[2,2], !x[4]]]}.to_h
@@ -43,9 +43,61 @@ def html str, clr, bold=false
     if classes.empty?
         str
     else
-        "<b class='#{classes * ' '}'>#{str}</b>"
-            .gsub(?', classes.size == 1 ? '' : ?')
+        q = classes.size == 1 ? ?' : ''
+        "<b class=#{q}#{classes * ' '}#{q}>#{str}</b>"
     end
+end
+
+def render sec
+    rows = [html("##### #{sec} #####".center(80), 'bb'), ' ' * 80]
+    sp = @spec[sec]
+    @data[sec].each_line.with_index do |line, nl|
+        sp = @spec["#{sec}#{nl}"] || sp
+        line.chomp!
+        len = 0
+        if sp.is_a? Hash
+            rows.push line.gsub(/[#{sp.keys*''}]/) {|x| html(*sp[x]) }
+            len = line.size
+        elsif line[0] == ?=
+            rows.push html(line, 'bg')
+            len = line.size
+        else
+            rows.push ''
+            eol = line.slice!(80..-1) || ''
+            idx = 0
+            sp.each do |w, d|
+                bold = false
+                clr = d.clone
+                # handle bold
+                if clr && clr[0] == ?&
+                    clr.slice! 0
+                    bold = true
+                end
+                # handle suppression of space
+                if clr && clr[0] == ?<
+                    clr.slice! 0
+                    idx -= 1
+                elsif idx > 0
+                    rows[-1] += ' '
+                    len += 1
+                end
+                # handle special rules
+                clr = case clr
+                    when /^\$(\d*)$/ then eol[$1.to_i,2]
+                    when ?^ then (line[idx,w] || '').strip
+                    else clr
+                    end
+                while clr && clr[-3] =~ /[^A-Za-z0-9$^]/
+                    clr = eol.include?(clr[-3]) ? clr[-2,2] : clr[0...-3]
+                end
+                rows[-1] += html(line[idx,w], clr, bold)
+                len += (line[idx,w]||'').size
+                idx += w + 1
+            end
+        end
+        rows[-1] += ' ' * (80 - len)
+    end
+    rows
 end
 
 File.open('cnrs.html', ?w) do |f|
@@ -69,56 +121,12 @@ File.open('cnrs.html', ?w) do |f|
 
     cols = layout.map do |col|
         col.map do |sec|
-            rows = [html("##### #{sec} #####".center(80), 'bb'), ' ' * 80]
-            sp = spec[sec]
-            data[sec].each_line.with_index do |line, nl|
-                sp = spec["#{sec}#{nl}"] || sp
-                line.chomp!
-                len = 0
-                if sp.is_a? Hash
-                    rows.push line.gsub(/[#{sp.keys*''}]/) {|x| html(*sp[x]) }
-                    len = line.size
-                elsif line[0] == ?=
-                    rows.push html(line, 'bg')
-                    len = line.size
-                else
-                    rows.push ''
-                    eol = line.slice!(80..-1) || ''
-                    idx = 0
-                    sp.each do |w, d|
-                        bold = false
-                        clr = d.clone
-                        # handle bold
-                        if clr && clr[0] == ?&
-                            clr.slice! 0
-                            bold = true
-                        end
-                        # handle suppression of space
-                        if clr && clr[0] == ?<
-                            clr.slice! 0
-                            idx -= 1
-                        elsif idx > 0
-                            rows[-1] += ' '
-                            len += 1
-                        end
-                        # handle special rules
-                        clr = case clr
-                            when /^\$(\d*)$/ then eol[$1.to_i,2]
-                            when ?^ then (line[idx,w] || '').strip
-                            else clr
-                            end
-                        while clr && clr[-3] =~ /[^A-Za-z0-9$^]/
-                            clr = eol.include?(clr[-3]) ? clr[-2,2] : clr[0...-3]
-                        end
-                        rows[-1] += html(line[idx,w], clr, bold)
-                        len += (line[idx,w]||'').size
-                        idx += w + 1
-                    end
-                end
-                rows[-1] += ' ' * (80 - len)
+            case sec
+            when /^[0-9]+$/ then [' '*80] * sec.to_i
+            when ?- then nil
+            else render sec
             end
-            rows
-        end.reduce{|a,x| a + [' '*80] + x }
+        end.compact.reduce{|a,x| a + [' '*80] + x }
     end
 
     f.puts tr(cols, false).map{|x| x.map{|y| y ? y : ' '*80}.join '  ' }
