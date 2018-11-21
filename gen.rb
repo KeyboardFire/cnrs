@@ -119,17 +119,22 @@ File.open('cnrs.html', ?w) do |f|
             <pre>
     X
 
+    sep = 'SEP'
     cols = layout.map do |col|
         col.map do |sec|
             case sec
-            when /^[0-9]+$/ then [' '*80] * sec.to_i
+            when /^\d+$/ then [' '*80] * (sec.to_i-1) + [sep]
             when ?- then nil
             else render sec
             end
         end.compact.reduce{|a,x| a + [' '*80] + x }
     end
 
-    f.puts tr(cols, false).map{|x| x.map{|y| y ? y : ' '*80}.join '  ' }
+    f.puts tr(cols, false).map{|x|
+        x[0] == sep ?
+            html('~' * (82*x.size - 2), 'bc') :
+            x.map{|y| y || ' '*80 } * '  '
+    }
 
     f.puts <<~X
             </pre>
