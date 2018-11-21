@@ -7,7 +7,11 @@ end
 
 data = Dir['data/*/*.txt'].map{|x| [x.split(?/)[-1][0..-5], File.read(x)]}.to_h
 spec = File.readlines('data/spec').map{|x| x.split(nil, 2)}.to_h.transform_values{|v|
-    v.split.map{|x| w, d = x.scan(/^\d+|.+/); [w.to_i, d]}
+    if v[0] == ?@
+        v[1..-1].split.map{|x| [x[0], [x[1], x[2,2]]]}.to_h
+    else
+        v.split.map{|x| w, d = x.scan(/^\d+|.+/); [w.to_i, d]}
+    end
 }
 layout = tr File.read('data/layout-3col').lines.map(&:split)
 colorscheme = '
@@ -63,7 +67,10 @@ File.open('cnrs.html', ?w) do |f|
                 sp = spec["#{sec}#{nl}"] || sp
                 line.chomp!
                 len = 0
-                if line[0] == ?=
+                if sp.is_a? Hash
+                    rows.push line.gsub(/[#{sp.keys*''}]/) {|x| html(*sp[x]) }
+                    len = line.size
+                elsif line[0] == ?=
                     rows.push html(line, 'bg')
                     len = line.size
                 else
