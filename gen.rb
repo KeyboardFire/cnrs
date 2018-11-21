@@ -10,6 +10,7 @@ spec = File.readlines('data/spec').map{|x| x.split(nil, 2)}.to_h.transform_value
     if v[0] == ?@
         # bold is inverted here because most colored things should also be bolded
         v[1..-1].split.map{|x| [x[0], [x[1], x[2,2], !x[4]]]}.to_h
+            .merge({'<' => ['<', '', false]})  # awful hack
     else
         v.split.map{|x| w, d = x.scan(/^\d+|.+/); [w.to_i, d]}
     end
