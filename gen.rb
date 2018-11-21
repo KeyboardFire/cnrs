@@ -43,7 +43,7 @@ def html str, clr, bold=false
     if classes.empty?
         str
     else
-        q = classes.size == 1 ? ?' : ''
+        q = classes.size == 1 ? '' : ?'
         "<b class=#{q}#{classes * ' '}#{q}>#{str}</b>"
     end
 end

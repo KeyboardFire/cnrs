@@ -60,7 +60,7 @@ calc50 99ye
 calc51 99cy
 calc52 4bm 99wh
 end  @ 6Mor 7Tor 8For 9Wor &&ma @@wh ++br XXre& YYgr& }}re& !.bk& 07no&
-med  @ 6Mor 7Tor 8For 9Wor }}bl& ++br SSbr B^br M^ma ##gr& ??wh DDye {{bb ;;re I#cy& ((bc
+med  @ 6Mor 7Tor 8For 9Wor }}bl& ++br SSbr B^br M^ma ##gr& ??wh DDye {{bb ;;re I#cy ((bc
 cast @ 6Mor 7Tor 8For 9Wor }}bl& mmbk& ttma T\ye E;cy ;;gy ##br ++br ((br SSbr W(bg ssye& !tye& ooye& rrye& eeye& DDwh @@wh $@gy L@gr AAbc 1abc BBye 2bye CCbm 3cbm Rrno& `eno& ^^wh
 town @ 6Mor 7Tor 8For 9Wor {{bb ++br *Gwh GGbr WGbb LGbl KGma @@wh ?+re Ffwh kkbb ~.ye& Nnwh 0#gy ##cy T#gr& %%wh O|re& AAbb 1abb BBye 2bye CCbm 3cbm DDor 4dor EEbg ==wh H(br SSbr ((wh
 mend @ 6Mor 7Tor 8For 9Wor {{bb SSbr D+re H-re& I|re& !!wh **wh
@@ -71,16 +71,16 @@ wizt @ 6Mor 7Tor 8For 9Wor SSbr ^^br ""cy ;;re :;cy LLwh VVbl DDwh P^bm @@ma ddr
 sanc @ 6Mor 7Tor 8For 9Wor SSbr ++br V|bm H-bm I|bb =-bb ^^or
 vlad @ 6Mor 7Tor 8For 9Wor SSbr ++br <<br& >>br& T\ye ((br VVwh B+no& $Sno&
 soko @ 6Mor 7Tor 8For 9Wor ??wh ^^br AAcy BBcy CCcy DDcy EEcy FFcy GGcy HHcy IIcy JJcy KKcy LLcy MMcy NNcy OOcy PPcy QQcy RRcy SScy TTcy **ma @@wh
-arc  @ 6Mor 7Tor 8For 9Wor SSbr
-bar  @ 6Mor 7Tor 8For 9Wor SSbr
-cav  @ 6Mor 7Tor 8For 9Wor SSbr
-hea  @ 6Mor 7Tor 8For 9Wor SSbr
-kni  @ 6Mor 7Tor 8For 9Wor SSbr
-mon  @ 6Mor 7Tor 8For 9Wor SSbr
-pri  @ 6Mor 7Tor 8For 9Wor SSbr
-ran  @ 6Mor 7Tor 8For 9Wor SSbr
-rog  @ 6Mor 7Tor 8For 9Wor SSbr
-sam  @ 6Mor 7Tor 8For 9Wor SSbr
-tou  @ 6Mor 7Tor 8For 9Wor SSbr
-val  @ 6Mor 7Tor 8For 9Wor SSbr
-wiz  @ 6Mor 7Tor 8For 9Wor SSbr
+arc  @ 6Mor 7Tor 8For 9Wor SSbr ++br ;;cy T\ye @@wh sSwh MMwh P^bm }}bl& ^^bk m^bb b^gy
+bar  @ 6Mor 7Tor 8For 9Wor SSbr !.gr& P^bm t\ye @@wh ((br }}bl& OObr ;;cy ++br ^^bk TTcy
+cav  @ 6Mor 7Tor 8For 9Wor SSbr s@ma @@wh ^^bk P^bm hhbr HHcy DDma FFma
+hea  @ 6Mor 7Tor 8For 9Wor SSbr }}bl& ++br T\ye @@wh ^^bm HHgy
+kni  @ 6Mor 7Tor 8For 9Wor ++br iibl ^^bb T\ye @@wh P^bm }}bl& p^bk DDre
+mon  @ 6Mor 7Tor 8For 9Wor SSbr !.gr& P^bm ^^cy ++br }}re&
+pri  @ 6Mor 7Tor 8For 9Wor SSbr !.gr& P^bm ^^cy ++br }}re& @@wh ZZwh ((br &&re
+ran  @ 6Mor 7Tor 8For 9Wor SSbr T#gr& ##cy t\ye @@ma p^br ^^cy ++br
+rog  @ 6Mor 7Tor 8For 9Wor SSbr ++br nnbl llgr L@ma @@wh ::br P^bm ??wh 1lno& %%cy }}bl& I|re& =-re& ^^bk
+sam  @ 6Mor 7Tor 8For 9Wor SSbr L@ma @@wh ++br }}bl& ddbr P^bm ^^br
+tou  @ 6Mor 7Tor 8For 9Wor SSbr ;;re }}bl& @@wh T\ye E;cy ??wh &&gy L@ma W@gy ++br ^^bm ##cy 1Kbl 2Kcy 3Kma
+val  @ 6Mor 7Tor 8For 9Wor SSbr }}bl& l}re& aare @@wh L@ma ++br P^bm {{bb HHye ((br !.cy& ^^br sHma ##br
+wiz  @ 6Mor 7Tor 8For 9Wor SSbr }}bl& ##gy& BBwh WWwh iiwh @@wh T\ye ((br P^bm ;;cy ^^bk a^bb I#cy HHcy YYbr GGbb g@gy ++br
