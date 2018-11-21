@@ -83,7 +83,7 @@ File.open('cnrs.html', ?w) do |f|
                             rows[-1] += ' '
                             len += 1
                         end
-                        while clr && clr[-3] =~ /[^a-z0-9$^]/
+                        while clr && clr[-3] =~ /[^A-Za-z0-9$^]/
                             clr = eol.include?(clr[-3]) ? clr[-2,2] : clr[0...-3]
                         end
                         rows[-1] += html(line[idx,w], clr)
