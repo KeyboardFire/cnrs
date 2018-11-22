@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 $VERSION = 0
-$data = Dir['data/blocks/*/*.txt'].map{|x| [x.split(?/)[-1][0..-5], File.read(x)]}.to_h
+$data = Dir['data/blocks/*/*'].map{|x| [x.split(?/)[-1], File.read(x)]}.to_h
 $spec = File.readlines('data/spec').map{|x| x.split(nil, 2)}.to_h.transform_values{|v|
     if v[0] == ?@
         # bold is inverted here because most colored things should also be bolded
