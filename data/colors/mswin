@@ -1,0 +1,17 @@
+BACKGROUND     #000
+BLACK          #555
+RED            #f00
+GREEN          #080
+BROWN          #a52a2a
+BLUE           #00f
+MAGENTA        #f0f
+CYAN           #0ff
+GRAY           #c0c0c0
+NO_COLOR       #fff
+ORANGE         #ffa500
+BRIGHT_GREEN   #0f0
+YELLOW         #ff0
+BRIGHT_BLUE    #00c0ff
+BRIGHT_MAGENTA #ff80ff
+BRIGHT_CYAN    #80ffff
+WHITE          #fff
