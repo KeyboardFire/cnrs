@@ -29,7 +29,7 @@ colorscheme = '
         .or                             { color: #f55; }
         .bg, .M, .GM                    { color: #5f5; }
         .ye, .CPR, .GLD                 { color: #ff5; }
-        .bb                             { color: #55f; }
+        .bb, a                          { color: #55f; }
         .bm, .CLO, .PLS, .GEM, .MAT     { color: #f5f; }
         .bc, .GLA                       { color: #5ff; }
         .wh, .L, .WAX, .PAP, .BON, .PLT { color: #fff; }
@@ -119,6 +119,13 @@ File.open('cnrs.html', ?w) do |f|
             <pre>
     X
 
+    header = ['  ' \
+        "#{html 'comprehensive nethack reference sheet', 'or', true} | " \
+        "<a href='https://github.com/KeyboardFire/cnrs'>https://github.com/KeyboardFire/cnrs</a> | " \
+        "#{html 'andy@keyboardfire.com', 'wh', true} | " \
+        "#{html 'html-3a-10-dark-v0', 'bk'}",
+        '']
+
     sep = 'SEP'
     cols = layout.map do |col|
         col.map do |sec|
@@ -130,7 +137,7 @@ File.open('cnrs.html', ?w) do |f|
         end.compact.reduce{|a,x| a + [' '*80] + x }
     end
 
-    f.puts tr(cols, false).map{|x|
+    f.puts header + tr(cols, false).map{|x|
         x[0] == sep ?
             html('~' * (82*x.size - 2), 'bc') :
             x.map{|y| y || ' '*80 } * '  '
