@@ -11,24 +11,28 @@ $spec = File.readlines('data/spec').map{|x| x.split(nil, 2)}.to_h.transform_valu
         v.split.map{|x| w, d = x.scan(/^\d+|.+/); [w.to_i, d]}
     end
 }
-$colorschemes = {'dark' => '
-        .bk, .C                         { color: #555; }
-        .re, .DRA                       { color: #a00; }
-        .gr, .VEG, .E                   { color: #0a0; }
-        .br, .FLE, .LTH, .WOO           { color: #a50; }
-        .bl                             { color: #00a; }
-        .ma, .S                         { color: #a0a; }
-        .cy, .IRN, .MTH, .MET           { color: #0aa; }
-        .gy, .N, .SLV, .MIN, .B         { color: #aaa; }
-        .no                             { color: #ddd; }
-        .or                             { color: #f55; }
-        .bg, .M, .GM                    { color: #5f5; }
-        .ye, .CPR, .GLD                 { color: #ff5; }
-        .bb, a                          { color: #55f; }
-        .bm, .CLO, .PLS, .GEM, .MAT     { color: #f5f; }
-        .bc, .GLA                       { color: #5ff; }
-        .wh, .L, .WAX, .PAP, .BON, .PLT { color: #fff; }
-'}
+$colorschemes = Dir['data/colors/*'].map{|x|
+    tbl = File.readlines(x).map(&:split).to_h
+    [x.split(?/)[-1], "
+        body { background-color: #{tbl['BACKGROUND']}; color: #{tbl['NO_COLOR']}; }
+        .bk, .C                         { color: #{tbl['BLACK']}; }
+        .re, .DRA                       { color: #{tbl['RED']}; }
+        .gr, .VEG, .E                   { color: #{tbl['GREEN']}; }
+        .br, .FLE, .LTH, .WOO           { color: #{tbl['BROWN']}; }
+        .bl                             { color: #{tbl['BLUE']}; }
+        .ma, .S                         { color: #{tbl['MAGENTA']}; }
+        .cy, .IRN, .MTH, .MET           { color: #{tbl['CYAN']}; }
+        .gy, .N, .SLV, .MIN, .B         { color: #{tbl['GRAY']}; }
+        .no                             { color: #{tbl['NO_COLOR']}; }
+        .or                             { color: #{tbl['ORANGE']}; }
+        .bg, .M, .GM                    { color: #{tbl['BRIGHT_GREEN']}; }
+        .ye, .CPR, .GLD                 { color: #{tbl['YELLOW']}; }
+        .bb, a                          { color: #{tbl['BRIGHT_BLUE']}; }
+        .bm, .CLO, .PLS, .GEM, .MAT     { color: #{tbl['BRIGHT_MAGENTA']}; }
+        .bc, .GLA                       { color: #{tbl['BRIGHT_CYAN']}; }
+        .wh, .L, .WAX, .PAP, .BON, .PLT { color: #{tbl['WHITE']}; }
+    "]
+}.to_h
 
 def tr a, c=true
     transposed = ([nil]*a.map(&:size).max).zip(*a)
@@ -111,12 +115,10 @@ def go layout, font, bg
             <head>
                 <title>cnrs</title>
                 <style>
-                body { background-color: #000; color: #ddd; font: #{font}px monospace; }
-
+                body { font: #{font}px monospace; }
                 #{$colorschemes[bg]}
                 b { font-weight: normal; }
                 b.fb { font-weight: bold; }
-
                 </style>
             </head>
             <body>
