@@ -31,7 +31,7 @@ mgc whistle  whistle      (  10   3 MET  30                                     
 tin whistle  whistle      (  10   3 MET 100                                     cy*
 === LIGHT SOURCES ===
 brass lantrn     ----     (  20  30 CPR  30   radius 3                          ye
-candelabrum      ----     (  5k  10 ABC   0   radius 4, inv2                    ye
+candelabrum      ----     (  5k  10 GLD   0   radius 4, inv2                    ye
 magic lamp   lamp         (  50  20 CPR  15   radius 3, 80%/20%/5%              ye*!
 oil lamp     lamp         (  10  20 CPR  45   radius 3                          ye*
 tallow cndle candle       (  10   2 WAX  20   radius 2 (1-6), 3 (7-48), etc.    wh*
