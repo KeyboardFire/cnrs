@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-$VERSION = 0
+$VERSION = 1
 
 def tr a, c=true
     transposed = ([nil]*a.map(&:size).max).zip(*a)
