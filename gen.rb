@@ -148,6 +148,9 @@ def go layout, font, bg
             "#{html 'andy@keyboardfire.com', 'wh', true} | " \
             "#{html variant, 'bk'}",
             '']
+        if $layouts[layout].size == 1
+            header[0].strip!.sub!('</a> | ', "</a> |\n")
+        end
 
         sep = 'SEP'
         cols = $layouts[layout].map do |col|
