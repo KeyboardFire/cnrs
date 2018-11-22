@@ -1,1 +1,3 @@
 cnrs: comprehensive nethack reference sheet
+
+run ./gen.rb to generate all possible configurations

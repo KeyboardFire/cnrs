@@ -1,7 +1,14 @@
 #!/usr/bin/ruby
 
 $VERSION = 0
+
+def tr a, c=true
+    transposed = ([nil]*a.map(&:size).max).zip(*a)
+    c ? transposed.map(&:compact) : transposed.map{|x| x[1..-1]}
+end
+
 $data = Dir['data/blocks/*/*'].map{|x| [x.split(?/)[-1], File.read(x)]}.to_h
+$layouts = Dir['data/layout/*'].map{|x| [x.split(?/)[-1], tr(File.read(x).lines.map(&:split))] }.to_h
 $spec = File.readlines('data/spec').map{|x| x.split(nil, 2)}.to_h.transform_values{|v|
     if v[0] == ?@
         # bold is inverted here because most colored things should also be bolded
@@ -33,11 +40,6 @@ $colorschemes = Dir['data/colors/*'].map{|x|
         .wh, .L, .WAX, .PAP, .BON, .PLT { color: #{tbl['WHITE']}; }
     "]
 }.to_h
-
-def tr a, c=true
-    transposed = ([nil]*a.map(&:size).max).zip(*a)
-    c ? transposed.map(&:compact) : transposed.map{|x| x[1..-1]}
-end
 
 @colors = $colorschemes.values[0].scan(/\.(\w+)/).map &:first
 def html str, clr, bold=false
@@ -106,8 +108,7 @@ def render sec
 end
 
 def go layout, font, bg
-    variant = "html-#{layout}-#{font}-#{bg}-v#{$VERSION}"
-    lyt = tr File.read("data/layout/#{layout}").lines.map(&:split)
+    variant = "html-#{layout}-#{font.rjust(2,?0)}-#{bg}-v#{$VERSION}"
     File.open("out/cnrs-#{variant}.html", ?w) do |f|
         f.puts <<~X
         <!DOCTYPE html>
@@ -133,7 +134,7 @@ def go layout, font, bg
             '']
 
         sep = 'SEP'
-        cols = lyt.map do |col|
+        cols = $layouts[layout].map do |col|
             col.map do |sec|
                 case sec
                 when /^\d+$/ then [' '*80] * (sec.to_i-1) + [sep]
@@ -157,4 +158,6 @@ def go layout, font, bg
     end
 end
 
-go '3a', '10', 'dark'
+Dir.mkdir 'out' unless File.exists? 'out'
+Dir['out/*'].each do |f| File.delete f; end
+$layouts.keys.product('9 10 11 12'.split, $colorschemes.keys).each do |x| go *x; end
