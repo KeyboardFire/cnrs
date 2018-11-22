@@ -16,7 +16,7 @@
  3% This water gives you bad breath!            scare monster for a while
  3% Water gushes forth from the overflowing...  pools created nearby
 === DIPPING ===
-60% ~                                           no effect
+60% ~ (incl. no message)                        no effect
 13% The water glows for a moment.               item uncursed if cursed
  3% (no message)                                item cursed
  3% An endless stream of snakes pour forth!     1+d5 water moccasins
